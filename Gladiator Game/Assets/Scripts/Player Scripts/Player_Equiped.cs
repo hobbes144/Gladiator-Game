@@ -24,15 +24,23 @@ public class Player_Equiped : MonoBehaviour
      */
 
     [Header("Player Stats")]
-    [SerializeField] private float maxHealth = 100;
-    [SerializeField] private float currHealth = 100;
-    [SerializeField] private float meleeDamageFactor = 1;
-    [SerializeField] private float rangedDamageFactor = 1;
-    [SerializeField] private float armor = 0;
+    [SerializeField] private float maxHealth = 100; //maximum health
+    [SerializeField] private float currHealth = 100; //current health
+    [SerializeField] public float meleeDamageFactor = 1; //melee multiplier
+    [SerializeField] public float rangedDamageFactor = 1; //ranged multiplier
+    [SerializeField] private float armor = 0; //% of reduced damage
 
-    private FirstPersonMovement firstPersonMovement;
+    [Header("Weapons")] //Serialized Weapon Game Objects
+    [SerializeField] private GameObject dagger;
+    [SerializeField] private GameObject sword;
+    [SerializeField] private GameObject crossBow;
+    [SerializeField] private GameObject bow;
+    [SerializeField] private GameObject greekFire;
 
-    private Weapon_Equip weapon;
+    private Weapon_Equip weaponEquiped; //Enum representation of weapon
+    private GameObject weapon; //Weapon player is using
+
+    private FirstPersonMovement firstPersonMovement; //used for speed management
 
     // Start is called before the first frame update
     void Start()
@@ -43,18 +51,93 @@ public class Player_Equiped : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        handleWeaponSwap();
+        handleAttack();
     }
 
     //----------------------PRIVATE FUNCTIONS----------------------
     //-----------Weapon Management-----------
     private void handleWeaponSwap()
     {
+        if (Input.GetKeyDown(KeyCode.Q))
+        {
+            switch (weaponEquiped)
+            {
+                //swap weapon left
+                case Weapon_Equip.Dagger:
+                    weaponEquiped = Weapon_Equip.GreekFire;
+                    break;
+                case Weapon_Equip.Sword:
+                    weaponEquiped = Weapon_Equip.Dagger;
+                    break;
+                case Weapon_Equip.Crossbow:
+                    weaponEquiped = Weapon_Equip.Sword;
+                    break;
+                case Weapon_Equip.Bow:
+                    weaponEquiped = Weapon_Equip.Crossbow;
+                    break;
+                case Weapon_Equip.GreekFire:
+                    weaponEquiped = Weapon_Equip.Bow;
+                    break;
+            }//end switch
+        }
+        else if (Input.GetKeyDown(KeyCode.E))
+        {
+            //swap weapons right
+            switch (weaponEquiped)
+            {
+                case Weapon_Equip.Dagger:
+                    weaponEquiped = Weapon_Equip.Sword;
+                    break;
+                case Weapon_Equip.Sword:
+                    weaponEquiped = Weapon_Equip.Crossbow;
+                    break;
+                case Weapon_Equip.Crossbow:
+                    weaponEquiped = Weapon_Equip.Bow;
+                    break;
+                case Weapon_Equip.Bow:
+                    weaponEquiped = Weapon_Equip.GreekFire;
+                    break;
+                case Weapon_Equip.GreekFire:
+                    weaponEquiped = Weapon_Equip.Dagger;
+                    break;
+            }//end switch
+        }
+
+        switch (weaponEquiped) {
+            case Weapon_Equip.Dagger:
+                weapon = dagger;
+                break;
+            case Weapon_Equip.Sword:
+                weapon = sword;
+                break;
+            case Weapon_Equip.Crossbow:
+                weapon = crossBow;
+                break;
+            case Weapon_Equip.Bow:
+                weapon = bow;
+                break;
+            case Weapon_Equip.GreekFire:
+                weapon = greekFire;
+                break;
+        }
 
     }
     private void handleAttack()
     {
-
+        if (Input.GetButtonDown("Fire1")) {
+            ProjectileWeapon projectileWeapon = weapon.GetComponent<ProjectileWeapon>();
+            if (projectileWeapon != null)
+            {
+                projectileWeapon.projectileFired();
+                return;
+            }
+            MeleeWeapon meleeWeapon = weapon.GetComponent<MeleeWeapon>();
+            if (meleeWeapon != null)
+            {
+                meleeWeapon.meleeFired();
+            }
+        }
     }
 
     //----------------------PUBLIC FUNCTIONS----------------------
