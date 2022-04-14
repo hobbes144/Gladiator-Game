@@ -60,15 +60,16 @@
     <Compile Include="Assets/Scripts/Player Scripts/FPS_Scripts/FirstPersonMovement.cs" />
     <Compile Include="Assets/Scripts/Player Scripts/FPS_Scripts/Components/Zoom.cs" />
     <Compile Include="Assets/Scripts/Player Scripts/FPS_Scripts/Components/Jump.cs" />
+    <Compile Include="Assets/Scripts/Player Scripts/Weapon Scripts/Weapon Fired Scripts/Projectile Script.cs" />
     <Compile Include="Assets/Scripts/Player Scripts/FPS_Scripts/Components/FirstPersonAudio.cs" />
     <Compile Include="Assets/Scripts/Player Scripts/Weapon Scripts/ProjectileWeapon.cs" />
     <Compile Include="Assets/Scripts/Player Scripts/FPS_Scripts/FirstPersonLook.cs" />
+    <Compile Include="Assets/Scripts/Player Scripts/Weapon Scripts/Weapon Fired Scripts/Trigger Box Script.cs" />
     <Compile Include="Assets/Scripts/Player Scripts/PickUp_Item.cs" />
     <Compile Include="Assets/Scripts/Player Scripts/FPS_Scripts/Components/Crouch.cs" />
     <Compile Include="Assets/Scripts/Player Scripts/Player_Equiped.cs" />
     <Compile Include="Assets/Scripts/Player Scripts/FPS_Scripts/Components/GroundCheck.cs" />
-    <Compile Include="Assets/Scripts/Player Scripts/Weapon Scripts/Weapon Fired Scripts/Projectile Script.cs" />
-    <Compile Include="Assets/Scripts/Player Scripts/Weapon Scripts/Weapon Fired Scripts/Trigger Box Script.cs" />
+    <Compile Include="Assets/Scripts/Player Scripts/Weapon Scripts/Weapon Fired Scripts/enemyHealthAOE.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

@@ -1,11 +1,12 @@
 ﻿<Properties StartupConfiguration="{14408EA6-4B26-82A5-E0F4-DBDD50A6D2BA}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Player Scripts/PickUp_Item.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Player Scripts/Weapon Scripts/Weapon Fired Scripts/enemyHealthAOE.cs">
     <Files>
+      <File FileName="Assets/Scripts/Player Scripts/Weapon Scripts/Weapon Fired Scripts/enemyHealthAOE.cs" Line="32" Column="41" />
       <File FileName="Assets/Scripts/Player Scripts/Player_Equiped.cs" Line="43" Column="81" />
-      <File FileName="Assets/Scripts/Player Scripts/Weapon Scripts/ProjectileWeapon.cs" Line="25" Column="1" />
-      <File FileName="Assets/Scripts/Player Scripts/Weapon Scripts/MeleeWeapon.cs" Line="29" Column="69" />
-      <File FileName="Assets/Scripts/Player Scripts/Weapon Scripts/Weapon Fired Scripts/Projectile Script.cs" Line="13" Column="48" />
-      <File FileName="Assets/Scripts/Player Scripts/Weapon Scripts/Weapon Fired Scripts/Trigger Box Script.cs" Line="16" Column="1" />
+      <File FileName="Assets/Scripts/Player Scripts/Weapon Scripts/ProjectileWeapon.cs" />
+      <File FileName="Assets/Scripts/Player Scripts/Weapon Scripts/MeleeWeapon.cs" />
+      <File FileName="Assets/Scripts/Player Scripts/Weapon Scripts/Weapon Fired Scripts/Projectile Script.cs" />
+      <File FileName="Assets/Scripts/Player Scripts/Weapon Scripts/Weapon Fired Scripts/Trigger Box Script.cs" />
       <File FileName="Assets/Scripts/Player Scripts/PickUp_Item.cs" Line="38" Column="52" />
     </Files>
     <Pads>
@@ -17,9 +18,10 @@
                 <Node name="Player Scripts" expanded="True">
                   <Node name="FPS_Scripts" expanded="True" />
                   <Node name="Weapon Scripts" expanded="True">
-                    <Node name="Weapon Fired Scripts" expanded="True" />
+                    <Node name="Weapon Fired Scripts" expanded="True">
+                      <Node name="enemyHealthAOE.cs" selected="True" />
+                    </Node>
                   </Node>
-                  <Node name="PickUp_Item.cs" selected="True" />
                 </Node>
               </Node>
             </Node>
@@ -30,7 +32,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="73114ed6-22a5-4c1e-a479-439b1f2f0858" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="e62cda0c-1443-427d-a9fd-8886329776a6" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
