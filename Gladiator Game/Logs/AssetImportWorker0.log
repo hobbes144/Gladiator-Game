@@ -587,3 +587,21 @@ Received Import Request.
   path: Assets/Art/Materials/Dark Metal.mat
   artifactKey: Guid(558860e868c9c44dcb8a8fac1cb3237d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Art/Materials/Dark Metal.mat using Guid(558860e868c9c44dcb8a8fac1cb3237d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4418c120a4775d52f7cbe826efa35e8c') in 0.015009 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3050.576561 seconds.
+  path: Assets/Art/Materials/Middle Sage.mat
+  artifactKey: Guid(32d199646a48d4b4fabb3a92c6aa508c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Materials/Middle Sage.mat using Guid(32d199646a48d4b4fabb3a92c6aa508c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8371f0100e29d34d12b379d5aa9ac454') in 0.049764 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 485.561725 seconds.
+  path: Assets/Prefabs/Building Prefab/ArchPlatformRing 1.prefab
+  artifactKey: Guid(722aa011bb5e144cdb569e24c657e8e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Building Prefab/ArchPlatformRing 1.prefab using Guid(722aa011bb5e144cdb569e24c657e8e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c37107f721723a8bef5313314ca20b8a') in 0.189598 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.374847 seconds.
+  path: Assets/Prefabs/Building Prefab/Colosseum.prefab
+  artifactKey: Guid(722aa011bb5e144cdb569e24c657e8e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Building Prefab/Colosseum.prefab using Guid(722aa011bb5e144cdb569e24c657e8e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '340735936f5e8507230f08e0db0182b0') in 0.069874 seconds 
