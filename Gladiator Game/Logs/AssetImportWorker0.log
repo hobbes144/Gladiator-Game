@@ -329,3 +329,33 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1441.449440 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '388e9025c5c6c40cec1809c477dbf707') in 0.006298 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 20.115006 seconds.
+  path: Assets/Scenes/ArenaScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/ArenaScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24ea1e1ecd94042488180457ce6b72b6') in 0.001381 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.208738 seconds.
+  path: Assets/Scenes/ArenaScene 1.unity
+  artifactKey: Guid(3892ad34804e744a3bee2f17dd685013) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/ArenaScene 1.unity using Guid(3892ad34804e744a3bee2f17dd685013) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0128067ae88ab935eb9a4f3ffbf3b71a') in 0.001851 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 18.156869 seconds.
+  path: Assets/Scenes/TESTarena.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/TESTarena.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0450b0abc7c867c9432437faab60fcce') in 0.001269 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.271586 seconds.
+  path: Assets/Scenes/PlayerTestScene.unity
+  artifactKey: Guid(4db34ac2839394a24a7538e626a2cf94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/PlayerTestScene.unity using Guid(4db34ac2839394a24a7538e626a2cf94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '378d253ade3671827657018d3c56249e') in 0.001111 seconds 
