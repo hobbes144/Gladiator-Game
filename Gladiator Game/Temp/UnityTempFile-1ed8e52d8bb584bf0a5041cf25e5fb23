@@ -326,6 +326,7 @@
 /define:UNITY_STANDALONE_OSX
 /define:UNITY_TEAM_LICENSE
 /define:USE_SEARCH_ENGINE_API
+"Assets/Scripts/Menu Scripts/MainMenuScript.cs"
 "Assets/Scripts/Player Scripts/FPS_Scripts/Components/Crouch.cs"
 "Assets/Scripts/Player Scripts/FPS_Scripts/Components/FirstPersonAudio.cs"
 "Assets/Scripts/Player Scripts/FPS_Scripts/Components/GroundCheck.cs"
