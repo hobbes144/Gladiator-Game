@@ -185,3 +185,4 @@ Received Import Request.
   path: Assets/Art/Materials/GoldFloor.mat
   artifactKey: Guid(cec74984462974140b22d8585a8d74cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Art/Materials/GoldFloor.mat using Guid(cec74984462974140b22d8585a8d74cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccb2c11e9a424cadb6b0d2e5d65087df') in 0.290123 seconds 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
