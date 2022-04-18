@@ -161,3 +161,16 @@ Received Import Request.
   path: Assets/Scenes/ArenaScene.unity
   artifactKey: Guid(c1b1da90f313449feae1e0e166ce65f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Scenes/ArenaScene.unity using Guid(c1b1da90f313449feae1e0e166ce65f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32655b5ac3d267d605805ccd604678bc') in 0.004807 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 203.343988 seconds.
+  path: Assets/Scenes/ArenaScene.unity
+  artifactKey: Guid(c1b1da90f313449feae1e0e166ce65f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/ArenaScene.unity using Guid(c1b1da90f313449feae1e0e166ce65f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7dc88136baa9dc014bd26e037836ec22') in 0.001290 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 334.324100 seconds.
+  path: Assets/Scenes/ArenaScene.unity
+  artifactKey: Guid(c1b1da90f313449feae1e0e166ce65f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/ArenaScene.unity using Guid(c1b1da90f313449feae1e0e166ce65f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2ae0d1ee67c7d256bcc1a05e168222d') in 0.004448 seconds 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
