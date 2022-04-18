@@ -7,11 +7,16 @@ public class MainMenuScript : MonoBehaviour
 {
 
     public string firstLevel;
-    public string optionsScene;
+
+    // public string optionsScene;
+
+    public GameObject GamePlayScreen;
+
+
     // Start is called before the first frame update
     void Start()
     {
-        
+        GamePlayScreen.SetActive(false);
     }
 
     // Update is called once per frame
@@ -27,15 +32,15 @@ public class MainMenuScript : MonoBehaviour
     }
 
 
-    public void OpenOptions()
+    public void HowToPlay()
     {
-        SceneManager.LoadScene(optionsScene);
+        GamePlayScreen.SetActive(true); //Shows GamePlayScreen
     }
 
 
     public void CloseOptions()
     {
-        
+        GamePlayScreen.SetActive(false); //Hides GamePlayScreen
     }
 
 
@@ -43,5 +48,7 @@ public class MainMenuScript : MonoBehaviour
     {
         Application.Quit(); //How to get out of any program in Unity
     }
+
+
 
 }

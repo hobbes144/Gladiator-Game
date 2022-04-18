@@ -69,8 +69,9 @@
     <Compile Include="Assets/Scripts/Player Scripts/Weapon Scripts/Weapon Fired Scripts/enemyHealthAOE.cs" />
     <Compile Include="Assets/Scripts/Player Scripts/FPS_Scripts/Components/Crouch.cs" />
     <Compile Include="Assets/Scripts/Player Scripts/Player_Equiped.cs" />
-    <Compile Include="Assets/Scripts/Player Scripts/FPS_Scripts/Components/GroundCheck.cs" />
     <Compile Include="Assets/Scripts/Menu Scripts/MainMenuScript.cs" />
+    <Compile Include="Assets/Scripts/Player Scripts/FPS_Scripts/Components/GroundCheck.cs" />
+    <Compile Include="Assets/Scripts/Menu Scripts/PausedMenu.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets/Art/MainMenuArt/TextMesh Pro/Shaders/TMPro.cginc" />
