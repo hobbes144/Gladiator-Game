@@ -22,100 +22,100 @@ AssetImportWorker0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-55346
+56344
 Successfully changed project path to: /Users/paigekaylor/Desktop/CPI_211_Final_Game/Gladiator-Game/Gladiator Game
 /Users/paigekaylor/Desktop/CPI_211_Final_Game/Gladiator-Game/Gladiator Game
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 64.76 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 63.64 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.31f1 (6b54b7616050)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2020.3.31f1/Unity.app/Contents/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path /Users/paigekaylor/Desktop/CPI_211_Final_Game/Gladiator-Game/Gladiator Game/Assets
 GfxDevice: creating device client; threaded=0
-2022-04-17 20:33:26.369 Unity[72940:5669004] Color LCD preferred device: Intel(R) Iris(TM) Plus Graphics 655 (low power)
-2022-04-17 20:33:26.369 Unity[72940:5669004] Metal devices available: 1
-2022-04-17 20:33:26.369 Unity[72940:5669004] 0: Intel(R) Iris(TM) Plus Graphics 655 (low power)
-2022-04-17 20:33:26.369 Unity[72940:5669004] Using device Intel(R) Iris(TM) Plus Graphics 655 (low power)
+2022-04-17 21:18:02.392 Unity[74259:5696275] Color LCD preferred device: Intel(R) Iris(TM) Plus Graphics 655 (low power)
+2022-04-17 21:18:02.392 Unity[74259:5696275] Metal devices available: 1
+2022-04-17 21:18:02.392 Unity[74259:5696275] 0: Intel(R) Iris(TM) Plus Graphics 655 (low power)
+2022-04-17 21:18:02.392 Unity[74259:5696275] Using device Intel(R) Iris(TM) Plus Graphics 655 (low power)
 Initializing Metal device caps: Intel(R) Iris(TM) Plus Graphics 655
 Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/2020.3.31f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/2020.3.31f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = '/Applications/Unity/Hub/Editor/2020.3.31f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56940
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56259
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/2020.3.31f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.001905 seconds.
+Registered in 0.002195 seconds.
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 65.40 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 61.87 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.812 seconds
+- Completed reload, in  0.807 seconds
 Domain Reload Profiling:
-	ReloadAssembly (813ms)
-		BeginReloadAssembly (93ms)
+	ReloadAssembly (807ms)
+		BeginReloadAssembly (87ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
 		EndReloadAssembly (628ms)
-			LoadAssemblies (93ms)
+			LoadAssemblies (87ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (246ms)
+			SetupTypeCache (229ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (41ms)
-			SetupLoadedEditorAssemblies (236ms)
+			RebuildScriptCaches (40ms)
+			SetupLoadedEditorAssemblies (253ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (65ms)
-				BeforeProcessingInitializeOnLoad (33ms)
-				ProcessInitializeOnLoadAttributes (101ms)
-				ProcessInitializeOnLoadMethodAttributes (31ms)
+				RefreshPlugins (62ms)
+				BeforeProcessingInitializeOnLoad (36ms)
+				ProcessInitializeOnLoadAttributes (113ms)
+				ProcessInitializeOnLoadMethodAttributes (37ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.008451 seconds.
+Registered in 0.004774 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 55.98 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 73.95 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.375 seconds
+- Completed reload, in  1.619 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1376ms)
-		BeginReloadAssembly (162ms)
+	ReloadAssembly (1620ms)
+		BeginReloadAssembly (178ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
+			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (24ms)
-		EndReloadAssembly (1154ms)
-			LoadAssemblies (121ms)
+			CreateAndSetChildDomain (28ms)
+		EndReloadAssembly (1348ms)
+			LoadAssemblies (117ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (415ms)
+			SetupTypeCache (455ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (64ms)
-			SetupLoadedEditorAssemblies (422ms)
+			RebuildScriptCaches (86ms)
+			SetupLoadedEditorAssemblies (506ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (3ms)
+				InitializePlatformSupportModulesInManaged (6ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (56ms)
-				BeforeProcessingInitializeOnLoad (90ms)
-				ProcessInitializeOnLoadAttributes (256ms)
+				RefreshPlugins (74ms)
+				BeforeProcessingInitializeOnLoad (132ms)
+				ProcessInitializeOnLoadAttributes (278ms)
 				ProcessInitializeOnLoadMethodAttributes (15ms)
 				AfterProcessingInitializeOnLoad (1ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (9ms)
 Platform modules already initialized, skipping
-Validating Project structure ... 0.004844 seconds.
+Validating Project structure ... 0.006992 seconds.
 Shader import version has changed; will reimport all shaders...
-Upgrading shader files ...0.020350 seconds.
+Upgrading shader files ...0.025732 seconds.
 Application.AssetDatabase Initial Script Refresh Start
 RefreshInfo: InitialScriptRefreshV2(NoUpdateAssetOptions) scanfilter:  ... 1 filters
 RefreshProfiler: Total: 0.000ms
@@ -127,18 +127,18 @@ RefreshProfiler: Total: 0.000ms
 Launching external process: /Applications/Unity/Hub/Editor/2020.3.31f1/Unity.app/Contents/Tools/UnityShaderCompiler
 Launched and connected shader compiler UnityShaderCompiler after 0.02 seconds
 Initializing Unity extensions:
-2022-04-17 20:33:31.190 Unity[72940:5669004] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x6000025cf790 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
-2022-04-17 20:33:31.198 Unity[72940:5669004] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x6000025f1b20 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+2022-04-17 21:18:07.343 Unity[74259:5696275] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x600001ad4150 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+2022-04-17 21:18:07.348 Unity[74259:5696275] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x600001ae7100 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
 ========================================================================
 Worker process is ready to serve import requests
-Refreshing native plugins compatible for Editor in 0.58 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.67 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2846 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 257.7 MB.
-System memory in use after: 257.5 MB.
+Unloading 2849 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 259.1 MB.
+System memory in use after: 258.9 MB.
 
-Unloading 129 unused Assets to reduce memory usage. Loaded Objects now: 3323.
-Total: 4.916731 ms (FindLiveObjects: 0.359503 ms CreateObjectMapping: 0.180173 ms MarkObjects: 3.999358 ms  DeleteObjects: 0.375870 ms)
+Unloading 131 unused Assets to reduce memory usage. Loaded Objects now: 3326.
+Total: 3.553130 ms (FindLiveObjects: 0.225218 ms CreateObjectMapping: 0.125716 ms MarkObjects: 2.965426 ms  DeleteObjects: 0.235884 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -152,25 +152,276 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Scenes/ArenaScene.unity
-  artifactKey: Guid(c1b1da90f313449feae1e0e166ce65f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/ArenaScene.unity using Guid(c1b1da90f313449feae1e0e166ce65f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe39c0640982ac14e495993a1a8fd3ec') in 0.005726 seconds 
+  path: Assets/Art/Enemy-Player Art/_TerrainAutoUpgrade/layer_crackers1crackers1_nrmlcc0f254a2c535401.terrainlayer
+  artifactKey: Guid(f5367c5f5f2e21f4485900ef7fdbe1cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Enemy-Player Art/_TerrainAutoUpgrade/layer_crackers1crackers1_nrmlcc0f254a2c535401.terrainlayer using Guid(f5367c5f5f2e21f4485900ef7fdbe1cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a961f46ba6928214590b479a5c8444be') in 0.936071 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 947.158033 seconds.
-  path: Assets/Scenes/ArenaScene.unity
-  artifactKey: Guid(c1b1da90f313449feae1e0e166ce65f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/ArenaScene.unity using Guid(c1b1da90f313449feae1e0e166ce65f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32655b5ac3d267d605805ccd604678bc') in 0.004807 seconds 
+  Time since last request: 0.000506 seconds.
+  path: Assets/Art/Enemy-Player Art/_TerrainAutoUpgrade/layer_grass_19_SL_Sgrass_19_SL_S_nrmlb956af97c33fc3d7.terrainlayer
+  artifactKey: Guid(90e290581a1bcba40859997eb0fbe2c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Enemy-Player Art/_TerrainAutoUpgrade/layer_grass_19_SL_Sgrass_19_SL_S_nrmlb956af97c33fc3d7.terrainlayer using Guid(90e290581a1bcba40859997eb0fbe2c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eaae0a1c6dca6cf8b63e3fe67a7bbe53') in 0.019937 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 203.343988 seconds.
-  path: Assets/Scenes/ArenaScene.unity
-  artifactKey: Guid(c1b1da90f313449feae1e0e166ce65f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/ArenaScene.unity using Guid(c1b1da90f313449feae1e0e166ce65f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7dc88136baa9dc014bd26e037836ec22') in 0.001290 seconds 
+  Time since last request: 0.000177 seconds.
+  path: Assets/Art/Enemy-Player Art/_TerrainAutoUpgrade/layer_Stones_2Stones_2_nrml3d3aba195e4d26ee.terrainlayer
+  artifactKey: Guid(2e9f1ec82321f1e4ab4a2e5f3ad17e70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Enemy-Player Art/_TerrainAutoUpgrade/layer_Stones_2Stones_2_nrml3d3aba195e4d26ee.terrainlayer using Guid(2e9f1ec82321f1e4ab4a2e5f3ad17e70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ad887c524c12ae141f3c0030d3def40') in 0.015379 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 334.324100 seconds.
-  path: Assets/Scenes/ArenaScene.unity
-  artifactKey: Guid(c1b1da90f313449feae1e0e166ce65f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/ArenaScene.unity using Guid(c1b1da90f313449feae1e0e166ce65f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2ae0d1ee67c7d256bcc1a05e168222d') in 0.004448 seconds 
-AssetImportWorkerClient::OnTransportError - code=2 error=End of file
+  Time since last request: 0.000171 seconds.
+  path: Assets/Art/Enemy-Player Art/_TerrainAutoUpgrade/layer_stonesStones_nrml8e31cb382dbba1ff.terrainlayer
+  artifactKey: Guid(0fc583b346b0a01478517d111543cb03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Enemy-Player Art/_TerrainAutoUpgrade/layer_stonesStones_nrml8e31cb382dbba1ff.terrainlayer using Guid(0fc583b346b0a01478517d111543cb03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84a892d406579b2b12076affdd9833f0') in 0.020539 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.099292 seconds.
+  path: Assets/_TerrainAutoUpgrade/layer_crackers1crackers1_nrmlcc0f254a2c535401.terrainlayer
+  artifactKey: Guid(8278496b1668142d1bc9eb9298df433c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_TerrainAutoUpgrade/layer_crackers1crackers1_nrmlcc0f254a2c535401.terrainlayer using Guid(8278496b1668142d1bc9eb9298df433c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9f3230a11428ca3142d1af296831cf5') in 0.018316 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000149 seconds.
+  path: Assets/_TerrainAutoUpgrade/layer_Stones_2Stones_2_nrml3d3aba195e4d26ee.terrainlayer
+  artifactKey: Guid(fc052de42c1cb478a8dbf89625b43814) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_TerrainAutoUpgrade/layer_Stones_2Stones_2_nrml3d3aba195e4d26ee.terrainlayer using Guid(fc052de42c1cb478a8dbf89625b43814) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65257b73be62c8c63432f5452a9d03b3') in 0.023085 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/_TerrainAutoUpgrade/layer_grass_19_SL_Sgrass_19_SL_S_nrmlb956af97c33fc3d7.terrainlayer
+  artifactKey: Guid(2724bb80487f243be81a99c361889e92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_TerrainAutoUpgrade/layer_grass_19_SL_Sgrass_19_SL_S_nrmlb956af97c33fc3d7.terrainlayer using Guid(2724bb80487f243be81a99c361889e92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd62585f864db7345c52c31600d0331f') in 0.029299 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/_TerrainAutoUpgrade/layer_stonesStones_nrml8e31cb382dbba1ff.terrainlayer
+  artifactKey: Guid(ec3d6fcd7570145c984ff63f12dd4a8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_TerrainAutoUpgrade/layer_stonesStones_nrml8e31cb382dbba1ff.terrainlayer using Guid(ec3d6fcd7570145c984ff63f12dd4a8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8266f5d32d76abc251b196f42bee65c') in 0.022390 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 16.162027 seconds.
+  path: Assets/Art/Enemy-Player Art/Low-Poly Weapons/Models/Arrow_Explosive.fbx
+  artifactKey: Guid(a6c4c9afde33c4603bef3ca6b3a587ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Enemy-Player Art/Low-Poly Weapons/Models/Arrow_Explosive.fbx using Guid(a6c4c9afde33c4603bef3ca6b3a587ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe324c3807bfc81de22c4c2db6b391b8') in 0.332372 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/Art/Enemy-Player Art/Low-Poly Weapons/Models/Arrow_Regular.fbx
+  artifactKey: Guid(50a2457a4e6e34726805bc233f01b387) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Enemy-Player Art/Low-Poly Weapons/Models/Arrow_Regular.fbx using Guid(50a2457a4e6e34726805bc233f01b387) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdfa464ecd0fc7a8dcd58e804021d6a3') in 0.050451 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/Art/Enemy-Player Art/Low-Poly Weapons/Models/Potion_Generic.fbx
+  artifactKey: Guid(097d38a80d9574b8f83fd7d8404930f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Enemy-Player Art/Low-Poly Weapons/Models/Potion_Generic.fbx using Guid(097d38a80d9574b8f83fd7d8404930f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2971b273da8ab954de852648dee3c1b') in 0.030321 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/Art/Enemy-Player Art/Low-Poly Weapons/Models/Potion_Health.fbx
+  artifactKey: Guid(2a7aeccaf51cb44258e96e4127ac8d7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Enemy-Player Art/Low-Poly Weapons/Models/Potion_Health.fbx using Guid(2a7aeccaf51cb44258e96e4127ac8d7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b91cc27730cf1121edc150e9a641c3ba') in 0.031069 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/Art/Enemy-Player Art/Low-Poly Weapons/Models/Crossbow.fbx
+  artifactKey: Guid(d1036415f6ea442a9afc3adb6e466f76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Enemy-Player Art/Low-Poly Weapons/Models/Crossbow.fbx using Guid(d1036415f6ea442a9afc3adb6e466f76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3303500fcd4d966fbe88705f402d9ec') in 0.059272 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/Art/Enemy-Player Art/Low-Poly Weapons/Models/Arrow_Piercing.fbx
+  artifactKey: Guid(a6dbb2c6393664ec3bfff79ef7bcad30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Enemy-Player Art/Low-Poly Weapons/Models/Arrow_Piercing.fbx using Guid(a6dbb2c6393664ec3bfff79ef7bcad30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '920ef6d10c18048cd0b7f42f727246a3') in 0.027672 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Assets/Art/Enemy-Player Art/Low-Poly Weapons/Models/Dagger.fbx
+  artifactKey: Guid(db56260143b5948a88d20ae44f2441a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Enemy-Player Art/Low-Poly Weapons/Models/Dagger.fbx using Guid(db56260143b5948a88d20ae44f2441a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89ff5e397fbf25e384d9aff9bea33cff') in 0.049997 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/Art/Enemy-Player Art/Low-Poly Weapons/Models/Potion_Berserk.fbx
+  artifactKey: Guid(2b5e4dcfbc9c54f019932d7dc34a1d4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Enemy-Player Art/Low-Poly Weapons/Models/Potion_Berserk.fbx using Guid(2b5e4dcfbc9c54f019932d7dc34a1d4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4817ff0e1795e5d0c7cb7e283620b4e') in 0.028460 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/Art/Enemy-Player Art/Low-Poly Weapons/Models/Shield.fbx
+  artifactKey: Guid(176b2704b742b4e13a95b47b307c3266) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Enemy-Player Art/Low-Poly Weapons/Models/Shield.fbx using Guid(176b2704b742b4e13a95b47b307c3266) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b39bc2f9bcdc4d6e6cf96d5a3193ee0f') in 0.029976 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Assets/Art/Enemy-Player Art/Low-Poly Weapons/Models/Grenade_Smoke.fbx
+  artifactKey: Guid(9a38c879ddeb74214b97b361e8e5fee9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Enemy-Player Art/Low-Poly Weapons/Models/Grenade_Smoke.fbx using Guid(9a38c879ddeb74214b97b361e8e5fee9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91ad1df52b1276638d31936c4811a777') in 0.025813 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000272 seconds.
+  path: Assets/Art/Enemy-Player Art/Low-Poly Weapons/Models/Bomb.fbx
+  artifactKey: Guid(d1e8477c1d62b4eb2950689921e7ef58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Enemy-Player Art/Low-Poly Weapons/Models/Bomb.fbx using Guid(d1e8477c1d62b4eb2950689921e7ef58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f00394b2b676faa8df2dd98b32ce9b7') in 0.036053 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/Art/Enemy-Player Art/Low-Poly Weapons/Models/Potion_Mana.fbx
+  artifactKey: Guid(a7b94700af64d4331af2f449bf00b987) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Enemy-Player Art/Low-Poly Weapons/Models/Potion_Mana.fbx using Guid(a7b94700af64d4331af2f449bf00b987) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08c2c4ad98d682258894b236951ae7bb') in 0.037548 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000277 seconds.
+  path: Assets/Art/Enemy-Player Art/Low-Poly Weapons/Models/Potion_Stamina.fbx
+  artifactKey: Guid(0e82068f10f7f446f9d0f4f5a89e8573) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Enemy-Player Art/Low-Poly Weapons/Models/Potion_Stamina.fbx using Guid(0e82068f10f7f446f9d0f4f5a89e8573) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '067972500fb95f43ed6a1a5712384b42') in 0.022225 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/Art/Enemy-Player Art/Low-Poly Weapons/Models/Sword.fbx
+  artifactKey: Guid(72be0c703037640cf97b8487e7a0d830) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Enemy-Player Art/Low-Poly Weapons/Models/Sword.fbx using Guid(72be0c703037640cf97b8487e7a0d830) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a368af4d9d16e1614ed172f2a5c99089') in 0.040381 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/Art/Enemy-Player Art/Low-Poly Weapons/Models/Grenade_Sulfur.fbx
+  artifactKey: Guid(11e0aa3611e3840ecb8a4f54e9b9634d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Enemy-Player Art/Low-Poly Weapons/Models/Grenade_Sulfur.fbx using Guid(11e0aa3611e3840ecb8a4f54e9b9634d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e6d46c49662dc46b73e93230a83e7c2') in 0.042517 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000350 seconds.
+  path: Assets/Art/Enemy-Player Art/Low-Poly Weapons/Models/Bow.fbx
+  artifactKey: Guid(f9daf41ee441145289fca40ce1878964) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Enemy-Player Art/Low-Poly Weapons/Models/Bow.fbx using Guid(f9daf41ee441145289fca40ce1878964) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f366e3dc38170be66e473c30f6382422') in 0.051495 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.575770 seconds.
+  path: Assets/Art/Enemy-Player Art/Low-Poly Weapons/Prefabs/Arrow_Explosive.prefab
+  artifactKey: Guid(a7ef2398046494d0cadc6b5c28cfa84f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Enemy-Player Art/Low-Poly Weapons/Prefabs/Arrow_Explosive.prefab using Guid(a7ef2398046494d0cadc6b5c28cfa84f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f0a1597fa47b63a8dc8f53ad00d5e37') in 0.113271 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/Art/Enemy-Player Art/Low-Poly Weapons/Prefabs/Potion_Berserk.prefab
+  artifactKey: Guid(db1c94431d2a64a068f8c904090cee66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Enemy-Player Art/Low-Poly Weapons/Prefabs/Potion_Berserk.prefab using Guid(db1c94431d2a64a068f8c904090cee66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92ec42597c29ecdbb9a5cf8fccb95df4') in 0.017186 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/Art/Enemy-Player Art/Low-Poly Weapons/Prefabs/Arrow_Piercing.prefab
+  artifactKey: Guid(84ad69e92e6fe401c8848494bcedac7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Enemy-Player Art/Low-Poly Weapons/Prefabs/Arrow_Piercing.prefab using Guid(84ad69e92e6fe401c8848494bcedac7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6baaa9f8de2f0fba3a536b60c33f6f65') in 0.060716 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/Art/Enemy-Player Art/Low-Poly Weapons/Prefabs/Potion_Stamina.prefab
+  artifactKey: Guid(f244d85ca954f4336a1a7595053efbfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Enemy-Player Art/Low-Poly Weapons/Prefabs/Potion_Stamina.prefab using Guid(f244d85ca954f4336a1a7595053efbfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22bdadf653f79e8de93d9397c9bb15e5') in 0.014696 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/Art/Enemy-Player Art/Low-Poly Weapons/Prefabs/Bow.prefab
+  artifactKey: Guid(8093457b576f04fbfa270bca1b2553a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Enemy-Player Art/Low-Poly Weapons/Prefabs/Bow.prefab using Guid(8093457b576f04fbfa270bca1b2553a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf5bcbbee4d66972122620c8d79519e1') in 0.024551 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/Art/Enemy-Player Art/Low-Poly Weapons/Prefabs/Arrow_Regular.prefab
+  artifactKey: Guid(802986766a97b4a108b97eb5fdf6e02f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Enemy-Player Art/Low-Poly Weapons/Prefabs/Arrow_Regular.prefab using Guid(802986766a97b4a108b97eb5fdf6e02f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba324284813f06b454bdbcc6e7c07e1f') in 0.012167 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/Art/Enemy-Player Art/Low-Poly Weapons/Prefabs/Bomb.prefab
+  artifactKey: Guid(aa64b9ae639024c5097e12b27ac1d84c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Enemy-Player Art/Low-Poly Weapons/Prefabs/Bomb.prefab using Guid(aa64b9ae639024c5097e12b27ac1d84c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66fc610634037625f73c6e3f699784a5') in 0.011004 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/Art/Enemy-Player Art/Low-Poly Weapons/Prefabs/Sword.prefab
+  artifactKey: Guid(ef692f86dcc854a7aba0ac610620cb15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Enemy-Player Art/Low-Poly Weapons/Prefabs/Sword.prefab using Guid(ef692f86dcc854a7aba0ac610620cb15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '452554f8581b9f6c0cf62497e659e1bd') in 0.015836 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/Art/Enemy-Player Art/Low-Poly Weapons/Prefabs/Crossbow.prefab
+  artifactKey: Guid(1dcc6f17f2ad24b98a7ef082c8c454a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Enemy-Player Art/Low-Poly Weapons/Prefabs/Crossbow.prefab using Guid(1dcc6f17f2ad24b98a7ef082c8c454a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '469d60afbcaead0c402daa4abb3c98ca') in 0.014698 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/Art/Enemy-Player Art/Low-Poly Weapons/Prefabs/Potion_Generic.prefab
+  artifactKey: Guid(c08b700bc96ee446685910832e6b01ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Enemy-Player Art/Low-Poly Weapons/Prefabs/Potion_Generic.prefab using Guid(c08b700bc96ee446685910832e6b01ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac733c67637a4074e42cda8a4e7ee3d4') in 0.010962 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/Art/Enemy-Player Art/Low-Poly Weapons/Prefabs/Shield.prefab
+  artifactKey: Guid(b4ea2f3e0e40943219a8997915f71646) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Enemy-Player Art/Low-Poly Weapons/Prefabs/Shield.prefab using Guid(b4ea2f3e0e40943219a8997915f71646) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29003b8e47ae618437441391be729b69') in 0.011650 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Assets/Art/Enemy-Player Art/Low-Poly Weapons/Prefabs/Grenade_Smoke.prefab
+  artifactKey: Guid(cc45d25784d134031be721e31c3c239f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Enemy-Player Art/Low-Poly Weapons/Prefabs/Grenade_Smoke.prefab using Guid(cc45d25784d134031be721e31c3c239f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eecff2e2a8142d278436458eeaae471b') in 0.030016 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/Art/Enemy-Player Art/Low-Poly Weapons/Prefabs/Potion_Health.prefab
+  artifactKey: Guid(fb5a9652227c545d98a413cd73b80b69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Enemy-Player Art/Low-Poly Weapons/Prefabs/Potion_Health.prefab using Guid(fb5a9652227c545d98a413cd73b80b69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f49e851ff62cf0f79701f1c67dce669') in 0.011336 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/Art/Enemy-Player Art/Low-Poly Weapons/Prefabs/Potion_Mana.prefab
+  artifactKey: Guid(4fc855fb7bf094a0891967175e5bdb17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Enemy-Player Art/Low-Poly Weapons/Prefabs/Potion_Mana.prefab using Guid(4fc855fb7bf094a0891967175e5bdb17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fe1cba6cca83d444362ae09072ee918') in 0.011640 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/Art/Enemy-Player Art/Low-Poly Weapons/Prefabs/Grenade_Sulfur.prefab
+  artifactKey: Guid(41ddecd19696e4b7abfe4584fa7efe68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Enemy-Player Art/Low-Poly Weapons/Prefabs/Grenade_Sulfur.prefab using Guid(41ddecd19696e4b7abfe4584fa7efe68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c582be60f63ec90da2577aee4ea04abb') in 0.013939 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000335 seconds.
+  path: Assets/Art/Enemy-Player Art/Low-Poly Weapons/Prefabs/Dagger.prefab
+  artifactKey: Guid(a4cd3d5e9967248a69e6203d2ce67874) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Enemy-Player Art/Low-Poly Weapons/Prefabs/Dagger.prefab using Guid(a4cd3d5e9967248a69e6203d2ce67874) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83a2a662008445646670916b2deb17ab') in 0.012044 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.997100 seconds.
+  path: Assets/Art/Enemy-Player Art/Low-Poly Weapons/Textures/Potions.tif
+  artifactKey: Guid(33717b16713914784b0db03854ccfa16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Enemy-Player Art/Low-Poly Weapons/Textures/Potions.tif using Guid(33717b16713914784b0db03854ccfa16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0604f38641620384f1bd69404ecbfc48') in 0.776012 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/Art/Enemy-Player Art/Low-Poly Weapons/Textures/Weapons.tif
+  artifactKey: Guid(2e9da1baa9a7a4e2f83f1bc63bf855ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Enemy-Player Art/Low-Poly Weapons/Textures/Weapons.tif using Guid(2e9da1baa9a7a4e2f83f1bc63bf855ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52dae7dbeaeeef46a014bc2a3d15228f') in 0.024099 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 192.607298 seconds.
+  path: Assets/Art/MainMenuArt/TextMesh Pro/Fonts/The Butter SDF.asset
+  artifactKey: Guid(e4fcd6e57ca9a4b2c89a68ec62e774dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/MainMenuArt/TextMesh Pro/Fonts/The Butter SDF.asset using Guid(e4fcd6e57ca9a4b2c89a68ec62e774dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '214fcb48f173692810a6ea12cd603e29') in 0.218338 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 453.830559 seconds.
+  path: Assets/Scenes/MainMenu.unity
+  artifactKey: Guid(164ac3bfeada34eb7aaa6ebb29e9c8a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainMenu.unity using Guid(164ac3bfeada34eb7aaa6ebb29e9c8a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f148f774c451982679afcb0fc8dbfc9') in 0.001417 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 310.905255 seconds.
+  path: Assets/Scenes/MainMenu.unity
+  artifactKey: Guid(164ac3bfeada34eb7aaa6ebb29e9c8a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainMenu.unity using Guid(164ac3bfeada34eb7aaa6ebb29e9c8a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e54bccfda32f559ccb355334845e7869') in 0.002207 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1038.406521 seconds.
+  path: Assets/Scenes/MainMenu.unity
+  artifactKey: Guid(164ac3bfeada34eb7aaa6ebb29e9c8a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainMenu.unity using Guid(164ac3bfeada34eb7aaa6ebb29e9c8a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fda149813b01a8a3d852f57c49e639fe') in 0.005106 seconds 
