@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PausedMenu : MonoBehaviour
 {
@@ -9,6 +10,9 @@ public class PausedMenu : MonoBehaviour
 
     [SerializeField] private bool isPaused = false;
     // public bool isPaused;
+
+    public string mainMenu;
+    // public GameObject pauseMenu;
 
     private void Start()
     {
@@ -24,7 +28,7 @@ public class PausedMenu : MonoBehaviour
             // isPaused = !isPaused;
             if (!isPaused)
             {
-                ActivateMenu();
+                ActivateMenu(); 
             }
             else 
             {
@@ -36,7 +40,7 @@ public class PausedMenu : MonoBehaviour
     public void ActivateMenu()
     {
         Time.timeScale = 0; // This will pause the actual game
-        // AudioListener.pause = true;
+        AudioListener.pause = true; // Pauses Audio
         pauseMenu.SetActive(true);
         isPaused = true;
     }
@@ -44,8 +48,18 @@ public class PausedMenu : MonoBehaviour
     public void DeactivateMenu()
     {
         Time.timeScale = 1; // This will resume the game to its normal runtime
-        // AudioListener.pause = false;
+        AudioListener.pause = false; // Pauses Audio
         pauseMenu.SetActive(false);
         isPaused = false;
+    }
+
+    public void MainMenuButton() //Sets Main Menu Button on Pause Screen
+    {
+        SceneManager.LoadScene(mainMenu);
+    }
+
+    public void ResumePlay()
+    {
+        pauseMenu.SetActive(false);
     }
 }
