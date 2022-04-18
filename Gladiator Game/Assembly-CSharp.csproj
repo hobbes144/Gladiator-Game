@@ -64,6 +64,7 @@
     <Compile Include="Assets/Scripts/Player Scripts/FPS_Scripts/Components/FirstPersonAudio.cs" />
     <Compile Include="Assets/Scripts/Player Scripts/Weapon Scripts/ProjectileWeapon.cs" />
     <Compile Include="Assets/Scripts/Player Scripts/FPS_Scripts/FirstPersonLook.cs" />
+    <Compile Include="Assets/Scripts/Enemy Scripts/enemyBase.cs" />
     <Compile Include="Assets/Art/Enemy-Player Art/True_Fantastic_Creatures/Centaur/Centaur_ctrl.cs" />
     <Compile Include="Assets/Scripts/Player Scripts/Weapon Scripts/Weapon Fired Scripts/Trigger Box Script.cs" />
     <Compile Include="Assets/Scripts/Player Scripts/PickUp_Item.cs" />
