@@ -10,13 +10,17 @@ public class MainMenuScript : MonoBehaviour
 
     // public string optionsScene;
 
+    public GameObject MainMenuButtons;
     public GameObject GamePlayScreen;
+    public GameObject SelectGameMode;
 
 
     // Start is called before the first frame update
     void Start()
     {
         GamePlayScreen.SetActive(false);
+        SelectGameMode.SetActive(false);
+        MainMenuButtons.SetActive(true);
     }
 
     // Update is called once per frame
@@ -26,10 +30,29 @@ public class MainMenuScript : MonoBehaviour
     }
 
 
-    public void StartGame()
+    public void SelectMode()
     {
-        SceneManager.LoadScene(firstLevel); //Loads into First Scene
+        SelectGameMode.SetActive(true);
+        MainMenuButtons.SetActive(false);
     }
+
+    public void closeSelectMode()
+    {
+        SelectGameMode.SetActive(false);
+        MainMenuButtons.SetActive(true);
+    }
+
+
+    public void StartStages() // To select stages game mode
+    {
+        SceneManager.LoadScene(firstLevel);
+    }
+
+    public void StartEndless() // To select endless game mode
+    {
+        SceneManager.LoadScene(firstLevel);
+    }
+
 
 
     public void HowToPlay()
