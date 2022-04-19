@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: b25e6c563c99746a8939f6c57035749b
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - The Butter
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 310b014c439904704a6354b49d5441d0, type: 3}
+  - {fileID: 12800000, guid: 3cdcc617cf4714732ad05deeda3eefec, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -961,8 +961,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: GLADIATOR ARENA
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: e4fcd6e57ca9a4b2c89a68ec62e774dc, type: 2}
-  m_sharedMaterial: {fileID: -2613438854838869895, guid: e4fcd6e57ca9a4b2c89a68ec62e774dc, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 6209dd2037c2347dda92d361d00f3940, type: 2}
+  m_sharedMaterial: {fileID: -894915547399861110, guid: 6209dd2037c2347dda92d361d00f3940, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1216,8 +1216,8 @@ MonoBehaviour:
     enemies and gain your highest
     score!'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: e4fcd6e57ca9a4b2c89a68ec62e774dc, type: 2}
-  m_sharedMaterial: {fileID: -2613438854838869895, guid: e4fcd6e57ca9a4b2c89a68ec62e774dc, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 6209dd2037c2347dda92d361d00f3940, type: 2}
+  m_sharedMaterial: {fileID: -894915547399861110, guid: 6209dd2037c2347dda92d361d00f3940, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1594,8 +1594,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "Goal: Fight your way through levels as \nthey progressively get more challenging!"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: e4fcd6e57ca9a4b2c89a68ec62e774dc, type: 2}
-  m_sharedMaterial: {fileID: -2613438854838869895, guid: e4fcd6e57ca9a4b2c89a68ec62e774dc, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 6209dd2037c2347dda92d361d00f3940, type: 2}
+  m_sharedMaterial: {fileID: -894915547399861110, guid: 6209dd2037c2347dda92d361d00f3940, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1730,8 +1730,8 @@ MonoBehaviour:
 
 '
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: e4fcd6e57ca9a4b2c89a68ec62e774dc, type: 2}
-  m_sharedMaterial: {fileID: -2613438854838869895, guid: e4fcd6e57ca9a4b2c89a68ec62e774dc, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 6209dd2037c2347dda92d361d00f3940, type: 2}
+  m_sharedMaterial: {fileID: -894915547399861110, guid: 6209dd2037c2347dda92d361d00f3940, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1864,8 +1864,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: QUIT
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: e4fcd6e57ca9a4b2c89a68ec62e774dc, type: 2}
-  m_sharedMaterial: {fileID: -2613438854838869895, guid: e4fcd6e57ca9a4b2c89a68ec62e774dc, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 6209dd2037c2347dda92d361d00f3940, type: 2}
+  m_sharedMaterial: {fileID: -894915547399861110, guid: 6209dd2037c2347dda92d361d00f3940, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -2127,8 +2127,8 @@ MonoBehaviour:
     Switching
     Weapons: Q and E'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: e4fcd6e57ca9a4b2c89a68ec62e774dc, type: 2}
-  m_sharedMaterial: {fileID: -2613438854838869895, guid: e4fcd6e57ca9a4b2c89a68ec62e774dc, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 6209dd2037c2347dda92d361d00f3940, type: 2}
+  m_sharedMaterial: {fileID: -894915547399861110, guid: 6209dd2037c2347dda92d361d00f3940, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -2261,8 +2261,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Levels
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: e4fcd6e57ca9a4b2c89a68ec62e774dc, type: 2}
-  m_sharedMaterial: {fileID: -2613438854838869895, guid: e4fcd6e57ca9a4b2c89a68ec62e774dc, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 6209dd2037c2347dda92d361d00f3940, type: 2}
+  m_sharedMaterial: {fileID: -894915547399861110, guid: 6209dd2037c2347dda92d361d00f3940, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -2528,8 +2528,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: How To Play
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: e4fcd6e57ca9a4b2c89a68ec62e774dc, type: 2}
-  m_sharedMaterial: {fileID: -2613438854838869895, guid: e4fcd6e57ca9a4b2c89a68ec62e774dc, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 6209dd2037c2347dda92d361d00f3940, type: 2}
+  m_sharedMaterial: {fileID: -894915547399861110, guid: 6209dd2037c2347dda92d361d00f3940, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -2662,8 +2662,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: GAME PLAY
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: e4fcd6e57ca9a4b2c89a68ec62e774dc, type: 2}
-  m_sharedMaterial: {fileID: -2613438854838869895, guid: e4fcd6e57ca9a4b2c89a68ec62e774dc, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 6209dd2037c2347dda92d361d00f3940, type: 2}
+  m_sharedMaterial: {fileID: -894915547399861110, guid: 6209dd2037c2347dda92d361d00f3940, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -2801,8 +2801,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Endless
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: e4fcd6e57ca9a4b2c89a68ec62e774dc, type: 2}
-  m_sharedMaterial: {fileID: -2613438854838869895, guid: e4fcd6e57ca9a4b2c89a68ec62e774dc, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 6209dd2037c2347dda92d361d00f3940, type: 2}
+  m_sharedMaterial: {fileID: -894915547399861110, guid: 6209dd2037c2347dda92d361d00f3940, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -2887,6 +2887,14 @@ PrefabInstance:
       propertyPath: m_text
       value: CLOSE
       objectReference: {fileID: 0}
+    - target: {fileID: 5248816571150694321, guid: 4c733b6fb3f4b40e0b1459d9ecfa8fa0, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 6209dd2037c2347dda92d361d00f3940, type: 2}
+    - target: {fileID: 5248816571150694321, guid: 4c733b6fb3f4b40e0b1459d9ecfa8fa0, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: -894915547399861110, guid: 6209dd2037c2347dda92d361d00f3940, type: 2}
     - target: {fileID: 5248816572270201388, guid: 4c733b6fb3f4b40e0b1459d9ecfa8fa0, type: 3}
       propertyPath: m_Name
       value: Close Button
@@ -3021,6 +3029,14 @@ PrefabInstance:
       propertyPath: m_text
       value: START
       objectReference: {fileID: 0}
+    - target: {fileID: 5248816571150694321, guid: 4c733b6fb3f4b40e0b1459d9ecfa8fa0, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 6209dd2037c2347dda92d361d00f3940, type: 2}
+    - target: {fileID: 5248816571150694321, guid: 4c733b6fb3f4b40e0b1459d9ecfa8fa0, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: -894915547399861110, guid: 6209dd2037c2347dda92d361d00f3940, type: 2}
     - target: {fileID: 5248816572270201388, guid: 4c733b6fb3f4b40e0b1459d9ecfa8fa0, type: 3}
       propertyPath: m_Name
       value: Start Button
