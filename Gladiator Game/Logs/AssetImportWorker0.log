@@ -22,100 +22,100 @@ AssetImportWorker0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-53913
+56166
 Successfully changed project path to: /Users/paigekaylor/Desktop/CPI_211_Final_Game/Gladiator-Game/Gladiator Game
 /Users/paigekaylor/Desktop/CPI_211_Final_Game/Gladiator-Game/Gladiator Game
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 57.42 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 69.94 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.31f1 (6b54b7616050)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2020.3.31f1/Unity.app/Contents/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path /Users/paigekaylor/Desktop/CPI_211_Final_Game/Gladiator-Game/Gladiator Game/Assets
 GfxDevice: creating device client; threaded=0
-2022-04-19 09:00:23.533 Unity[7683:234604] Color LCD preferred device: Intel(R) Iris(TM) Plus Graphics 655 (low power)
-2022-04-19 09:00:23.533 Unity[7683:234604] Metal devices available: 1
-2022-04-19 09:00:23.533 Unity[7683:234604] 0: Intel(R) Iris(TM) Plus Graphics 655 (low power)
-2022-04-19 09:00:23.533 Unity[7683:234604] Using device Intel(R) Iris(TM) Plus Graphics 655 (low power)
+2022-04-19 10:49:43.250 Unity[9465:319793] Color LCD preferred device: Intel(R) Iris(TM) Plus Graphics 655 (low power)
+2022-04-19 10:49:43.250 Unity[9465:319793] Metal devices available: 1
+2022-04-19 10:49:43.250 Unity[9465:319793] 0: Intel(R) Iris(TM) Plus Graphics 655 (low power)
+2022-04-19 10:49:43.250 Unity[9465:319793] Using device Intel(R) Iris(TM) Plus Graphics 655 (low power)
 Initializing Metal device caps: Intel(R) Iris(TM) Plus Graphics 655
 Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/2020.3.31f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/2020.3.31f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = '/Applications/Unity/Hub/Editor/2020.3.31f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56683
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56465
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/2020.3.31f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.000422 seconds.
+Registered in 0.000581 seconds.
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 58.89 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 57.78 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.743 seconds
+- Completed reload, in  0.742 seconds
 Domain Reload Profiling:
 	ReloadAssembly (743ms)
-		BeginReloadAssembly (46ms)
+		BeginReloadAssembly (53ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (611ms)
-			LoadAssemblies (45ms)
+		EndReloadAssembly (579ms)
+			LoadAssemblies (53ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (213ms)
+			SetupTypeCache (210ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (45ms)
-			SetupLoadedEditorAssemblies (243ms)
+			SetupLoadedEditorAssemblies (227ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
+				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (59ms)
-				BeforeProcessingInitializeOnLoad (28ms)
-				ProcessInitializeOnLoadAttributes (116ms)
-				ProcessInitializeOnLoadMethodAttributes (34ms)
+				RefreshPlugins (58ms)
+				BeforeProcessingInitializeOnLoad (31ms)
+				ProcessInitializeOnLoadAttributes (101ms)
+				ProcessInitializeOnLoadMethodAttributes (31ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.001341 seconds.
+Registered in 0.001560 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 60.38 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 64.56 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.379 seconds
+- Completed reload, in  1.456 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1380ms)
-		BeginReloadAssembly (161ms)
+	ReloadAssembly (1458ms)
+		BeginReloadAssembly (176ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
+			DisableScriptedObjects (9ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (26ms)
-		EndReloadAssembly (1148ms)
-			LoadAssemblies (82ms)
+		EndReloadAssembly (1193ms)
+			LoadAssemblies (98ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (427ms)
+			SetupTypeCache (450ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (70ms)
-			SetupLoadedEditorAssemblies (421ms)
+			RebuildScriptCaches (69ms)
+			SetupLoadedEditorAssemblies (435ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
+				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (60ms)
-				BeforeProcessingInitializeOnLoad (93ms)
-				ProcessInitializeOnLoadAttributes (252ms)
-				ProcessInitializeOnLoadMethodAttributes (11ms)
+				RefreshPlugins (65ms)
+				BeforeProcessingInitializeOnLoad (92ms)
+				ProcessInitializeOnLoadAttributes (262ms)
+				ProcessInitializeOnLoadMethodAttributes (12ms)
 				AfterProcessingInitializeOnLoad (1ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
 Platform modules already initialized, skipping
-Validating Project structure ... 0.007322 seconds.
+Validating Project structure ... 0.009730 seconds.
 Shader import version has changed; will reimport all shaders...
-Upgrading shader files ...0.020335 seconds.
+Upgrading shader files ...0.025561 seconds.
 Application.AssetDatabase Initial Script Refresh Start
 RefreshInfo: InitialScriptRefreshV2(NoUpdateAssetOptions) scanfilter:  ... 1 filters
 RefreshProfiler: Total: 0.000ms
@@ -127,18 +127,18 @@ RefreshProfiler: Total: 0.000ms
 Launching external process: /Applications/Unity/Hub/Editor/2020.3.31f1/Unity.app/Contents/Tools/UnityShaderCompiler
 Launched and connected shader compiler UnityShaderCompiler after 0.01 seconds
 Initializing Unity extensions:
-2022-04-19 09:00:26.932 Unity[7683:234604] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x600003f33870 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
-2022-04-19 09:00:26.936 Unity[7683:234604] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x600003f073a0 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+2022-04-19 10:49:46.873 Unity[9465:319793] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x600002a800e0 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+2022-04-19 10:49:46.877 Unity[9465:319793] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x600002a92c30 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
 ========================================================================
 Worker process is ready to serve import requests
-Refreshing native plugins compatible for Editor in 0.59 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.78 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2850 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 260.4 MB.
-System memory in use after: 260.2 MB.
+System memory in use before: 259.8 MB.
+System memory in use after: 259.6 MB.
 
 Unloading 132 unused Assets to reduce memory usage. Loaded Objects now: 3327.
-Total: 4.320140 ms (FindLiveObjects: 0.261685 ms CreateObjectMapping: 0.126853 ms MarkObjects: 3.504150 ms  DeleteObjects: 0.426452 ms)
+Total: 4.863367 ms (FindLiveObjects: 0.302622 ms CreateObjectMapping: 0.216216 ms MarkObjects: 3.948410 ms  DeleteObjects: 0.395218 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -152,295 +152,31 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Scenes/ArenaScene.unity
-  artifactKey: Guid(c1b1da90f313449feae1e0e166ce65f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/ArenaScene.unity using Guid(c1b1da90f313449feae1e0e166ce65f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b0e63c84dbb957191935257bf919113') in 0.007592 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 106.523773 seconds.
   path: Assets/Prefabs/Building Prefab/Colosseum.prefab
   artifactKey: Guid(722aa011bb5e144cdb569e24c657e8e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Building Prefab/Colosseum.prefab using Guid(722aa011bb5e144cdb569e24c657e8e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac9164ff559c0f44711656e2e094c383') in 1.644719 seconds 
+Start importing Assets/Prefabs/Building Prefab/Colosseum.prefab using Guid(722aa011bb5e144cdb569e24c657e8e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19a5ab3073b013f93fcb03262ff2dcf5') in 1.609659 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 8.166524 seconds.
+  Time since last request: 9.845763 seconds.
   path: Assets/Prefabs/Building Prefab/Colosseum.prefab
   artifactKey: Guid(722aa011bb5e144cdb569e24c657e8e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Building Prefab/Colosseum.prefab using Guid(722aa011bb5e144cdb569e24c657e8e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89f02160be88ab7803000c531d6f0278') in 0.100131 seconds 
+Start importing Assets/Prefabs/Building Prefab/Colosseum.prefab using Guid(722aa011bb5e144cdb569e24c657e8e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d09584a7e5add66a1144cac83215db4') in 0.073321 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 4.637543 seconds.
+  Time since last request: 5.365596 seconds.
   path: Assets/Prefabs/Building Prefab/Colosseum.prefab
   artifactKey: Guid(722aa011bb5e144cdb569e24c657e8e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Building Prefab/Colosseum.prefab using Guid(722aa011bb5e144cdb569e24c657e8e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0df423b4c9293b99a18d857653826593') in 0.083946 seconds 
+Start importing Assets/Prefabs/Building Prefab/Colosseum.prefab using Guid(722aa011bb5e144cdb569e24c657e8e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2416a4c1beb19a2b0728346aa1717c21') in 0.078175 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 10.840042 seconds.
-  path: Assets/Prefabs/Building Prefab/DarkHalfWall 1.prefab
-  artifactKey: Guid(a10d3279597e549cc8a6b8dd9acb1fdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Building Prefab/DarkHalfWall 1.prefab using Guid(a10d3279597e549cc8a6b8dd9acb1fdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3af15a00607c978891ac418d9a426cd') in 0.027650 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 10.257852 seconds.
-  path: Assets/Prefabs/Building Prefab/WallObstacle.prefab
-  artifactKey: Guid(a10d3279597e549cc8a6b8dd9acb1fdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Building Prefab/WallObstacle.prefab using Guid(a10d3279597e549cc8a6b8dd9acb1fdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c553b39a54c531cf68013a9f25eb27d') in 0.024105 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 199.033789 seconds.
+  Time since last request: 6.897256 seconds.
   path: Assets/Prefabs/Building Prefab/Colosseum.prefab
   artifactKey: Guid(722aa011bb5e144cdb569e24c657e8e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Building Prefab/Colosseum.prefab using Guid(722aa011bb5e144cdb569e24c657e8e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8c450627bacf1bab5737bda953b06a0') in 0.066495 seconds 
+Start importing Assets/Prefabs/Building Prefab/Colosseum.prefab using Guid(722aa011bb5e144cdb569e24c657e8e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d6cf035c5907f9809d6c8d60134e9be') in 0.089429 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 16.496980 seconds.
-  path: Assets/Prefabs/Building Prefab/WallObstacle.prefab
-  artifactKey: Guid(a10d3279597e549cc8a6b8dd9acb1fdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Building Prefab/WallObstacle.prefab using Guid(a10d3279597e549cc8a6b8dd9acb1fdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86f06f3bc46da056eb5f896e8b719868') in 0.036087 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 9.192803 seconds.
-  path: Assets/Prefabs/Building Prefab/WallObstacle.prefab
-  artifactKey: Guid(a10d3279597e549cc8a6b8dd9acb1fdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Building Prefab/WallObstacle.prefab using Guid(a10d3279597e549cc8a6b8dd9acb1fdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f018f76de580371a90fdeb1e850dabf') in 0.018756 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 7.550108 seconds.
-  path: Assets/Prefabs/Building Prefab/WallObstacle.prefab
-  artifactKey: Guid(a10d3279597e549cc8a6b8dd9acb1fdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Building Prefab/WallObstacle.prefab using Guid(a10d3279597e549cc8a6b8dd9acb1fdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fb9ad755705ae9bde327df6b97ecaaa') in 0.022590 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 7.498387 seconds.
-  path: Assets/Prefabs/Building Prefab/WallObstacle.prefab
-  artifactKey: Guid(a10d3279597e549cc8a6b8dd9acb1fdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Building Prefab/WallObstacle.prefab using Guid(a10d3279597e549cc8a6b8dd9acb1fdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0528165931d0bb4c4a923a1040b0a987') in 0.021151 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.887865 seconds.
-  path: Assets/Prefabs/Building Prefab/WallObstacle.prefab
-  artifactKey: Guid(a10d3279597e549cc8a6b8dd9acb1fdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Building Prefab/WallObstacle.prefab using Guid(a10d3279597e549cc8a6b8dd9acb1fdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfbb9335afd10bd5488e0f5141fd3b58') in 0.019984 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 5.629685 seconds.
-  path: Assets/Prefabs/Building Prefab/WallObstacle.prefab
-  artifactKey: Guid(a10d3279597e549cc8a6b8dd9acb1fdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Building Prefab/WallObstacle.prefab using Guid(a10d3279597e549cc8a6b8dd9acb1fdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '008d754eb8d0bfbe02dacb41f088f666') in 0.016485 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.728120 seconds.
-  path: Assets/Prefabs/Building Prefab/WallObstacle.prefab
-  artifactKey: Guid(a10d3279597e549cc8a6b8dd9acb1fdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Building Prefab/WallObstacle.prefab using Guid(a10d3279597e549cc8a6b8dd9acb1fdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'faeb9abc390a2211479a2c2530763892') in 0.019023 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 5.033245 seconds.
-  path: Assets/Prefabs/Building Prefab/WallObstacle.prefab
-  artifactKey: Guid(a10d3279597e549cc8a6b8dd9acb1fdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Building Prefab/WallObstacle.prefab using Guid(a10d3279597e549cc8a6b8dd9acb1fdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b960bde9eba66c7ceacdf681d00eb6b2') in 0.019688 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.896617 seconds.
-  path: Assets/Prefabs/Building Prefab/WallObstacle.prefab
-  artifactKey: Guid(a10d3279597e549cc8a6b8dd9acb1fdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Building Prefab/WallObstacle.prefab using Guid(a10d3279597e549cc8a6b8dd9acb1fdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '569f09ac864cc9c6a5a45c3d4621d8ae') in 0.016857 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 33.158741 seconds.
-  path: Assets/Prefabs/Building Prefab/WallObstacle.prefab
-  artifactKey: Guid(a10d3279597e549cc8a6b8dd9acb1fdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Building Prefab/WallObstacle.prefab using Guid(a10d3279597e549cc8a6b8dd9acb1fdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd0671235ef2a20a61e57fa74ace26a3') in 0.031736 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 5.742419 seconds.
-  path: Assets/Prefabs/Building Prefab/WallObstacle.prefab
-  artifactKey: Guid(a10d3279597e549cc8a6b8dd9acb1fdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Building Prefab/WallObstacle.prefab using Guid(a10d3279597e549cc8a6b8dd9acb1fdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6dfe01f54e908de3eececb97c61bcbe3') in 0.015382 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 35.129622 seconds.
-  path: Assets/Prefabs/Building Prefab/WallObstacle.prefab
-  artifactKey: Guid(a10d3279597e549cc8a6b8dd9acb1fdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Building Prefab/WallObstacle.prefab using Guid(a10d3279597e549cc8a6b8dd9acb1fdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ac888a5aa3752dadebe3399a4dc1296') in 0.020052 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 6.138567 seconds.
-  path: Assets/Prefabs/Building Prefab/WallObstacle.prefab
-  artifactKey: Guid(a10d3279597e549cc8a6b8dd9acb1fdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Building Prefab/WallObstacle.prefab using Guid(a10d3279597e549cc8a6b8dd9acb1fdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c8e3619962030ac1778f3241ec5a28d') in 0.018830 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.593731 seconds.
+  Time since last request: 10.434291 seconds.
   path: Assets/Prefabs/Building Prefab/Colosseum.prefab
   artifactKey: Guid(722aa011bb5e144cdb569e24c657e8e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Building Prefab/Colosseum.prefab using Guid(722aa011bb5e144cdb569e24c657e8e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfdfdebb17d32120b37f653d02b69e80') in 0.080881 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 36.519524 seconds.
-  path: Assets/Prefabs/Building Prefab/WallObstacle.prefab
-  artifactKey: Guid(a10d3279597e549cc8a6b8dd9acb1fdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Building Prefab/WallObstacle.prefab using Guid(a10d3279597e549cc8a6b8dd9acb1fdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bef66a29aabb0a6fbf778259a6479797') in 0.025746 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 13.983689 seconds.
-  path: Assets/Prefabs/Building Prefab/Colosseum.prefab
-  artifactKey: Guid(722aa011bb5e144cdb569e24c657e8e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Building Prefab/Colosseum.prefab using Guid(722aa011bb5e144cdb569e24c657e8e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3250fcdef71dcca8286e8707045a226') in 0.077483 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 34.583135 seconds.
-  path: Assets/Prefabs/Building Prefab/WallObstacle.prefab
-  artifactKey: Guid(a10d3279597e549cc8a6b8dd9acb1fdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Building Prefab/WallObstacle.prefab using Guid(a10d3279597e549cc8a6b8dd9acb1fdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e29c43194bfd5e1489c7a1a40d72a64e') in 0.017436 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 56.196788 seconds.
-  path: Assets/Prefabs/Building Prefab/Colosseum.prefab
-  artifactKey: Guid(722aa011bb5e144cdb569e24c657e8e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Building Prefab/Colosseum.prefab using Guid(722aa011bb5e144cdb569e24c657e8e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3f94220c0981219acda4c9dbe347f47') in 0.064745 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.337841 seconds.
-  path: Assets/Prefabs/Building Prefab/Colosseum.prefab
-  artifactKey: Guid(722aa011bb5e144cdb569e24c657e8e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Building Prefab/Colosseum.prefab using Guid(722aa011bb5e144cdb569e24c657e8e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abc32dd8355cf5984455c2c8a10371f9') in 0.077513 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.679167 seconds.
-  path: Assets/Prefabs/Building Prefab/Colosseum.prefab
-  artifactKey: Guid(722aa011bb5e144cdb569e24c657e8e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Building Prefab/Colosseum.prefab using Guid(722aa011bb5e144cdb569e24c657e8e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d5fbe12cf034633ae1ce54d83c12e0b') in 0.068493 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.854163 seconds.
-  path: Assets/Prefabs/Building Prefab/Colosseum.prefab
-  artifactKey: Guid(722aa011bb5e144cdb569e24c657e8e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Building Prefab/Colosseum.prefab using Guid(722aa011bb5e144cdb569e24c657e8e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3de8af57be5d2644d4f9e061451dd587') in 0.071449 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 31.093056 seconds.
-  path: Assets/Prefabs/Building Prefab/Colosseum.prefab
-  artifactKey: Guid(722aa011bb5e144cdb569e24c657e8e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Building Prefab/Colosseum.prefab using Guid(722aa011bb5e144cdb569e24c657e8e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25f43d2b547244134b0a52c63b093bb9') in 0.085106 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.000524 seconds.
-  path: Assets/Prefabs/Building Prefab/Colosseum.prefab
-  artifactKey: Guid(722aa011bb5e144cdb569e24c657e8e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Building Prefab/Colosseum.prefab using Guid(722aa011bb5e144cdb569e24c657e8e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f2943d1e9caaadbb8713fb822e4cac3') in 0.067954 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.286312 seconds.
-  path: Assets/Prefabs/Building Prefab/Colosseum.prefab
-  artifactKey: Guid(722aa011bb5e144cdb569e24c657e8e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Building Prefab/Colosseum.prefab using Guid(722aa011bb5e144cdb569e24c657e8e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de6707136de7cbf6b3874cc2e41f580a') in 0.065499 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 46.232667 seconds.
-  path: Assets/Prefabs/Building Prefab/Colosseum.prefab
-  artifactKey: Guid(722aa011bb5e144cdb569e24c657e8e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Building Prefab/Colosseum.prefab using Guid(722aa011bb5e144cdb569e24c657e8e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3b92ff8552b9dcec97e0a035fad7770') in 0.077725 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 6.710265 seconds.
-  path: Assets/Prefabs/Building Prefab/Colosseum.prefab
-  artifactKey: Guid(722aa011bb5e144cdb569e24c657e8e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Building Prefab/Colosseum.prefab using Guid(722aa011bb5e144cdb569e24c657e8e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73fc97081c6a230e9ce5e67727ee19e0') in 0.072845 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.434098 seconds.
-  path: Assets/Prefabs/Building Prefab/Colosseum.prefab
-  artifactKey: Guid(722aa011bb5e144cdb569e24c657e8e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Building Prefab/Colosseum.prefab using Guid(722aa011bb5e144cdb569e24c657e8e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7c243479b22b8f052a588a1027ddc06') in 0.086466 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.713993 seconds.
-  path: Assets/Prefabs/Building Prefab/Colosseum.prefab
-  artifactKey: Guid(722aa011bb5e144cdb569e24c657e8e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Building Prefab/Colosseum.prefab using Guid(722aa011bb5e144cdb569e24c657e8e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1a31c04f982d5359786b54c06312e53') in 0.085252 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 10.930366 seconds.
-  path: Assets/Prefabs/Building Prefab/Colosseum.prefab
-  artifactKey: Guid(722aa011bb5e144cdb569e24c657e8e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Building Prefab/Colosseum.prefab using Guid(722aa011bb5e144cdb569e24c657e8e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbae2779154ae934d38bc377eeeca047') in 0.067580 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.480047 seconds.
-  path: Assets/Prefabs/Building Prefab/Colosseum.prefab
-  artifactKey: Guid(722aa011bb5e144cdb569e24c657e8e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Building Prefab/Colosseum.prefab using Guid(722aa011bb5e144cdb569e24c657e8e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7ca519210aec81f86996215fd52b493') in 0.057350 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.698232 seconds.
-  path: Assets/Prefabs/Building Prefab/Colosseum.prefab
-  artifactKey: Guid(722aa011bb5e144cdb569e24c657e8e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Building Prefab/Colosseum.prefab using Guid(722aa011bb5e144cdb569e24c657e8e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72a6ec69d9fffdd67b7ede8a1b9c5659') in 0.106719 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 11.325359 seconds.
-  path: Assets/Prefabs/Building Prefab/Colosseum.prefab
-  artifactKey: Guid(722aa011bb5e144cdb569e24c657e8e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Building Prefab/Colosseum.prefab using Guid(722aa011bb5e144cdb569e24c657e8e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9dfe51b3d692daac04bd807bfd360c10') in 0.068667 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 7.905069 seconds.
-  path: Assets/Prefabs/Building Prefab/Colosseum.prefab
-  artifactKey: Guid(722aa011bb5e144cdb569e24c657e8e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Building Prefab/Colosseum.prefab using Guid(722aa011bb5e144cdb569e24c657e8e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46874e3794252a77b5ba84df20837e29') in 0.070139 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.618953 seconds.
-  path: Assets/Prefabs/Building Prefab/Colosseum.prefab
-  artifactKey: Guid(722aa011bb5e144cdb569e24c657e8e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Building Prefab/Colosseum.prefab using Guid(722aa011bb5e144cdb569e24c657e8e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7443a7b2b7398f6b55d8264834c2e451') in 0.091263 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.563415 seconds.
-  path: Assets/Prefabs/Building Prefab/Colosseum.prefab
-  artifactKey: Guid(722aa011bb5e144cdb569e24c657e8e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Building Prefab/Colosseum.prefab using Guid(722aa011bb5e144cdb569e24c657e8e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6903b220ec6fe5b2e34fb3057fb8198a') in 0.070053 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.473929 seconds.
-  path: Assets/Prefabs/Building Prefab/Colosseum.prefab
-  artifactKey: Guid(722aa011bb5e144cdb569e24c657e8e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Building Prefab/Colosseum.prefab using Guid(722aa011bb5e144cdb569e24c657e8e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f57fdb7183b0730aee0553800aecaf2e') in 0.088813 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.011149 seconds.
-  path: Assets/Prefabs/Building Prefab/Colosseum.prefab
-  artifactKey: Guid(722aa011bb5e144cdb569e24c657e8e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Building Prefab/Colosseum.prefab using Guid(722aa011bb5e144cdb569e24c657e8e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30d886ea8b55992a70361ccffa8db549') in 0.078685 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 9.981654 seconds.
-  path: Assets/Prefabs/Building Prefab/Colosseum.prefab
-  artifactKey: Guid(722aa011bb5e144cdb569e24c657e8e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Building Prefab/Colosseum.prefab using Guid(722aa011bb5e144cdb569e24c657e8e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e41c06e79409304ebf56ed5cf0502a87') in 0.067504 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.008227 seconds.
-  path: Assets/Prefabs/Building Prefab/Colosseum.prefab
-  artifactKey: Guid(722aa011bb5e144cdb569e24c657e8e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Building Prefab/Colosseum.prefab using Guid(722aa011bb5e144cdb569e24c657e8e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60ea4f0ec7c9c583344f540d7f64da89') in 0.074031 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 8.586852 seconds.
-  path: Assets/Prefabs/Building Prefab/Colosseum.prefab
-  artifactKey: Guid(722aa011bb5e144cdb569e24c657e8e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Building Prefab/Colosseum.prefab using Guid(722aa011bb5e144cdb569e24c657e8e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd80e66c58c46e435c9a89db7e749552') in 0.065277 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.221006 seconds.
-  path: Assets/Prefabs/Building Prefab/Colosseum.prefab
-  artifactKey: Guid(722aa011bb5e144cdb569e24c657e8e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Building Prefab/Colosseum.prefab using Guid(722aa011bb5e144cdb569e24c657e8e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a74da8307b03ce917ed44c8238c4db71') in 0.072396 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 13.844632 seconds.
-  path: Assets/Prefabs/Building Prefab/Colosseum.prefab
-  artifactKey: Guid(722aa011bb5e144cdb569e24c657e8e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Building Prefab/Colosseum.prefab using Guid(722aa011bb5e144cdb569e24c657e8e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c87878eb758eabab2a69c3b1df55f83d') in 0.060831 seconds 
+Start importing Assets/Prefabs/Building Prefab/Colosseum.prefab using Guid(722aa011bb5e144cdb569e24c657e8e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab1d8d128e672b696a47dc7655999eb7') in 0.065841 seconds 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
