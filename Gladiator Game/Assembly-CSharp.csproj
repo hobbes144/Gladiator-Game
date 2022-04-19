@@ -73,7 +73,7 @@
     <Compile Include="Assets\Art\Enemy-Player Art\animationStateController.cs" />
     <Compile Include="Assets\Scripts\Menu Scripts\PausedMenu.cs" />
     <Compile Include="Assets\Scripts\Player Scripts\FPS_Scripts\Components\GroundCheck.cs" />
-    <Compile Include="Assets\Scripts\Controller Scripts\enemySpawn.cs" />
+    <Compile Include="Assets\Scripts\Controller Scripts\enemySpawner.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Art\MainMenuArt\TextMesh Pro\Shaders\TMPro.cginc" />

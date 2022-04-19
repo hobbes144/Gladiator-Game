@@ -24,7 +24,7 @@ public class enemyBase : MonoBehaviour
     float enemyHealth = 100.0f;
     float enemyDamage = 10.0f;
     float attackRange = 2.5f;
-    float attackCooldown = 5.0f;
+    float attackCooldown = 3.0f;
 
     [Header("Emeny Attack")]
     bool inAttackRange = false;
