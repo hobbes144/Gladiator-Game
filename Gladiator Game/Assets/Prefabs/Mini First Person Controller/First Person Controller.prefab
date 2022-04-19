@@ -542,9 +542,9 @@ MonoBehaviour:
   fpsCamera: {fileID: 20437472682476688}
   groundCheck: {fileID: 0}
   walkBobSpeed: 14
-  walkBobAmount: 0.5
+  walkBobAmount: 0.1
   sprintBobSpeed: 14
-  sprintBobAmount: 0.5
+  sprintBobAmount: 0.2
 --- !u!114 &114497868231759342
 MonoBehaviour:
   m_ObjectHideFlags: 0

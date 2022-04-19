@@ -161,3 +161,46 @@ Received Import Request.
   path: Assets/Art/Terrain Art
   artifactKey: Guid(60656305ce6704a138df568a2750401c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Art/Terrain Art using Guid(60656305ce6704a138df568a2750401c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00fba3931c0fbf9e6fb7523fc11bcbe8') in 0.001165 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 897.022902 seconds.
+  path: Assets/Prefabs/Mini First Person Controller/First Person Controller.prefab
+  artifactKey: Guid(11aaea5348574644a9eb4f4504fcce3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Mini First Person Controller/First Person Controller.prefab using Guid(11aaea5348574644a9eb4f4504fcce3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24752f230621daa023af3e555f713b74') in 1.108034 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.283671 seconds.
+  path: Assets/Prefabs/Mini First Person Controller/First Person Controller.prefab
+  artifactKey: Guid(11aaea5348574644a9eb4f4504fcce3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Mini First Person Controller/First Person Controller.prefab using Guid(11aaea5348574644a9eb4f4504fcce3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbda766136922f578db7a205a3854780') in 0.017158 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 165.186416 seconds.
+  path: Assets/Scenes/ArenaScene.unity
+  artifactKey: Guid(c1b1da90f313449feae1e0e166ce65f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/ArenaScene.unity using Guid(c1b1da90f313449feae1e0e166ce65f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '851fa532fd3b885362d69ce47483ccdd') in 0.002183 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 30.324540 seconds.
+  path: Assets/Prefabs/Building Prefab/Colosseum.prefab
+  artifactKey: Guid(722aa011bb5e144cdb569e24c657e8e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Building Prefab/Colosseum.prefab using Guid(722aa011bb5e144cdb569e24c657e8e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2b3caa28ffbd72bd47f83fb233c7b9f') in 0.134349 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.796967 seconds.
+  path: Assets/Prefabs/Building Prefab/Colosseum.prefab
+  artifactKey: Guid(722aa011bb5e144cdb569e24c657e8e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Building Prefab/Colosseum.prefab using Guid(722aa011bb5e144cdb569e24c657e8e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4a9e2170a2b359228d4f9f9736403b8') in 0.081179 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 80.335022 seconds.
+  path: Assets/Prefabs/Building Prefab/Colosseum.prefab
+  artifactKey: Guid(722aa011bb5e144cdb569e24c657e8e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Building Prefab/Colosseum.prefab using Guid(722aa011bb5e144cdb569e24c657e8e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a229d68b06fa7b55b06007e971f08017') in 0.094426 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1384.654370 seconds.
+  path: Assets/Scripts/Menu Scripts/MainMenuScript.cs
+  artifactKey: Guid(3677fd1e9021040a09efaebac3a6f832) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Menu Scripts/MainMenuScript.cs using Guid(3677fd1e9021040a09efaebac3a6f832) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eaef412472dbdf3969601416de3bea62') in 0.259430 seconds 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
