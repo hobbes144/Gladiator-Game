@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.86039484, g: 0.7786002, b: 0.6549477, a: 1}
+  m_IndirectSpecularColor: {r: 0.8603332, g: 0.77859706, b: 0.6548764, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -847,6 +847,10 @@ PrefabInstance:
       propertyPath: patrolStart
       value: 
       objectReference: {fileID: 458783902}
+    - target: {fileID: 6618549113452125145, guid: d51935e43084c594bab52a2af801542a, type: 3}
+      propertyPath: playerReference
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 6618549113452125149, guid: d51935e43084c594bab52a2af801542a, type: 3}
       propertyPath: m_RootOrder
       value: 9
