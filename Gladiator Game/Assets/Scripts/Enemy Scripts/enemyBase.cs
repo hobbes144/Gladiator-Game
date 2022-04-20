@@ -10,7 +10,7 @@ enum AI_States
 public class enemyBase : MonoBehaviour
 {
 
-    Player_Equiped playerReference;
+    //Player_Equipped playerReference;
     
 
     [SerializeField] private float huntThreshold = 10f;
@@ -43,7 +43,6 @@ public class enemyBase : MonoBehaviour
     void Start()
     {
         steering = GetComponent<moveTo>();
-        playerReference = GetComponent<Player_Equiped>();
     }
 
     // Update is called once per frame
@@ -153,7 +152,7 @@ public class enemyBase : MonoBehaviour
     {
         attacking = true;
         //play attack animation**
-        playerReference.playerDamaged(enemyDamage);
+        //playerReference.playerDamaged(enemyDamage);
         Debug.Log("Enemy is hit");
 
         attackTimer = 0.0f;
