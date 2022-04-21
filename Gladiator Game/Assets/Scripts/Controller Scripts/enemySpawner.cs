@@ -30,7 +30,7 @@ public class enemySpawner : MonoBehaviour
         for (enemyCount = 0; enemyCount < maxSpawns; enemyCount++)
         {
             Instantiate(enemyBasePrefab, transform.position, Quaternion.identity);
-            Debug.Log("Enemy is spawned");
+            //Debug.Log("Enemy is spawned");
             yield return new WaitForSeconds(spawnDelay);
 
         }

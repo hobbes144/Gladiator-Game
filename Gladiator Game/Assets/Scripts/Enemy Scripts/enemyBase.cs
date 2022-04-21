@@ -21,7 +21,7 @@ public class enemyBase : MonoBehaviour
     [SerializeField] float enemyHealth = 100.0f;
     [SerializeField] float enemyCurrHealth = 100.0f;
     [SerializeField] float enemyDamage = 10.0f;
-    [SerializeField] float attackRange = 1.0f;
+    [SerializeField] float attackRange = 5.0f;
     [SerializeField] float attackCooldown = 3.0f;
 
     [Header("Emeny Attack")]
@@ -58,7 +58,7 @@ public class enemyBase : MonoBehaviour
                 break;
         }
 
-        if (Vector3.Distance(player.position, transform.position) > attackRange)
+        if (Vector3.Distance(player.position, transform.position) < attackRange)
         {
             inAttackRange = true;
         }
@@ -108,7 +108,7 @@ public class enemyBase : MonoBehaviour
         attacking = true;
         //play attack animation**
         //playerReference.playerDamaged(enemyDamage);
-        //Debug.Log("Enemy is hit");
+        Debug.Log("Enemy is hit");
 
         attackTimer = 0.0f;
         attacking = false;
