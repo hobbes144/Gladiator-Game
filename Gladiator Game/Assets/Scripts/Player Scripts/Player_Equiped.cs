@@ -31,6 +31,7 @@ public class Player_Equiped : MonoBehaviour
     [SerializeField] private float armor = 0; //% of reduced damage
 
     [Header("Weapons")] //Serialized Weapon Game Objects
+    [SerializeField] private GameObject hand;
     [SerializeField] private GameObject dagger;
     [SerializeField] private GameObject sword;
     [SerializeField] private GameObject crossBow;
@@ -39,13 +40,22 @@ public class Player_Equiped : MonoBehaviour
 
     private Weapon_Equip weaponEquiped; //Enum representation of weapon
     private GameObject weapon; //Weapon player is using
+    private GameObject wepPrefab;//Prefab of weapon to create
 
     private FirstPersonMovement firstPersonMovement; //used for speed management
+
+    private bool canFire = true;
+    private float dur = 0;
 
     // Start is called before the first frame update
     void Start()
     {
         firstPersonMovement = gameObject.GetComponent<FirstPersonMovement>();
+
+        GameObject firstDagger = Instantiate(dagger, hand.transform);
+        weaponEquiped = Weapon_Equip.Dagger;
+        weapon = firstDagger;
+        weapon.transform.parent = hand.transform;
     }
 
     // Update is called once per frame
@@ -59,11 +69,13 @@ public class Player_Equiped : MonoBehaviour
     //-----------Weapon Management-----------
     private void handleWeaponSwap()
     {
+        bool swapped = false;
+        //swap weapon left
         if (Input.GetKeyDown(KeyCode.Q))
         {
+            swapped = true;
             switch (weaponEquiped)
             {
-                //swap weapon left
                 case Weapon_Equip.Dagger:
                     weaponEquiped = Weapon_Equip.GreekFire;
                     break;
@@ -83,6 +95,7 @@ public class Player_Equiped : MonoBehaviour
         }
         else if (Input.GetKeyDown(KeyCode.E))
         {
+            swapped = true;
             //swap weapons right
             switch (weaponEquiped)
             {
@@ -104,39 +117,57 @@ public class Player_Equiped : MonoBehaviour
             }//end switch
         }
 
-        switch (weaponEquiped) {
-            case Weapon_Equip.Dagger:
-                weapon = dagger;
-                break;
-            case Weapon_Equip.Sword:
-                weapon = sword;
-                break;
-            case Weapon_Equip.Crossbow:
-                weapon = crossBow;
-                break;
-            case Weapon_Equip.Bow:
-                weapon = bow;
-                break;
-            case Weapon_Equip.GreekFire:
-                weapon = greekFire;
-                break;
-        }
+        if (swapped) { 
+            switch (weaponEquiped) {
+                case Weapon_Equip.Dagger:
+                    wepPrefab = dagger;
+                    break;
+                case Weapon_Equip.Sword:
+                    wepPrefab = sword;
+                    break;
+                case Weapon_Equip.Crossbow:
+                    wepPrefab = crossBow;
+                    break;
+                case Weapon_Equip.Bow:
+                    wepPrefab = bow;
+                    break;
+                case Weapon_Equip.GreekFire:
+                    wepPrefab = greekFire;
+                    break;
+            }
+    
+            while (hand.gameObject.transform.childCount > 0)
+            {
+                GameObject removed = hand.gameObject.transform.GetChild(0).gameObject;
+                removed.transform.parent = null;
+                Destroy(removed);
+            }
 
+            weapon = Instantiate(wepPrefab, hand.transform);
+            weapon.transform.parent = hand.transform;
+        }
     }
     private void handleAttack()
     {
-        if (Input.GetButtonDown("Fire1")) {
+        if (Input.GetButtonDown("Fire1") && canFire)
+        {
             ProjectileWeapon projectileWeapon = weapon.GetComponent<ProjectileWeapon>();
             if (projectileWeapon != null)
             {
                 projectileWeapon.projectileFired();
-                return;
+                dur = projectileWeapon.getRechangeTime();
             }
             MeleeWeapon meleeWeapon = weapon.GetComponent<MeleeWeapon>();
             if (meleeWeapon != null)
             {
                 meleeWeapon.meleeFired();
+                dur = meleeWeapon.getRechargeTime();
             }
+
+            canFire = false;
+            StartCoroutine(resetCanFire());
+
+            print("Dur = " + dur);
         }
     }
 
@@ -183,9 +214,9 @@ public class Player_Equiped : MonoBehaviour
 
 
     //-----------Corountines-----------
-    IEnumerator resetBoolAfterDuration(bool toReset, float duration)
+    IEnumerator resetCanFire()
     {
-        yield return new WaitForSeconds(duration);
-        toReset = true;
+        yield return new WaitForSeconds(dur);
+        canFire = true;
     }
 }

@@ -5,7 +5,7 @@ using UnityEngine;
 public class ProjectileWeapon : MonoBehaviour
 {
     [Header("Projectile Weapon")]
-    [SerializeField] private Player_Equiped player;
+    private Player_Equiped player;
     [SerializeField] private GameObject projectile;
     [SerializeField] private Transform launchPoint;
     [SerializeField] private bool semiauto;
@@ -13,24 +13,21 @@ public class ProjectileWeapon : MonoBehaviour
     [Header("Fire Info")]
     [SerializeField] private float rechargeTime;
     [SerializeField] private float power;
-    private bool canFire = true;
 
     public void projectileFired()
     {
-        if (semiauto? true : canFire)
-        {
-            GameObject proj = Instantiate(projectile, launchPoint.position, Quaternion.identity);
-            proj.GetComponent<ProjectileScript>().updateDamage(player.rangedDamageFactor);
-            proj.GetComponent<Rigidbody>().AddForce(launchPoint.forward * power, ForceMode.Impulse);
+        player = GameObject.FindWithTag("Player").GetComponent<Player_Equiped>();
 
-            canFire = false;
-            StartCoroutine(resetBoolAfterDuration(canFire, rechargeTime));
-        }
+        GameObject proj = Instantiate(projectile, launchPoint.localPosition, launchPoint.rotation);
+        proj.transform.position = launchPoint.position;
+        proj.GetComponent<projectileFired>().updateDamage(player.rangedDamageFactor);
+        proj.GetComponent<Rigidbody>().AddForce(proj.transform.forward * power, ForceMode.Impulse);
     }
 
-    IEnumerator resetBoolAfterDuration(bool toReset, float duration)
+    public float getRechangeTime()
     {
-        yield return new WaitForSeconds(duration);
-        toReset = true;
+        if (!semiauto) { return rechargeTime; }
+        else { return 0.0f; }
+        
     }
 }

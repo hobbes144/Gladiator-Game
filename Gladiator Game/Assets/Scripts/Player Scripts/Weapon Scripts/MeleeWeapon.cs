@@ -5,25 +5,32 @@ using UnityEngine;
 public class MeleeWeapon : MonoBehaviour
 {
     [Header("Projectile Weapon")]
-    [SerializeField] private Player_Equiped player;
+    private Player_Equiped player;
     [SerializeField] private GameObject triggerBox;
     [SerializeField] private Transform spawnPoint;
     [SerializeField] private bool semiauto;
 
     [Header("Trigger Box Info")]
     [SerializeField] private float rechargeTime;
-    private bool canFire = true;
+
+    private void Start()
+    {
+        
+    }
 
     public void meleeFired()
     {
-        if (canFire)
-        {
-            GameObject box = Instantiate(triggerBox, spawnPoint.position, Quaternion.identity);
-            box.GetComponent<TriggerBoxScript>().updateDamage(player.rangedDamageFactor);
+        player = GameObject.FindWithTag("Player").GetComponent<Player_Equiped>();
 
-            canFire = false;
-            StartCoroutine(resetBoolAfterDuration(canFire, rechargeTime));
-        }
+        GameObject box = Instantiate(triggerBox, spawnPoint.position, Quaternion.identity);
+        box.transform.position = spawnPoint.position;
+        box.GetComponentInChildren<triggerBox>().updateDamage(player.rangedDamageFactor);
+    }
+
+    public float getRechargeTime()
+    {
+        if (!semiauto) { return rechargeTime; }
+        else { return 0.0f; }
     }
 
     IEnumerator resetBoolAfterDuration(bool toReset, float duration)
