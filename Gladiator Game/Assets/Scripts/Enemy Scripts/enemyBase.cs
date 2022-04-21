@@ -1,42 +1,64 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.AI;
+
+enum AI_States
+{
+    PATROL_STATE, HUNT_STATE, GOver_STATE
+}
 
 public class enemyBase : MonoBehaviour
 {
-    [SerializeField] Transform player;
 
-    [SerializeField] float enemyMoveSpeed = 5.0f;
-    [SerializeField] float minDistance = 1.0f;
+    //Player_Equipped playerReference;
+    bool GameOver = false;
 
-    float attackRange = 2.5f; //threshold for attack (differing for each enemy)
-    bool inAttackRange = false; //check threshold
+    [SerializeField] private AI_States state = AI_States.HUNT_STATE;
+    [SerializeField] private Transform selfLocation;
+    [SerializeField] private Transform player;
+
+    [Header("Emeny")]
+    [SerializeField] float enemyHealth = 100.0f;
+    [SerializeField] float enemyCurrHealth = 100.0f;
+    [SerializeField] float enemyDamage = 10.0f;
+    [SerializeField] float attackRange = 5.0f;
+    [SerializeField] float attackCooldown = 3.0f;
+
+    [Header("Emeny Attack")]
+    bool inAttackRange = false;
     bool attacking = false;
+    float attackTimer = 0.0f;
 
-    float attackCooldown = 0.0f;
+    private Transform moveTarget;
+    private moveTo steering;
 
-    [SerializeField] Transform _destination;
-    
+    //these are to ensure that the agent hunts for at least a second and doesnt just reset if on the tangent
+    private float timer;
+    private bool canLeaveHunt = false;
+    [SerializeField] private float huntStickTime = 1f;
 
     // Start is called before the first frame update
     void Start()
     {
-        
-        
+        steering = GetComponent<moveTo>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        transform.LookAt(player);
-
-        if (Vector3.Distance(transform.position, player.position) >= minDistance);
+        switch (state)
         {
-            transform.position += transform.forward * enemyMoveSpeed * Time.deltaTime;
+
+            case AI_States.HUNT_STATE:
+                doHunt();
+                break;
+
+            case AI_States.GOver_STATE:
+                doGOver();
+                break;
         }
 
-        if (Vector3.Distance(player.position, transform.position) > attackRange) 
+        if (Vector3.Distance(player.position, transform.position) < attackRange)
         {
             inAttackRange = true;
         }
@@ -45,32 +67,64 @@ public class enemyBase : MonoBehaviour
             inAttackRange = false;
         }
 
-        if (inAttackRange && !attacking && (attackCooldown <= 0.0f))
+        if (inAttackRange && !attacking && (attackTimer >= attackCooldown))
         {
             attackCycle();
         }
 
-        attackCooldown -= Time.deltaTime;
+        attackTimer += Time.deltaTime;
+    }
+
+    private void doHunt()
+    {
+        float distanceToTarget = Vector3.Distance(transform.position, player.position);
+        if (GameOver)
+        {
+            state = AI_States.GOver_STATE;
+        }//else hunt down the player
+        else
+        {
+            
+        }
+    }
+
+    private void doGOver()
+    {
+        if (GameOver)
+        {
+            steering.setTarget(selfLocation);
+            moveTarget = selfLocation;
+        }
+        else
+        {
+            state = AI_States.HUNT_STATE;
+            moveTarget = player;
+            steering.setTarget(player);
+        }
     }
 
     void attackCycle()
     {
         attacking = true;
         //play attack animation**
-        //player.health -= 10; //not fixed value
+        //playerReference.playerDamaged(enemyDamage);
+        Debug.Log("Enemy is hit");
 
-        attackCooldown = 5.0f;
-
+        attackTimer = 0.0f;
         attacking = false;
-        
+
     }
 
-    private void SetDestination()
+    public void enemyHit(float knockback, float damage)
     {
-        if (_destination != null)
-        {
-            Vector3 targetVector = _destination.transform.position;
-            
-        }
+
+
+
+        enemyCurrHealth -= damage;
+
+
     }
+
+
+
 }

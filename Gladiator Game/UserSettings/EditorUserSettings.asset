@@ -27,7 +27,11 @@ EditorUserSettings:
       value: 22424703114646680e0b0227036c72111f19352f223d68252320092a
       flags: 0
     RecentlyUsedScenePath-7:
+<<<<<<< HEAD
       value: 22424703114646680e0b0227036c7e02131919192f2d2835633c133af6f9
+=======
+      value: 22424703114646680e0b0227036c6b35252319382926277e38271427fb
+>>>>>>> Trevin-2
       flags: 0
     vcSharedLogLevel:
       value: 0d5e400f0650

@@ -1,5 +1,9 @@
 sceneSetups:
+<<<<<<< HEAD
 - path: Assets/Scenes/ArenaScene.unity
+=======
+- path: Assets/Scenes/TESTarena.unity
+>>>>>>> Trevin-2
   isLoaded: 1
   isActive: 1
   isSubScene: 0
