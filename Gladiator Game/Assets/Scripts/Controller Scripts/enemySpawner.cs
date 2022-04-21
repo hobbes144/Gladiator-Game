@@ -4,25 +4,36 @@ using UnityEngine;
 
 public class enemySpawner : MonoBehaviour
 {
-    [SerializeField] private GameObject enemyBasePrefab;
 
-    [SerializeField] private float enemyInterval = 3.5f;
+    [SerializeField] GameObject enemyBasePrefab;
+    [SerializeField] private int enemyCount;
+    [SerializeField] private int maxSpawns;
+    [SerializeField] private float spawnDelay;
+
+
+
     // Start is called before the first frame update
     void Start()
     {
-
+        StartCoroutine(enemySpawn(maxSpawns));
     }
 
     // Update is called once per frame
     void Update()
     {
-        StartCoroutine(spawnEnemy(enemyInterval, enemyBasePrefab));
+        
     }
 
-    private IEnumerator spawnEnemy(float interval, GameObject enemyType)
+    private IEnumerator enemySpawn(int maxSpawns)
     {
-        yield return new WaitForSeconds(interval);
-        GameObject newEnemy = Instantiate(enemyType, new Vector3(Random.Range(-5f, 5f), Random.Range(-6f, 6f), 0), Quaternion.identity);
-        StartCoroutine(spawnEnemy(interval, enemyType));
+        
+        for (enemyCount = 0; enemyCount < maxSpawns; enemyCount++)
+        {
+            Instantiate(enemyBasePrefab, transform.position, Quaternion.identity);
+            Debug.Log("Enemy is spawned");
+            yield return new WaitForSeconds(spawnDelay);
+
+        }
+
     }
 }
