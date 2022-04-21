@@ -1,7 +1,7 @@
 ﻿<Properties StartupConfiguration="{14408EA6-4B26-82A5-E0F4-DBDD50A6D2BA}|">
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Menu Scripts/MainMenuScript.cs">
     <Files>
-      <File FileName="Assets/Scripts/Menu Scripts/MainMenuScript.cs" Line="71" Column="48" />
+      <File FileName="Assets/Scripts/Menu Scripts/MainMenuScript.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -13,7 +13,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="0b8f58e0-62be-4a83-a8cd-cfcb08b0e47f" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="6c3f4e03-6c64-402e-99f6-05b39750e9d1" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

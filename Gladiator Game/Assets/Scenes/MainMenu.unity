@@ -258,6 +258,10 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
+    - target: {fileID: 5248816572270201391, guid: 4c733b6fb3f4b40e0b1459d9ecfa8fa0, type: 3}
+      propertyPath: m_Color.a
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4c733b6fb3f4b40e0b1459d9ecfa8fa0, type: 3}
 --- !u!224 &81895924 stripped
@@ -1016,7 +1020,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.7921569, g: 0.5411765, b: 0.18039216, a: 1}
+  m_Color: {r: 0.7921569, g: 0.5411765, b: 0.18039216, a: 0}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -1719,6 +1723,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: articleSystemFIreRing
       objectReference: {fileID: 0}
+    - target: {fileID: 2941982238866766793, guid: 9abc96d5b9ef94112b415043231ff3b0, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3428834681948836790, guid: 9abc96d5b9ef94112b415043231ff3b0, type: 3}
       propertyPath: m_Materials.Array.size
       value: 1
@@ -1749,7 +1757,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6232245725055009528, guid: 9abc96d5b9ef94112b415043231ff3b0, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -143
+      value: -87
       objectReference: {fileID: 0}
     - target: {fileID: 6232245725055009528, guid: 9abc96d5b9ef94112b415043231ff3b0, type: 3}
       propertyPath: m_LocalRotation.w

@@ -62,6 +62,7 @@ public class MainMenuScript : MonoBehaviour
     {
         GamePlayScreen.SetActive(true); //Shows GamePlayScreen
         ParticleSystemFireRing.SetActive(false);
+        MainMenuButtons.SetActive(false);
     }
 
 
@@ -69,6 +70,7 @@ public class MainMenuScript : MonoBehaviour
     {
         GamePlayScreen.SetActive(false); //Hides GamePlayScreen
         ParticleSystemFireRing.SetActive(true);
+        MainMenuButtons.SetActive(true);
     }
 
 
