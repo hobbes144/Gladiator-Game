@@ -75,7 +75,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 29fff182867ed4d2e90dfc9ecf386737, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  projectile: {fileID: 135746, guid: aa64b9ae639024c5097e12b27ac1d84c, type: 3}
+  projectile: {fileID: 135746, guid: c0d3e94f286c6be4e9aaf8ab2f3b01b9, type: 3}
   launchPoint: {fileID: 4494877113934811269}
   semiauto: 0
   rechargeTime: 1

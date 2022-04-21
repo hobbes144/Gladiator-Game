@@ -7,6 +7,7 @@ public class enemyHealthAOE : MonoBehaviour
 
     [Header("AOE Effect")]
     [SerializeField] private float healthDelta;
+    [SerializeField] private float knockbackPower;
     [SerializeField] private float radius;
     [SerializeField] private GameObject particleObject;
     [SerializeField] private LayerMask enemyLayer;
@@ -39,7 +40,7 @@ public class enemyHealthAOE : MonoBehaviour
         foreach (Collider c in colliders)
         {
             //c is the enemy
-            //get its component and decrease it's health
+            c.gameObject.GetComponent<enemyBase>().enemyHit(healthDelta, knockbackPower);
         }
     }
 

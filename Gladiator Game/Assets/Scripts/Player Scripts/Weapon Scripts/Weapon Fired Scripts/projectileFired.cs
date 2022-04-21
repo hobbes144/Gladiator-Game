@@ -12,11 +12,21 @@ public class projectileFired : MonoBehaviour
     [SerializeField] private GameObject hitEffect;
     //[SerializeField] private aoeEffect aoeEffect;
 
+    private void Start()
+    {
+        Physics.IgnoreLayerCollision(3,6, true);
+    }
+
     private void OnCollisionEnter(Collision collision)
     {
         Destroy(gameObject);
 
+        print("collided with: "+ collision.gameObject);
+
         //Projectile has collided with a target
+        if (collision.gameObject.GetComponent<enemyBase>() != null) {
+            collision.gameObject.GetComponent<enemyBase>().enemyHit(damage, knockbackPower);
+        }
 
         if (hitEffect != null)
         {

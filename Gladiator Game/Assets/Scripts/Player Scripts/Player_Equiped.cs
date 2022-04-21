@@ -188,6 +188,12 @@ public class Player_Equiped : MonoBehaviour
     public void playerDamaged(float damage)
     {
         currHealth -= damage * ((100.0f - armor) / 100.0f);
+
+        if (currHealth <= 0)
+        {
+            //player dies
+            print("GAME OVER - PLAYER DEATH");
+        }
     }
     public void healPlayer(float amount)
     {

@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 1011999840373266513}
   - component: {fileID: 8848133235360817091}
   - component: {fileID: 3482091765726488971}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Arrow_Regular
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -117,6 +117,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 25
+  knockbackPower: 0
+  hitEffect: {fileID: 0}
 --- !u!65 &8848133235360817091
 BoxCollider:
   m_ObjectHideFlags: 0

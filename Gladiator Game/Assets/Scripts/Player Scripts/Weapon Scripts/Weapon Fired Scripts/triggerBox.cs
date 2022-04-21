@@ -23,5 +23,9 @@ public class triggerBox : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
         //other has entered the trigger, do damage (KNOCKBACK MAYBE)
+        if(other.gameObject.GetComponent<enemyBase>() != null)
+        {
+            other.gameObject.GetComponent<enemyBase>().enemyHit(damage, knockbackPower);
+        }
     }
 }

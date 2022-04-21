@@ -10,7 +10,7 @@ enum AI_States
 public class enemyBase : MonoBehaviour
 {
 
-    //Player_Equipped playerReference;
+    private Player_Equiped playerReference;
     bool GameOver = false;
 
     [SerializeField] private AI_States state = AI_States.HUNT_STATE;
@@ -40,6 +40,7 @@ public class enemyBase : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        playerReference = GameObject.FindWithTag("Player").GetComponent<Player_Equiped>();
         steering = GetComponent<moveTo>();
     }
 
@@ -107,7 +108,7 @@ public class enemyBase : MonoBehaviour
     {
         attacking = true;
         //play attack animation**
-        //playerReference.playerDamaged(enemyDamage);
+        playerReference.playerDamaged(enemyDamage);
         Debug.Log("Enemy is hit");
 
         attackTimer = 0.0f;
@@ -117,12 +118,13 @@ public class enemyBase : MonoBehaviour
 
     public void enemyHit(float knockback, float damage)
     {
-
-
-
         enemyCurrHealth -= damage;
 
-
+        if (enemyCurrHealth <= 0)
+        {
+            //enemy dies
+            Destroy(gameObject);
+        }
     }
 
 

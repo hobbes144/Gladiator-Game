@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <LangVersion>7.3</LangVersion>
+    <LangVersion>8.0</LangVersion>
   </PropertyGroup>
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -53,9 +53,12 @@
     <UnityVersion>2020.3.31f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
+    <Analyzer Include="C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
+  </ItemGroup>
+  <ItemGroup>
     <Compile Include="Assets\Scripts\Player Scripts\FPS_Scripts\FirstPersonMovement.cs" />
     <Compile Include="Assets\Scripts\Player Scripts\FPS_Scripts\Components\Zoom.cs" />
-    <Compile Include="Assets\Scripts\Player Scripts\Weapon Scripts\Weapon Fired Scripts\Projectile Script.cs" />
+    <Compile Include="Assets\Scripts\Player Scripts\Weapon Scripts\Weapon Fired Scripts\projectileFired.cs" />
     <Compile Include="Assets\Scripts\Player Scripts\FPS_Scripts\Components\FirstPersonAudio.cs" />
     <Compile Include="Assets\Scripts\Player Scripts\FPS_Scripts\FirstPersonLook.cs" />
     <Compile Include="Assets\Art\Enemy-Player Art\True_Fantastic_Creatures\Centaur\Centaur_ctrl.cs" />
@@ -71,7 +74,7 @@
     <Compile Include="Assets\Scripts\Controller Scripts\enemySpawner.cs" />
     <Compile Include="Assets\Scripts\Player Scripts\Weapon Scripts\ProjectileWeapon.cs" />
     <Compile Include="Assets\Scripts\Enemy Scripts\enemyBase.cs" />
-    <Compile Include="Assets\Scripts\Player Scripts\Weapon Scripts\Weapon Fired Scripts\Trigger Box Script.cs" />
+    <Compile Include="Assets\Scripts\Player Scripts\Weapon Scripts\Weapon Fired Scripts\triggerBox.cs" />
     <Compile Include="Assets\Scripts\Player Scripts\Weapon Scripts\Weapon Fired Scripts\enemyHealthAOE.cs" />
     <Compile Include="Assets\Scripts\Player Scripts\FPS_Scripts\Components\Crouch.cs" />
     <Compile Include="Assets\Scripts\Menu Scripts\PausedMenu.cs" />
