@@ -68,6 +68,7 @@
     <Compile Include="Assets\PlayerMovement.cs" />
     <Compile Include="Assets\NavMeshBaker.cs" />
     <Compile Include="Assets\Scripts\Player Scripts\FPS_Scripts\Components\Jump.cs" />
+    <Compile Include="Assets\Scripts\Controller Scripts\enemySpawner.cs" />
     <Compile Include="Assets\Scripts\Player Scripts\Weapon Scripts\ProjectileWeapon.cs" />
     <Compile Include="Assets\Scripts\Enemy Scripts\enemyBase.cs" />
     <Compile Include="Assets\Scripts\Player Scripts\Weapon Scripts\Weapon Fired Scripts\Trigger Box Script.cs" />
@@ -76,7 +77,6 @@
     <Compile Include="Assets\Scripts\Menu Scripts\PausedMenu.cs" />
     <Compile Include="Assets\mouseLook.cs" />
     <Compile Include="Assets\Scripts\Player Scripts\FPS_Scripts\Components\GroundCheck.cs" />
-    <Compile Include="Assets\Scripts\Controller Scripts\enemySpawner.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Art\MainMenuArt\TextMesh Pro\Shaders\TMPro.cginc" />
@@ -695,6 +695,9 @@
     <Reference Include="Unity.Searcher.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.Searcher.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.2D.Sprite.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.RenderPipelines.Core.Runtime">
       <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll</HintPath>
     </Reference>
@@ -718,6 +721,12 @@
     </Reference>
     <Reference Include="Unity.ShaderGraph.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Cinemachine">
+      <HintPath>Library\ScriptAssemblies\Cinemachine.dll</HintPath>
+    </Reference>
+    <Reference Include="com.unity.cinemachine.editor">
+      <HintPath>Library\ScriptAssemblies\com.unity.cinemachine.editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.RenderPipelines.Universal.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll</HintPath>
