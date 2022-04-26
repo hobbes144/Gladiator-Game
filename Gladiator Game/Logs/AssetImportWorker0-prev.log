@@ -1,0 +1,404 @@
+Unity Editor version:    2020.3.31f1 (6b54b7616050)
+Branch:                  2020.3/release
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 12.3 (Build 21E230)
+Darwin version:          21.4.0
+Architecture:            x86_64
+Running under Rosetta:   NO
+Available memory:        8192 MB
+Using pre-set license
+Pro License: NO
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2020.3.31f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/paigekaylor/Desktop/CPI_211_Final_Game/Gladiator-Game/Gladiator Game
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+61528
+Successfully changed project path to: /Users/paigekaylor/Desktop/CPI_211_Final_Game/Gladiator-Game/Gladiator Game
+/Users/paigekaylor/Desktop/CPI_211_Final_Game/Gladiator-Game/Gladiator Game
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 74.04 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.31f1 (6b54b7616050)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2020.3.31f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/paigekaylor/Desktop/CPI_211_Final_Game/Gladiator-Game/Gladiator Game/Assets
+GfxDevice: creating device client; threaded=0
+2022-04-26 13:33:14.325 Unity[41343:1379365] Color LCD preferred device: Intel(R) Iris(TM) Plus Graphics 655 (low power)
+2022-04-26 13:33:14.325 Unity[41343:1379365] Metal devices available: 1
+2022-04-26 13:33:14.325 Unity[41343:1379365] 0: Intel(R) Iris(TM) Plus Graphics 655 (low power)
+2022-04-26 13:33:14.325 Unity[41343:1379365] Using device Intel(R) Iris(TM) Plus Graphics 655 (low power)
+Initializing Metal device caps: Intel(R) Iris(TM) Plus Graphics 655
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2020.3.31f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2020.3.31f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = '/Applications/Unity/Hub/Editor/2020.3.31f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56343
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2020.3.31f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.001783 seconds.
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 67.66 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.757 seconds
+Domain Reload Profiling:
+	ReloadAssembly (757ms)
+		BeginReloadAssembly (84ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (589ms)
+			LoadAssemblies (85ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (198ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (45ms)
+			SetupLoadedEditorAssemblies (249ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (68ms)
+				BeforeProcessingInitializeOnLoad (33ms)
+				ProcessInitializeOnLoadAttributes (111ms)
+				ProcessInitializeOnLoadMethodAttributes (32ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.005379 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 67.05 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.455 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1458ms)
+		BeginReloadAssembly (163ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (25ms)
+		EndReloadAssembly (1230ms)
+			LoadAssemblies (119ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (447ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (77ms)
+			SetupLoadedEditorAssemblies (432ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (67ms)
+				BeforeProcessingInitializeOnLoad (92ms)
+				ProcessInitializeOnLoadAttributes (256ms)
+				ProcessInitializeOnLoadMethodAttributes (12ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Validating Project structure ... 0.009525 seconds.
+Shader import version has changed; will reimport all shaders...
+Upgrading shader files ...0.026481 seconds.
+Application.AssetDatabase Initial Script Refresh Start
+RefreshInfo: InitialScriptRefreshV2(NoUpdateAssetOptions) scanfilter:  ... 1 filters
+RefreshProfiler: Total: 0.000ms
+Application.AssetDatabase Initial Script Refresh End
+Application.AssetDatabase.Refresh Start
+Application.AssetDatabase.Refresh End
+RefreshInfo: StopAssetImportingV2(ForceSynchronousImport) scanfilter: 
+RefreshProfiler: Total: 0.000ms
+Launching external process: /Applications/Unity/Hub/Editor/2020.3.31f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.02 seconds
+Initializing Unity extensions:
+2022-04-26 13:33:19.637 Unity[41343:1379365] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x600002b66290 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+2022-04-26 13:33:19.642 Unity[41343:1379365] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x600002bc07e0 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+========================================================================
+Worker process is ready to serve import requests
+Refreshing native plugins compatible for Editor in 0.74 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3042 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 283.2 MB.
+System memory in use after: 283.0 MB.
+
+Unloading 185 unused Assets to reduce memory usage. Loaded Objects now: 3521.
+Total: 4.414014 ms (FindLiveObjects: 0.276943 ms CreateObjectMapping: 0.189170 ms MarkObjects: 3.639461 ms  DeleteObjects: 0.307592 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Art/MainMenuArt/ColScene.png
+  artifactKey: Guid(d1f920758221e4b549c8c5cbe94abd11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/MainMenuArt/ColScene.png using Guid(d1f920758221e4b549c8c5cbe94abd11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20f92ee17740c00eb72707202f76f0ed') in 0.923020 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 278.914042 seconds.
+  path: Assets/Art/MainMenuArt/Square.png
+  artifactKey: Guid(16eb4e11dc0004746860a5b38076b931) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/MainMenuArt/Square.png using Guid(16eb4e11dc0004746860a5b38076b931) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa6fad3f08ef1f711c6b3543f1cfa284') in 0.056211 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 108.276894 seconds.
+  path: Assets/Art/Enemy-Player Art/Mixamo/xbot/Walking.fbx
+  artifactKey: Guid(33cd9bfda76462b4e86d3e94959c7c3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Enemy-Player Art/Mixamo/xbot/Walking.fbx using Guid(33cd9bfda76462b4e86d3e94959c7c3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4acf033b44d86f94d85a844d9906e77b') in 1.414484 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000279 seconds.
+  path: Assets/Art/Enemy-Player Art/Mixamo/xbot/xbot@Standing W_Briefcase Idle.fbx
+  artifactKey: Guid(97c13908d83fad54284bcb72360725dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Enemy-Player Art/Mixamo/xbot/xbot@Standing W_Briefcase Idle.fbx using Guid(97c13908d83fad54284bcb72360725dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2747b3a12023c8815373c61d00ca9b2') in 0.100510 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/Art/Enemy-Player Art/Mixamo/xbot/xbot.fbx
+  artifactKey: Guid(28ef6db6aaa1edf4082ba8c2718aea8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Enemy-Player Art/Mixamo/xbot/xbot.fbx using Guid(28ef6db6aaa1edf4082ba8c2718aea8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a903c0864fe2c976bba85259f0009e4e') in 0.115971 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/Art/Enemy-Player Art/Mixamo/xbot/xbot@Situp To Idle.fbx
+  artifactKey: Guid(010f56b9d612fc74ca0a99fb0d434165) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Enemy-Player Art/Mixamo/xbot/xbot@Situp To Idle.fbx using Guid(010f56b9d612fc74ca0a99fb0d434165) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38594e612e16c6e0bbe30e8dfc9f1ff9') in 0.177277 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/Art/Enemy-Player Art/True_Fantastic_Creatures/Terrain_stuff/Tree/Materials/Cool_tree1.mat
+  artifactKey: Guid(cb08c945d22ad4740a50047fe7a033c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Enemy-Player Art/True_Fantastic_Creatures/Terrain_stuff/Tree/Materials/Cool_tree1.mat using Guid(cb08c945d22ad4740a50047fe7a033c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6eabaa5b3f9cf2a2af7133d277fb7661') in 0.128335 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000351 seconds.
+  path: Assets/Art/Enemy-Player Art/True_Fantastic_Creatures/Centaur/Materials/Centaur_arms.mat
+  artifactKey: Guid(062a2213a2161f54ab3aa901922a1a13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Enemy-Player Art/True_Fantastic_Creatures/Centaur/Materials/Centaur_arms.mat using Guid(062a2213a2161f54ab3aa901922a1a13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cafaedc4597e6c77d41b61d965ded34e') in 0.062261 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000263 seconds.
+  path: Assets/Art/Materials/Materials/ground2_Diffuse.mat
+  artifactKey: Guid(4b9a5592c24024dc98c1492e2ef4b639) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Materials/Materials/ground2_Diffuse.mat using Guid(4b9a5592c24024dc98c1492e2ef4b639) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05eb3c24386ee7103fad571b4fb3d152') in 0.016592 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/Art/MainMenuArt/Fire Particle Systems/Resources/Materials/Grid.mat
+  artifactKey: Guid(634efac62037043bc9095640a8e1801c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/MainMenuArt/Fire Particle Systems/Resources/Materials/Grid.mat using Guid(634efac62037043bc9095640a8e1801c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0355fa13d7e72c1e49806cf2c2a73884') in 0.048848 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/Art/Enemy-Player Art/True_Fantastic_Creatures/Centaur/Materials/Centaur_body.mat
+  artifactKey: Guid(aab93f77aee29b842ab9a49a43138bc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Enemy-Player Art/True_Fantastic_Creatures/Centaur/Materials/Centaur_body.mat using Guid(aab93f77aee29b842ab9a49a43138bc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87e0b0601f49e37037bef5385c82fe07') in 0.034998 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/Art/Materials/Textures/ground_vol1/ground2/ground2.mat
+  artifactKey: Guid(88d4b65b6d484a1459f780db4b3edd0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Materials/Textures/ground_vol1/ground2/ground2.mat using Guid(88d4b65b6d484a1459f780db4b3edd0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6dccd667395af34f8f37804642e18f9a') in 0.024108 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/Art/MainMenuArt/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat
+  artifactKey: Guid(79459efec17a4d00a321bdcc27bbc385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/MainMenuArt/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat using Guid(79459efec17a4d00a321bdcc27bbc385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0eead028f1a4fc5a7dc40b807de581d') in 0.039294 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Assets/Art/Terrain Art/YughuesFreeBushes2018/Materials/M_Bush02.mat
+  artifactKey: Guid(df6c952ce6b06b649866e65546e9bb38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Terrain Art/YughuesFreeBushes2018/Materials/M_Bush02.mat using Guid(df6c952ce6b06b649866e65546e9bb38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a994a9c80e9b39c1af8a1bc077a9752') in 0.048932 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000256 seconds.
+  path: Assets/Art/Terrain Art/YughuesFreeBushes2018/Materials/M_Bush05.mat
+  artifactKey: Guid(539e6efd36fe10a4682b450875379c55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Terrain Art/YughuesFreeBushes2018/Materials/M_Bush05.mat using Guid(539e6efd36fe10a4682b450875379c55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e4161ae5db44f65c7ee36e2988bb5a7') in 0.024349 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/Art/Terrain Art/YughuesFreeBushes2018/Materials/M_Bush03.mat
+  artifactKey: Guid(cefe5e02e8418a04d927f43107b3558f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Terrain Art/YughuesFreeBushes2018/Materials/M_Bush03.mat using Guid(cefe5e02e8418a04d927f43107b3558f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a49d286af37e4e559f4353ccd779b7f3') in 0.019879 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000300 seconds.
+  path: Assets/Art/MainMenuArt/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat
+  artifactKey: Guid(e73a58f6e2794ae7b1b7e50b7fb811b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/MainMenuArt/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat using Guid(e73a58f6e2794ae7b1b7e50b7fb811b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ca61fa7ea46f28e1709013b4bb70211') in 0.029754 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/Art/MainMenuArt/TextMesh Pro/Resources/Fonts & Materials/The Butter.otf
+  artifactKey: Guid(310b014c439904704a6354b49d5441d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/MainMenuArt/TextMesh Pro/Resources/Fonts & Materials/The Butter.otf using Guid(310b014c439904704a6354b49d5441d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bccccd635a9e50ef014eecc344d390b') in 1.965712 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/Art/Enemy-Player Art/Skeleton-Low Poly/Material/Skeleton-Albedo.mat
+  artifactKey: Guid(7637b464f0a83d44ebfd8b655be7fe79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Enemy-Player Art/Skeleton-Low Poly/Material/Skeleton-Albedo.mat using Guid(7637b464f0a83d44ebfd8b655be7fe79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4896bd6ef44f87d6725d42b4ad0ae94d') in 0.026083 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/Art/Colosseum Building/Wood_Window_Round_Sill_01.obj
+  artifactKey: Guid(26ca30166be604b9285f3ea164a0d0c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Colosseum Building/Wood_Window_Round_Sill_01.obj using Guid(26ca30166be604b9285f3ea164a0d0c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ad26df3824c5328aa9784dafc0f0d35') in 0.274173 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000334 seconds.
+  path: Assets/Art/Colosseum Building/Wood_Wall_Double_Cross_01.obj
+  artifactKey: Guid(0069394c0f04a4bf3bc4952501010854) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Colosseum Building/Wood_Wall_Double_Cross_01.obj using Guid(0069394c0f04a4bf3bc4952501010854) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cd07e9544fb02c2a17e9f8dce1f3a83') in 0.084568 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000386 seconds.
+  path: Assets/Art/MainMenuArt/Fire Particle Systems/Resources/Materials/Skybox.mat
+  artifactKey: Guid(fbf826d2d213045d19f97011ac5a2a63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/MainMenuArt/Fire Particle Systems/Resources/Materials/Skybox.mat using Guid(fbf826d2d213045d19f97011ac5a2a63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d79002e3943b114dfe768829adf0987') in 0.036787 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/Art/Colosseum Building/Wood_Window_Round_01.obj
+  artifactKey: Guid(acfa991eeb144478e8aeb0bc0bb29b19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Colosseum Building/Wood_Window_Round_01.obj using Guid(acfa991eeb144478e8aeb0bc0bb29b19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3dc2604a5fdead33a4184f99a7514807') in 0.060468 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000980 seconds.
+  path: Assets/Art/Materials/Textures/walls_vol1/wall01/wall01.mat
+  artifactKey: Guid(96dae2f09f54868408f904428548d00f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Materials/Textures/walls_vol1/wall01/wall01.mat using Guid(96dae2f09f54868408f904428548d00f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62f08ebff6f31356ae36cabbbc8bfebc') in 0.045000 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/Art/MainMenuArt/Fire Particle Systems/Resources/Materials/ParticleSystem_Additive.mat
+  artifactKey: Guid(7c18f9f06339d49e784aa6c2c60ae29e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/MainMenuArt/Fire Particle Systems/Resources/Materials/ParticleSystem_Additive.mat using Guid(7c18f9f06339d49e784aa6c2c60ae29e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92176598c37f08e630318da39454f727') in 0.038323 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/Art/Colosseum Building/Wood_Window_Square_01.obj
+  artifactKey: Guid(2625eb2ebfd0a4795b0dc469dcae74f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Colosseum Building/Wood_Window_Square_01.obj using Guid(2625eb2ebfd0a4795b0dc469dcae74f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73472a421e3da477521136be4c919674') in 0.068033 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/Art/Graphics for Pipeline/WorldSkies/Sky_mat.mat
+  artifactKey: Guid(40fa5696077438a49bbce1aac01eba84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Graphics for Pipeline/WorldSkies/Sky_mat.mat using Guid(40fa5696077438a49bbce1aac01eba84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc84cd96bcffe5855361121346bb3d20') in 0.075465 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000299 seconds.
+  path: Assets/Art/Enemy-Player Art/Mixamo/paladin/paladin.fbx
+  artifactKey: Guid(3fe122459ee881d4fb1636ddca269d85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Enemy-Player Art/Mixamo/paladin/paladin.fbx using Guid(3fe122459ee881d4fb1636ddca269d85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7db834dae46e866727bab0f9d0bdfa90') in 0.217889 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/Art/Enemy-Player Art/True_Fantastic_Creatures/Terrain_stuff/Stones/Materials/Stones.mat
+  artifactKey: Guid(c2a64558126373e489ba6f2e25801143) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Enemy-Player Art/True_Fantastic_Creatures/Terrain_stuff/Stones/Materials/Stones.mat using Guid(c2a64558126373e489ba6f2e25801143) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '935754c1605e62d81b468bd3111060ad') in 0.100322 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/Art/Colosseum Building/Wood_Window_Square_Sill_01.obj
+  artifactKey: Guid(134b3a1dc435845fb816714f2bdfbfac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Colosseum Building/Wood_Window_Square_Sill_01.obj using Guid(134b3a1dc435845fb816714f2bdfbfac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0273dcfded9f50a03157e16426b2df3') in 0.071359 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/Art/Enemy-Player Art/True_Fantastic_Creatures/Terrain_stuff/Tree/Materials/tree1_leaves.mat
+  artifactKey: Guid(e672e9c555f221d47a07bf6027f6825d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Enemy-Player Art/True_Fantastic_Creatures/Terrain_stuff/Tree/Materials/tree1_leaves.mat using Guid(e672e9c555f221d47a07bf6027f6825d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6b360fefa3ff553f65bc5c3253074be') in 0.029082 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/Art/Terrain Art/YughuesFreeBushes2018/Materials/M_Bush01.mat
+  artifactKey: Guid(3bae03ff15e9f0749abaf52aaf5d1bff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Terrain Art/YughuesFreeBushes2018/Materials/M_Bush01.mat using Guid(3bae03ff15e9f0749abaf52aaf5d1bff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2dd4161ee88822f27c4cd4005b78fd2') in 0.021624 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/Art/Enemy-Player Art/True_Fantastic_Creatures/Centaur/Materials/Hairs.mat
+  artifactKey: Guid(e3f04bc361205cc43ae20206a778f2a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Enemy-Player Art/True_Fantastic_Creatures/Centaur/Materials/Hairs.mat using Guid(e3f04bc361205cc43ae20206a778f2a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9bd5f5e1a29a1a7d5877830dfbab78e') in 0.038993 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/Art/Materials/Materials/diffuse.mat
+  artifactKey: Guid(2ce9135e49300411a9474e1ef99ad981) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Materials/Materials/diffuse.mat using Guid(2ce9135e49300411a9474e1ef99ad981) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae010bdd72d7a0c4bedf12347f8b4318') in 0.019611 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000427 seconds.
+  path: Assets/Art/Colosseum Building/Wood_Window_Round_Long_01.obj
+  artifactKey: Guid(b38b535f9811d4ca18eba8abfebed449) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Colosseum Building/Wood_Window_Round_Long_01.obj using Guid(b38b535f9811d4ca18eba8abfebed449) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2e746d3e4db5a617f48261c3d162d4c') in 0.062402 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/Art/Terrain Art/YughuesFreeBushes2018/Materials/M_Bush04.mat
+  artifactKey: Guid(8c8101c25cb4f824c8b8334e85e32af9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Terrain Art/YughuesFreeBushes2018/Materials/M_Bush04.mat using Guid(8c8101c25cb4f824c8b8334e85e32af9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88dd163aebc43797f8acf296bfc886d4') in 0.037523 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000528 seconds.
+  path: Assets/Art/Enemy-Player Art/Mixamo/xbot/xbot@Standard Run.fbx
+  artifactKey: Guid(0fbbfa3b842e1254c9dd652d0b92f4f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Enemy-Player Art/Mixamo/xbot/xbot@Standard Run.fbx using Guid(0fbbfa3b842e1254c9dd652d0b92f4f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ada39ccae1bdc67d69a168833a1aa0ce') in 0.174984 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/Art/Colosseum Building/Wood_Window_Narrow_01.obj
+  artifactKey: Guid(c721964957b664c5a9ebaf4790293d4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Colosseum Building/Wood_Window_Narrow_01.obj using Guid(c721964957b664c5a9ebaf4790293d4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e0468de325bad2f1b39fd6330674843') in 0.068802 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000274 seconds.
+  path: Assets/Art/MainMenuArt/Fire Particle Systems/Resources/Materials/ParticleSystem_Additive_Emission.mat
+  artifactKey: Guid(d1a4a4eed5b514175b10a10ea1c19add) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/MainMenuArt/Fire Particle Systems/Resources/Materials/ParticleSystem_Additive_Emission.mat using Guid(d1a4a4eed5b514175b10a10ea1c19add) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c773e8b25971607732d192e9007a5fdb') in 0.024571 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 173.315464 seconds.
+  path: Assets/Art/MainMenuArt
+  artifactKey: Guid(a8aa2324d85c9412eb43948ac578546b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/MainMenuArt using Guid(a8aa2324d85c9412eb43948ac578546b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1e51242393275b5d79f614718bcb299') in 0.001266 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 87.478029 seconds.
+  path: Assets/Art/MainMenuArt/Square.png
+  artifactKey: Guid(66be26dd6a86b47a4afd2f42379d70d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/MainMenuArt/Square.png using Guid(66be26dd6a86b47a4afd2f42379d70d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8a658938c50211409b9fe03def5d6f7') in 0.039847 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 262.969656 seconds.
+  path: Assets/Art/MainMenuArt/ColScene.png
+  artifactKey: Guid(d1f920758221e4b549c8c5cbe94abd11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/MainMenuArt/ColScene.png using Guid(d1f920758221e4b549c8c5cbe94abd11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f36a877541631255c4f9e1f4ce24d729') in 0.039338 seconds 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
