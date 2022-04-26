@@ -1,5 +1,9 @@
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 ﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":true,"audioPlay":false,"sceneViewState":{"m_AlwaysRefresh":false,"showFog":true,"showSkybox":true,"showFlares":true,"showImageEffects":true,"showParticleSystems":true,"showVisualEffectGraphs":true,"m_FxEnabled":false},"in2DMode":false,"pivot":{"x":68.41400909423828,"y":7.008936405181885,"z":104.82227325439453},"rotation":{"x":0.001136354636400938,"y":-0.3003811836242676,"z":-0.000351323455106467,"w":-0.9538367390632629},"size":72.6165771484375,"orthographic":false}
 =======
 ﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":true,"audioPlay":false,"sceneViewState":{"m_AlwaysRefresh":false,"showFog":true,"showSkybox":true,"showFlares":true,"showImageEffects":true,"showParticleSystems":true,"showVisualEffectGraphs":true,"m_FxEnabled":false},"in2DMode":false,"pivot":{"x":52.51713943481445,"y":-37.79875946044922,"z":43.40473937988281},"rotation":{"x":-0.17932866513729096,"y":-0.420213520526886,"z":0.08508150279521942,"w":-0.8854759335517883},"size":72.6165771484375,"orthographic":false}
 >>>>>>> Stashed changes
+=======
+﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":true,"audioPlay":false,"sceneViewState":{"m_AlwaysRefresh":false,"showFog":true,"showSkybox":true,"showFlares":true,"showImageEffects":true,"showParticleSystems":true,"showVisualEffectGraphs":true,"m_FxEnabled":false},"in2DMode":false,"pivot":{"x":110.5875244140625,"y":-18.315349578857423,"z":90.27342224121094},"rotation":{"x":-0.07057463377714157,"y":-0.43012183904647829,"z":0.03375536948442459,"w":-0.899391770362854},"size":72.6165771484375,"orthographic":false}
+>>>>>>> parent of cdbba80d (Gate Code)
