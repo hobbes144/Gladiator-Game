@@ -4,14 +4,13 @@ using UnityEngine;
 
 enum AI_States
 {
-    PATROL_STATE, HUNT_STATE, GOver_STATE
+    HUNT_STATE, GOver_STATE
 }
 
 public class enemyBase : MonoBehaviour
 {
 
     private Player_Equiped playerReference;
-    bool GameOver = false;
 
     [SerializeField] private AI_States state = AI_States.HUNT_STATE;
     [SerializeField] private Transform selfLocation;
@@ -34,8 +33,6 @@ public class enemyBase : MonoBehaviour
 
     //these are to ensure that the agent hunts for at least a second and doesnt just reset if on the tangent
     private float timer;
-    private bool canLeaveHunt = false;
-    [SerializeField] private float huntStickTime = 1f;
 
     // Start is called before the first frame update
     void Start()
@@ -79,7 +76,7 @@ public class enemyBase : MonoBehaviour
     private void doHunt()
     {
         float distanceToTarget = Vector3.Distance(transform.position, player.position);
-        if (GameOver)
+        if (playerReference.playerDead)
         {
             state = AI_States.GOver_STATE;
         }//else hunt down the player
@@ -91,7 +88,7 @@ public class enemyBase : MonoBehaviour
 
     private void doGOver()
     {
-        if (GameOver)
+        if (playerReference.playerDead)
         {
             steering.setTarget(selfLocation);
             moveTarget = selfLocation;
@@ -109,7 +106,7 @@ public class enemyBase : MonoBehaviour
         attacking = true;
         //play attack animation**
         playerReference.playerDamaged(enemyDamage);
-        Debug.Log("Enemy is hit");
+        Debug.Log("player is hit");
 
         attackTimer = 0.0f;
         attacking = false;
