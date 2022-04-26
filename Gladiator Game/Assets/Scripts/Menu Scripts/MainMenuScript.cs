@@ -13,7 +13,6 @@ public class MainMenuScript : MonoBehaviour
     public GameObject MainMenuButtons;
     public GameObject GamePlayScreen;
     public GameObject SelectGameMode;
-    public GameObject ParticleSystemFireRing;
 
 
     // Start is called before the first frame update
@@ -27,7 +26,7 @@ public class MainMenuScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        ParticleSystemFireRing.SetActive(true);
+
     }
 
 
@@ -35,14 +34,12 @@ public class MainMenuScript : MonoBehaviour
     {
         SelectGameMode.SetActive(true);
         MainMenuButtons.SetActive(false);
-        ParticleSystemFireRing.SetActive(false);
     }
 
     public void closeSelectMode()
     {
         SelectGameMode.SetActive(false);
         MainMenuButtons.SetActive(true);
-        ParticleSystemFireRing.SetActive(true);
     }
 
 
@@ -61,7 +58,6 @@ public class MainMenuScript : MonoBehaviour
     public void HowToPlay()
     {
         GamePlayScreen.SetActive(true); //Shows GamePlayScreen
-        ParticleSystemFireRing.SetActive(false);
         MainMenuButtons.SetActive(false);
     }
 
@@ -69,7 +65,6 @@ public class MainMenuScript : MonoBehaviour
     public void CloseOptions()
     {
         GamePlayScreen.SetActive(false); //Hides GamePlayScreen
-        ParticleSystemFireRing.SetActive(true);
         MainMenuButtons.SetActive(true);
     }
 

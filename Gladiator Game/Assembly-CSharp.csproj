@@ -82,6 +82,7 @@
     <Compile Include="Assets/mouseLook.cs" />
     <Compile Include="Assets/Scripts/Player Scripts/FPS_Scripts/Components/GroundCheck.cs" />
     <Compile Include="Assets/Scripts/Player Scripts/HealthBar.cs" />
+    <Compile Include="Assets/Scripts/Menu Scripts/GameOver.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets/Art/MainMenuArt/TextMesh Pro/Shaders/TMPro.cginc" />
