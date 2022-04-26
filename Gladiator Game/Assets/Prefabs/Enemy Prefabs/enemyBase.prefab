@@ -22,7 +22,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &6618549113452125149
 Transform:
   m_ObjectHideFlags: 0
@@ -112,12 +112,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 63cb9221826aaf740ac96fb2285c79c7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  huntThreshold: 10
-  escapeThreshold: 20
   state: 1
-  patrolStart: {fileID: 0}
-  patrolEnd: {fileID: 0}
+  selfLocation: {fileID: 0}
   player: {fileID: 0}
+  enemyHealth: 100
+  enemyCurrHealth: 100
+  enemyDamage: 10
+  attackRange: 5
+  attackCooldown: 3
   huntStickTime: 1
 --- !u!114 &6618549113452125144
 MonoBehaviour:
