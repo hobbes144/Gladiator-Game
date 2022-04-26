@@ -1127,3 +1127,387 @@ Received Import Request.
   path: Assets/Prefabs/Main Menu/EndlessTextGoal.prefab
   artifactKey: Guid(7a2b02a88b7da424e83f11d710c642c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Prefabs/Main Menu/EndlessTextGoal.prefab using Guid(7a2b02a88b7da424e83f11d710c642c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '578d69650b75a3c70030fe6664da90f0') in 0.018360 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 517.667589 seconds.
+  path: Assets/Scenes/ArenaScene.unity
+  artifactKey: Guid(c1b1da90f313449feae1e0e166ce65f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/ArenaScene.unity using Guid(c1b1da90f313449feae1e0e166ce65f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ccb8180dad31b62dc005af5596d0ef1') in 0.001099 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 36.618192 seconds.
+  path: Assets/Art/Materials/Blue.mat
+  artifactKey: Guid(7091c3cbfa68440d781307eec247533c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Materials/Blue.mat using Guid(7091c3cbfa68440d781307eec247533c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49839782f6980eca7c5a7662a876ed51') in 0.021688 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 79.894720 seconds.
+  path: Assets/Art/Materials/GoldFloor.mat
+  artifactKey: Guid(cec74984462974140b22d8585a8d74cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Materials/GoldFloor.mat using Guid(cec74984462974140b22d8585a8d74cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1623489bbcb3d95edfe956f91d5837d') in 0.151659 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 201.222188 seconds.
+  path: Assets/YughuesFreeBushes2018/Prefabs
+  artifactKey: Guid(0c3e980a12e9f2b41b2129725bd6b5b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YughuesFreeBushes2018/Prefabs using Guid(0c3e980a12e9f2b41b2129725bd6b5b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db370432d87c5fae0b9aa22ccd2b8b50') in 0.002374 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.093165 seconds.
+  path: Assets/YughuesFreeBushes2018/Prefabs/P_Bush01.prefab
+  artifactKey: Guid(8109e9e16ba4cc04b8e0928aea897927) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YughuesFreeBushes2018/Prefabs/P_Bush01.prefab using Guid(8109e9e16ba4cc04b8e0928aea897927) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab7b555cb92eb3137dbae9466c7bcc9a') in 0.100701 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/YughuesFreeBushes2018/Prefabs/P_Bush05.prefab
+  artifactKey: Guid(431e05c5e2b18ba4fa6b3b0a6f687786) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YughuesFreeBushes2018/Prefabs/P_Bush05.prefab using Guid(431e05c5e2b18ba4fa6b3b0a6f687786) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8b29a9cdc0f3fbe37c219c479b87862') in 0.034199 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/YughuesFreeBushes2018/Prefabs/P_Bush02.prefab
+  artifactKey: Guid(0cc0db2b14252644da9f1f74ed0c8f90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YughuesFreeBushes2018/Prefabs/P_Bush02.prefab using Guid(0cc0db2b14252644da9f1f74ed0c8f90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4953875577f2426751b210e7752cb5c1') in 0.018950 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/YughuesFreeBushes2018/Prefabs/P_Bush03.prefab
+  artifactKey: Guid(ff0b0a3d7ae7a9e4f8505795785ad853) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YughuesFreeBushes2018/Prefabs/P_Bush03.prefab using Guid(ff0b0a3d7ae7a9e4f8505795785ad853) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ac4a4c47042004bc732ae1810bc9ebd') in 0.038616 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000168 seconds.
+  path: Assets/YughuesFreeBushes2018/Prefabs/P_Bush04.prefab
+  artifactKey: Guid(e334e6614ad50f749b0a37528784c614) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YughuesFreeBushes2018/Prefabs/P_Bush04.prefab using Guid(e334e6614ad50f749b0a37528784c614) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '716d88cafa8f7f2577cacac6132295a9') in 0.025754 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.038123 seconds.
+  path: Assets/YughuesFreeBushes2018/Meshes/Bush01.FBX
+  artifactKey: Guid(c93a5fb30f5956343a31433f79f362af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YughuesFreeBushes2018/Meshes/Bush01.FBX using Guid(c93a5fb30f5956343a31433f79f362af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '091243051f20768f8f3a4b936303f2f4') in 0.174330 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000291 seconds.
+  path: Assets/YughuesFreeBushes2018/Meshes/Bush05.FBX
+  artifactKey: Guid(fe3ef29f6dae00344b41413c90b4cc57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YughuesFreeBushes2018/Meshes/Bush05.FBX using Guid(fe3ef29f6dae00344b41413c90b4cc57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '983158d066ff2a0929c05e19c0d61aa2') in 0.119547 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000165 seconds.
+  path: Assets/YughuesFreeBushes2018/Meshes/Bush04.FBX
+  artifactKey: Guid(8f2212efada33cd4f929c4ca2c0162d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YughuesFreeBushes2018/Meshes/Bush04.FBX using Guid(8f2212efada33cd4f929c4ca2c0162d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5b7af8c282323366a7a1cf1db3fb382') in 0.135851 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000272 seconds.
+  path: Assets/YughuesFreeBushes2018/Meshes/Bush02.FBX
+  artifactKey: Guid(41212a0a5585e0243b25926856a1c30c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YughuesFreeBushes2018/Meshes/Bush02.FBX using Guid(41212a0a5585e0243b25926856a1c30c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb72349ab69edf4a2b2b0eaa6322bb22') in 0.134726 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000290 seconds.
+  path: Assets/YughuesFreeBushes2018/Materials/M_Bush02.mat
+  artifactKey: Guid(df6c952ce6b06b649866e65546e9bb38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YughuesFreeBushes2018/Materials/M_Bush02.mat using Guid(df6c952ce6b06b649866e65546e9bb38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '102f6e159310b5071207f0a0fd1fe85e') in 0.034776 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000175 seconds.
+  path: Assets/YughuesFreeBushes2018/Materials/M_Bush01.mat
+  artifactKey: Guid(3bae03ff15e9f0749abaf52aaf5d1bff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YughuesFreeBushes2018/Materials/M_Bush01.mat using Guid(3bae03ff15e9f0749abaf52aaf5d1bff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '495f999560e1581433cc858e081c1288') in 0.026880 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/YughuesFreeBushes2018/Materials/M_Bush04.mat
+  artifactKey: Guid(8c8101c25cb4f824c8b8334e85e32af9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YughuesFreeBushes2018/Materials/M_Bush04.mat using Guid(8c8101c25cb4f824c8b8334e85e32af9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73e43f47d2a20efb3bafcccb62da294c') in 0.020339 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/YughuesFreeBushes2018/Materials/M_Bush05.mat
+  artifactKey: Guid(539e6efd36fe10a4682b450875379c55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YughuesFreeBushes2018/Materials/M_Bush05.mat using Guid(539e6efd36fe10a4682b450875379c55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51656d473db623a1079950bf7f162e5e') in 0.037442 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000285 seconds.
+  path: Assets/YughuesFreeBushes2018/Materials/M_Bush03.mat
+  artifactKey: Guid(cefe5e02e8418a04d927f43107b3558f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YughuesFreeBushes2018/Materials/M_Bush03.mat using Guid(cefe5e02e8418a04d927f43107b3558f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '248951ff793740524d547193f8e125ea') in 0.044367 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/YughuesFreeBushes2018/Meshes/Bush03.FBX
+  artifactKey: Guid(3d529691bc8baa249a469045aae25cf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YughuesFreeBushes2018/Meshes/Bush03.FBX using Guid(3d529691bc8baa249a469045aae25cf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'caea5a522d6669ce9c09c4e85f6f1d24') in 0.248997 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 39.617227 seconds.
+  path: Assets/YughuesFreeBushes2018/Textures/T_Bush01_ao.tga
+  artifactKey: Guid(380b04d9a2f3007438f6937306ba8158) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YughuesFreeBushes2018/Textures/T_Bush01_ao.tga using Guid(380b04d9a2f3007438f6937306ba8158) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b95f3812bb947667254eac746a379d1') in 0.016122 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000270 seconds.
+  path: Assets/YughuesFreeBushes2018/Textures/T_Bush03_ao.tga
+  artifactKey: Guid(30d2e3318757c534d90937e9c4b0a1d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YughuesFreeBushes2018/Textures/T_Bush03_ao.tga using Guid(30d2e3318757c534d90937e9c4b0a1d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16d76f6a579119099c6395455b30a83c') in 0.016484 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000498 seconds.
+  path: Assets/YughuesFreeBushes2018/Textures/T_Bush03_s.tga
+  artifactKey: Guid(4bfe9193652e18845a23e04c93712e9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YughuesFreeBushes2018/Textures/T_Bush03_s.tga using Guid(4bfe9193652e18845a23e04c93712e9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '487a704ed6f7494dc69679758a54bb44') in 0.024908 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000664 seconds.
+  path: Assets/YughuesFreeBushes2018/Textures/T_Bush04_d.tga
+  artifactKey: Guid(c9a41128f14763d4eab561ef48c769b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YughuesFreeBushes2018/Textures/T_Bush04_d.tga using Guid(c9a41128f14763d4eab561ef48c769b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd363d59cb6092b187dedbcb7b8b5af50') in 0.016429 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000597 seconds.
+  path: Assets/YughuesFreeBushes2018/Textures/T_Bush01_s.tga
+  artifactKey: Guid(01ac228eec7ceda4ba0395dea3410cef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YughuesFreeBushes2018/Textures/T_Bush01_s.tga using Guid(01ac228eec7ceda4ba0395dea3410cef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11b6b3ebc3147f3602379240fbd3d745') in 0.020677 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000298 seconds.
+  path: Assets/YughuesFreeBushes2018/Textures/T_Bush05_d.tga
+  artifactKey: Guid(e5e8c327df51a9d4f90c9c4feba738cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YughuesFreeBushes2018/Textures/T_Bush05_d.tga using Guid(e5e8c327df51a9d4f90c9c4feba738cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a85e70fca4a7c6c8f6c8d7779027ed45') in 0.012749 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000315 seconds.
+  path: Assets/YughuesFreeBushes2018/Textures/T_Bush02_n.tga
+  artifactKey: Guid(11821533c3f1535419549afbeccb9bff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YughuesFreeBushes2018/Textures/T_Bush02_n.tga using Guid(11821533c3f1535419549afbeccb9bff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff9ec54e649a636fdc9cde0c5fd197db') in 0.011780 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/YughuesFreeBushes2018/Textures/T_Bush02_d.tga
+  artifactKey: Guid(a3d9e13b4dee92740878a1675d480442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YughuesFreeBushes2018/Textures/T_Bush02_d.tga using Guid(a3d9e13b4dee92740878a1675d480442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '645d8c460b01f889ae5b0e4525bbd3d7') in 0.036381 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/YughuesFreeBushes2018/Textures/T_Bush02_s.tga
+  artifactKey: Guid(407d2b8d0747a274c83fefc085e4d37c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YughuesFreeBushes2018/Textures/T_Bush02_s.tga using Guid(407d2b8d0747a274c83fefc085e4d37c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7aa2b4f367cc777c815d32a566a2ce5d') in 0.023935 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/YughuesFreeBushes2018/Textures/T_Bush03_n.tga
+  artifactKey: Guid(13a3162fb7a76b241be49f1756129239) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YughuesFreeBushes2018/Textures/T_Bush03_n.tga using Guid(13a3162fb7a76b241be49f1756129239) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1766f61a28b147a04cc5b47137c74ec3') in 0.014947 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/YughuesFreeBushes2018/Textures/T_Bush05_ao.tga
+  artifactKey: Guid(0d0dc078d5df69540bf846e62e1e490b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YughuesFreeBushes2018/Textures/T_Bush05_ao.tga using Guid(0d0dc078d5df69540bf846e62e1e490b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ff6d919fb24f52653998038bdd9b727') in 0.010434 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/YughuesFreeBushes2018/Textures/T_Bush03_d.tga
+  artifactKey: Guid(41a43a35ca2c3cf42867fe4f2326da33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YughuesFreeBushes2018/Textures/T_Bush03_d.tga using Guid(41a43a35ca2c3cf42867fe4f2326da33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f6f8d2d184d861b961d05bcdb091898') in 0.021546 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/YughuesFreeBushes2018/Textures/T_Bush05_n.tga
+  artifactKey: Guid(f806c4f41a3a09e41a05d701470cc59d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YughuesFreeBushes2018/Textures/T_Bush05_n.tga using Guid(f806c4f41a3a09e41a05d701470cc59d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b05b98afa1ad8fd850addfd2fabe6f24') in 0.013818 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000326 seconds.
+  path: Assets/YughuesFreeBushes2018/Textures/T_Bush01_n.tga
+  artifactKey: Guid(2f1e681c00689bf429eece67c03d8635) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YughuesFreeBushes2018/Textures/T_Bush01_n.tga using Guid(2f1e681c00689bf429eece67c03d8635) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1c3e80fdb5ca64949759a3849c233ea') in 0.013636 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/YughuesFreeBushes2018/Textures/T_Bush01_d.tga
+  artifactKey: Guid(94db8a6f822aa8245ae0a58f78870c2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YughuesFreeBushes2018/Textures/T_Bush01_d.tga using Guid(94db8a6f822aa8245ae0a58f78870c2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f58c2bab74815b52583ea83afbdef38') in 0.019400 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/YughuesFreeBushes2018/Textures/T_Bush04_ao.tga
+  artifactKey: Guid(5b92c84bc0de36e4aae4b22d552d92b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YughuesFreeBushes2018/Textures/T_Bush04_ao.tga using Guid(5b92c84bc0de36e4aae4b22d552d92b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7b3b2eae63b69f56310b5d8a569cc06') in 0.012886 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/YughuesFreeBushes2018/Textures/T_Bush04_n.tga
+  artifactKey: Guid(fd90dc93bb966f343bcf6302c2c8c0b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YughuesFreeBushes2018/Textures/T_Bush04_n.tga using Guid(fd90dc93bb966f343bcf6302c2c8c0b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa191d8419a0f569a490884d5d4a9623') in 0.043084 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/YughuesFreeBushes2018/Textures/T_Bush02_ao.tga
+  artifactKey: Guid(8c02304d46c7bb64a9176fef074b31f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YughuesFreeBushes2018/Textures/T_Bush02_ao.tga using Guid(8c02304d46c7bb64a9176fef074b31f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8234c681873a18de2a8316c456f827b') in 0.022499 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/YughuesFreeBushes2018/Textures/T_Bush05_s.tga
+  artifactKey: Guid(aa68df921e660f847a4213639930a582) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YughuesFreeBushes2018/Textures/T_Bush05_s.tga using Guid(aa68df921e660f847a4213639930a582) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70491fee7268a6921d8d301f68af338b') in 0.010349 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000305 seconds.
+  path: Assets/YughuesFreeBushes2018/Textures/T_Bush04_s.tga
+  artifactKey: Guid(81fb6e33f8cbc064f9e22867c598783b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YughuesFreeBushes2018/Textures/T_Bush04_s.tga using Guid(81fb6e33f8cbc064f9e22867c598783b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd170fa154870864976b73fecae11628e') in 0.008510 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 43.987806 seconds.
+  path: Assets/Art/Enemy-Player Art/True_Fantastic_Creatures/Terrain_stuff/Terrain_mats/Stones_nrml.png
+  artifactKey: Guid(25271c23a016ddb4581441dcfa9dc626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Enemy-Player Art/True_Fantastic_Creatures/Terrain_stuff/Terrain_mats/Stones_nrml.png using Guid(25271c23a016ddb4581441dcfa9dc626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6797a05b1dc7386d73bc42911d470193') in 0.014302 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.093682 seconds.
+  path: Assets/Art/Enemy-Player Art/True_Fantastic_Creatures/Terrain_stuff/Stones/Stones_textures/Stones_base_height_unity.png
+  artifactKey: Guid(edef3bc4de1ad20489a5a7c2289c0f97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Enemy-Player Art/True_Fantastic_Creatures/Terrain_stuff/Stones/Stones_textures/Stones_base_height_unity.png using Guid(edef3bc4de1ad20489a5a7c2289c0f97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e33a2457a20a687ba8508d9e571690b9') in 0.041707 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000296 seconds.
+  path: Assets/Art/Enemy-Player Art/True_Fantastic_Creatures/Terrain_stuff/Stones/Stones_textures/Stones_base_rough_unity.png
+  artifactKey: Guid(5d501bfe50568ee4f8b069476b25c5ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Enemy-Player Art/True_Fantastic_Creatures/Terrain_stuff/Stones/Stones_textures/Stones_base_rough_unity.png using Guid(5d501bfe50568ee4f8b069476b25c5ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83188110f597c4430cbda20836c1e6cf') in 0.037676 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000302 seconds.
+  path: Assets/Art/Enemy-Player Art/True_Fantastic_Creatures/Terrain_stuff/Stones/Stones_textures/Stones_base_normal.png
+  artifactKey: Guid(5148149fa73d5e641b632cb346c9232e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Enemy-Player Art/True_Fantastic_Creatures/Terrain_stuff/Stones/Stones_textures/Stones_base_normal.png using Guid(5148149fa73d5e641b632cb346c9232e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '887fd93d645b79c2e13f95eaa88ad5b7') in 0.040893 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 43.936492 seconds.
+  path: Assets/YughuesFreeBushes2018/Meshes/OLD/bush_01.obj
+  artifactKey: Guid(efdc2f0914206bb4eb98f617f4ae452c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YughuesFreeBushes2018/Meshes/OLD/bush_01.obj using Guid(efdc2f0914206bb4eb98f617f4ae452c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54d65be08c03e9cd7fd75af328b4d0c3') in 0.044215 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000291 seconds.
+  path: Assets/YughuesFreeBushes2018/Meshes/OLD/bush_04.obj
+  artifactKey: Guid(fa75c78e130ad4c4899a874e0daff72d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YughuesFreeBushes2018/Meshes/OLD/bush_04.obj using Guid(fa75c78e130ad4c4899a874e0daff72d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65ecdf1de5cffc14b1cd6993baae8dbb') in 0.100312 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000318 seconds.
+  path: Assets/YughuesFreeBushes2018/Meshes/OLD/bush_05.obj
+  artifactKey: Guid(e4f2790c692af6a4586d9bfdab387609) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YughuesFreeBushes2018/Meshes/OLD/bush_05.obj using Guid(e4f2790c692af6a4586d9bfdab387609) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68e67a351499f2e568f37841eba303aa') in 0.081984 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/YughuesFreeBushes2018/Meshes/OLD/bush_03.obj
+  artifactKey: Guid(622cd4aba51b9004bafb09b503395868) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YughuesFreeBushes2018/Meshes/OLD/bush_03.obj using Guid(622cd4aba51b9004bafb09b503395868) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e9832f3294287220a8fec0b6e0de6f1') in 0.161710 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/YughuesFreeBushes2018/Meshes/OLD/bush_02.obj
+  artifactKey: Guid(dbebbdf1ef216c44e98b2b840fa280c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YughuesFreeBushes2018/Meshes/OLD/bush_02.obj using Guid(dbebbdf1ef216c44e98b2b840fa280c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42b3ac3b943988c196a0d860c6060370') in 0.073838 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 217.696988 seconds.
+  path: Assets/Art/Terrain Art/YughuesFreeBushes2018
+  artifactKey: Guid(5a7d665a43e134e78b419c6aa75031af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Terrain Art/YughuesFreeBushes2018 using Guid(5a7d665a43e134e78b419c6aa75031af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '310fad56e53f8b20e68841a0943eb2d3') in 0.004058 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.052394 seconds.
+  path: Assets/Art/Terrain Art/YughuesFreeBushes2018/Materials
+  artifactKey: Guid(86e6a9cb9d7b8444b8357c87daa518a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Terrain Art/YughuesFreeBushes2018/Materials using Guid(86e6a9cb9d7b8444b8357c87daa518a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcbdcbf3a2dc3ca834f190c39bc72817') in 0.003701 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 199.373723 seconds.
+  path: Assets/Art/Terrain Art/YughuesFreeBushes2018/Textures/T_Bush03_s 2.tga
+  artifactKey: Guid(27f7f89c71170465eaaca69826ed7e05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Terrain Art/YughuesFreeBushes2018/Textures/T_Bush03_s 2.tga using Guid(27f7f89c71170465eaaca69826ed7e05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16f70c646f865c24380e38267a6ba0c5') in 0.126509 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000374 seconds.
+  path: Assets/Art/Terrain Art/YughuesFreeBushes2018/Textures/T_Bush05_s 2.tga
+  artifactKey: Guid(a418b166267324fd4b8df711ef28bd2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Terrain Art/YughuesFreeBushes2018/Textures/T_Bush05_s 2.tga using Guid(a418b166267324fd4b8df711ef28bd2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a15a867a019c6e5e5084b68d7441e599') in 0.083272 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/Art/Terrain Art/YughuesFreeBushes2018/Textures/T_Bush05_ao 2.tga
+  artifactKey: Guid(920fbb9e0a6334be981160e105afae63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Terrain Art/YughuesFreeBushes2018/Textures/T_Bush05_ao 2.tga using Guid(920fbb9e0a6334be981160e105afae63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25094f2dd0cef5a5caccc9d419c81bbd') in 0.035305 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/Art/Terrain Art/YughuesFreeBushes2018/Textures/T_Bush04_ao 2.tga
+  artifactKey: Guid(83ba5266cd1df48639ce78c6312e3862) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Terrain Art/YughuesFreeBushes2018/Textures/T_Bush04_ao 2.tga using Guid(83ba5266cd1df48639ce78c6312e3862) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0acef5113e049126dd37cafe1451254') in 0.016853 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000343 seconds.
+  path: Assets/Art/Terrain Art/YughuesFreeBushes2018/Textures/T_Bush04_s 2.tga
+  artifactKey: Guid(123db0b84163a4e2284710da5d3f4e76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Terrain Art/YughuesFreeBushes2018/Textures/T_Bush04_s 2.tga using Guid(123db0b84163a4e2284710da5d3f4e76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe7842aaf598ace9e5f691a4ccacfddb') in 0.030429 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 206.529256 seconds.
+  path: Assets/Art/Terrain Art/YughuesFreeBushes2018 2
+  artifactKey: Guid(0c18b1cc3dc8e4d7ab381dadc3890b75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Terrain Art/YughuesFreeBushes2018 2 using Guid(0c18b1cc3dc8e4d7ab381dadc3890b75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76aa6db9afe9561f0bfc298bed3a8226') in 0.004015 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 20.067022 seconds.
+  path: Assets/Art/Terrain Art/YughuesFreeBushes2018
+  artifactKey: Guid(1028c03e488994906a834e7ab8897fc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Terrain Art/YughuesFreeBushes2018 using Guid(1028c03e488994906a834e7ab8897fc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b6b72ed5b01e073b9b28b38037d3fd8') in 0.003149 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 51.903273 seconds.
+  path: Assets/Prefabs/Building Prefab/Colosseum.prefab
+  artifactKey: Guid(722aa011bb5e144cdb569e24c657e8e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Building Prefab/Colosseum.prefab using Guid(722aa011bb5e144cdb569e24c657e8e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '731c8f6b708b040ad25b5a8d87f58435') in 0.181866 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1526.221282 seconds.
+  path: Assets/Scripts/Controller Scripts
+  artifactKey: Guid(5ca0fb62c619f4938a6324dd1de5d231) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Controller Scripts using Guid(5ca0fb62c619f4938a6324dd1de5d231) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '393aecb90588290b58481998a1c8a6b1') in 0.002065 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.869156 seconds.
+  path: Assets/Scripts/Player Scripts/FPS_Scripts
+  artifactKey: Guid(efcc2f8b689b7c547a119dac5cf66a98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Player Scripts/FPS_Scripts using Guid(efcc2f8b689b7c547a119dac5cf66a98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cc2af1c676e177b39f0cdd3b180a47a') in 0.004789 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.823078 seconds.
+  path: Assets/Scripts/Player Scripts/FPS_Scripts/FirstPersonLook.cs
+  artifactKey: Guid(ec72980442fddac4d86e75ab24b4d027) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Player Scripts/FPS_Scripts/FirstPersonLook.cs using Guid(ec72980442fddac4d86e75ab24b4d027) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccb88bb95234518d8eb1901f9c50580d') in 0.266748 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.422835 seconds.
+  path: Assets/Scripts/Player Scripts/FPS_Scripts/FirstPersonMovement.cs
+  artifactKey: Guid(97fca36bd81de7c4cafce7bbf02ca611) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Player Scripts/FPS_Scripts/FirstPersonMovement.cs using Guid(97fca36bd81de7c4cafce7bbf02ca611) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4201e374b51c93bfa15f74275cbadd53') in 0.005368 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.617879 seconds.
+  path: Assets/Scripts/Player Scripts/Weapon Scripts/Weapon Fired Scripts
+  artifactKey: Guid(66ff9dd6b8f9045318fa415f0e233e08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Player Scripts/Weapon Scripts/Weapon Fired Scripts using Guid(66ff9dd6b8f9045318fa415f0e233e08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28d38bf0cfad9257efcec4c7ca865b46') in 0.005069 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 112.279231 seconds.
+  path: Assets/Scenes/MainMenu.unity
+  artifactKey: Guid(164ac3bfeada34eb7aaa6ebb29e9c8a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainMenu.unity using Guid(164ac3bfeada34eb7aaa6ebb29e9c8a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad0809d1c456030b9cec2b7dbb58bac5') in 0.001526 seconds 
