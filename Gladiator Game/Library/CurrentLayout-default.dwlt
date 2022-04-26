@@ -19,13 +19,9 @@ MonoBehaviour:
     width: 1920
     height: 997
   m_ShowMode: 4
-  m_Title: Hierarchy
+  m_Title: Project
   m_RootView: {fileID: 6}
-<<<<<<< HEAD
   m_MinSize: {x: 875, y: 542}
-=======
-  m_MinSize: {x: 875, y: 392}
->>>>>>> parent of cdbba80d (Gate Code)
   m_MaxSize: {x: 10000, y: 10000}
   m_Maximized: 0
 --- !u!114 &2
@@ -47,21 +43,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 30
-<<<<<<< HEAD
     width: 1920
     height: 947
   m_MinSize: {x: 679, y: 492}
   m_MaxSize: {x: 14002, y: 14042}
   vertical: 0
   controlID: 76
-=======
-    width: 2560
-    height: 1307
-  m_MinSize: {x: 677, y: 342}
-  m_MaxSize: {x: 12002, y: 8042}
-  vertical: 0
-  controlID: 15
->>>>>>> parent of cdbba80d (Gate Code)
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -105,19 +92,11 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-<<<<<<< HEAD
     width: 363
     height: 561
   m_MinSize: {x: 201, y: 221}
   m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 14}
-=======
-    width: 505
-    height: 791
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_ActualView: {fileID: 15}
->>>>>>> parent of cdbba80d (Gate Code)
   m_Panes:
   - {fileID: 14}
   m_Selected: 0
@@ -132,13 +111,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: ConsoleWindow
+  m_Name: ProjectBrowser
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
     serializedVersion: 2
     x: 0
-<<<<<<< HEAD
     y: 561
     width: 1466
     height: 386
@@ -150,19 +128,6 @@ MonoBehaviour:
   - {fileID: 17}
   m_Selected: 0
   m_LastSelected: 1
-=======
-    y: 791
-    width: 2041
-    height: 516
-  m_MinSize: {x: 100, y: 100}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_ActualView: {fileID: 18}
-  m_Panes:
-  - {fileID: 13}
-  - {fileID: 18}
-  m_Selected: 1
-  m_LastSelected: 0
->>>>>>> parent of cdbba80d (Gate Code)
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -256,21 +221,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-<<<<<<< HEAD
     width: 1466
     height: 947
   m_MinSize: {x: 403, y: 492}
   m_MaxSize: {x: 10001, y: 14042}
   vertical: 1
   controlID: 77
-=======
-    width: 2041
-    height: 1307
-  m_MinSize: {x: 402, y: 342}
-  m_MaxSize: {x: 8002, y: 8042}
-  vertical: 1
-  controlID: 16
->>>>>>> parent of cdbba80d (Gate Code)
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -290,21 +246,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-<<<<<<< HEAD
     width: 1466
     height: 561
   m_MinSize: {x: 403, y: 221}
   m_MaxSize: {x: 8003, y: 4021}
   vertical: 0
   controlID: 78
-=======
-    width: 2041
-    height: 791
-  m_MinSize: {x: 402, y: 221}
-  m_MaxSize: {x: 8002, y: 4021}
-  vertical: 0
-  controlID: 17
->>>>>>> parent of cdbba80d (Gate Code)
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -370,21 +317,13 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-<<<<<<< HEAD
     - Assets
-=======
-    - Assets/Prefabs/Item Prefabs/Weapons
->>>>>>> parent of cdbba80d (Gate Code)
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-<<<<<<< HEAD
   - Assets
-=======
-  - Assets/Prefabs/Item Prefabs/Weapons
->>>>>>> parent of cdbba80d (Gate Code)
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\nick_\OneDrive\Documents\GitHub\Gladitor-Game\Gladiator-Game\Gladiator
     Game
@@ -392,15 +331,9 @@ MonoBehaviour:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-<<<<<<< HEAD
     m_SelectedIDs: 00860000
     m_LastClickedID: 34304
     m_ExpandedIDs: 00000000e0850000e2850000e4850000e6850000e8850000ea850000ec850000ee850000f0850000f2850000f4850000f6850000f8850000fa850000fc850000fe8500000086000000ca9a3b
-=======
-    m_SelectedIDs: 18830000
-    m_LastClickedID: 33560
-    m_ExpandedIDs: 000000008a8200008c8200008e82000090820000928200009482000096820000988200009a8200009c8200009e820000a0820000a2820000a4820000a6820000a8820000aa8200000683000000ca9a3b
->>>>>>> parent of cdbba80d (Gate Code)
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -428,11 +361,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-<<<<<<< HEAD
     m_ExpandedIDs: 00000000e0850000e2850000e4850000e6850000e8850000ea850000ec850000ee850000f0850000f2850000f4850000f6850000f8850000fa850000fc850000fe85000000860000
-=======
-    m_ExpandedIDs: 000000008a8200008c8200008e82000090820000928200009482000096820000988200009a8200009c8200009e820000a0820000a2820000a4820000a6820000a8820000aa820000
->>>>>>> parent of cdbba80d (Gate Code)
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -457,8 +386,8 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: b67e0000
-    m_LastClickedInstanceID: 32438
+    m_SelectedInstanceIDs: 
+    m_LastClickedInstanceID: 0
     m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c6230000
     m_RenameOverlay:
@@ -555,11 +484,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 78860000
       m_LastClickedID: 0
-<<<<<<< HEAD
       m_ExpandedIDs: c250ffffea7affff847bffff72a4ffff94a5ffff94ceffff3cfaffffac4e0000
-=======
-      m_ExpandedIDs: e851ffffb87affffc67bffff16a5ffff5aceffff6cfbffff604a0000
->>>>>>> parent of cdbba80d (Gate Code)
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -619,15 +544,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-<<<<<<< HEAD
     m_Target: {x: 330.10858, y: -97.86096, z: -181.3902}
     speed: 2
     m_Value: {x: 330.10858, y: -97.86096, z: -181.3902}
-=======
-    m_Target: {x: 110.587524, y: -18.31535, z: 90.27342}
-    speed: 2
-    m_Value: {x: 110.587524, y: -18.31535, z: 90.27342}
->>>>>>> parent of cdbba80d (Gate Code)
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -674,15 +593,9 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-<<<<<<< HEAD
     m_Target: {x: -0.03450362, y: 0.96390957, z: -0.15635575, w: -0.21271437}
     speed: 2
     m_Value: {x: -0.034738, y: 0.9635862, z: -0.1563033, w: -0.21415928}
-=======
-    m_Target: {x: -0.070574634, y: -0.43012184, z: 0.03375537, w: -0.8993918}
-    speed: 2
-    m_Value: {x: -0.07057355, y: -0.43011528, z: 0.033754855, w: -0.89937806}
->>>>>>> parent of cdbba80d (Gate Code)
   m_Size:
     m_Target: 606.2178
     speed: 2
