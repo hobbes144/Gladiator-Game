@@ -38,6 +38,10 @@ public class Player_Equiped : MonoBehaviour
     [SerializeField] private GameObject bow;
     [SerializeField] private GameObject greekFire;
 
+    [Header("Screens")] // Accesss Screens
+    [SerializeField] private GameObject GameOverCanvas;
+    [SerializeField] private HealthBar healthBar;
+
     private Weapon_Equip weaponEquiped; //Enum representation of weapon
     private GameObject weapon; //Weapon player is using
     private GameObject wepPrefab;//Prefab of weapon to create
@@ -58,6 +62,8 @@ public class Player_Equiped : MonoBehaviour
         weaponEquiped = Weapon_Equip.Dagger;
         weapon = firstDagger;
         weapon.transform.parent = hand.transform;
+
+        GameOverCanvas.SetActive(false);
     }
 
     // Update is called once per frame
@@ -173,15 +179,25 @@ public class Player_Equiped : MonoBehaviour
         }
     }
 
+    private void playerDeath()
+    {
+        GameOverCanvas.SetActive(true);
+        playerDead = true;
+    }
+
     //----------------------PUBLIC FUNCTIONS----------------------
     //-----------Health / Armor Functions-----------
     public void changeMaxHealth(float delta)
     {
         maxHealth += delta;
+
+        healthBar.setMaxHealth(maxHealth);
     }
     public void changeCurrHealth(float delta)
     {
         currHealth += delta;
+
+        healthBar.setHealth(currHealth);
     }
     public void changeArmor(float delta)
     {
@@ -191,9 +207,11 @@ public class Player_Equiped : MonoBehaviour
     {
         currHealth -= damage * ((100.0f - armor) / 100.0f);
 
+        healthBar.setHealth(currHealth);
+
         if (currHealth <= 0)
         {
-            playerDead = true;
+            playerDeath();
             //player dies
             print("GAME OVER - PLAYER DEATH");
         }

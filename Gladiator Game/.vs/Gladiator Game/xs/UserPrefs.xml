@@ -1,9 +1,10 @@
 ﻿<Properties StartupConfiguration="{14408EA6-4B26-82A5-E0F4-DBDD50A6D2BA}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Menu Scripts/GameOver.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Player Scripts/Player_Equiped.cs">
     <Files>
       <File FileName="Assets/Scripts/Player Scripts/HealthBar.cs" Line="22" Column="1" />
-      <File FileName="Assets/Scripts/Menu Scripts/GameOver.cs" Line="18" Column="27" />
-      <File FileName="Assets/Scripts/Menu Scripts/MainMenuScript.cs" Line="75" Column="6" />
+      <File FileName="Assets/Scripts/Menu Scripts/GameOver.cs" Line="20" Column="44" />
+      <File FileName="Assets/Scripts/Menu Scripts/MainMenuScript.cs" />
+      <File FileName="Assets/Scripts/Player Scripts/Player_Equiped.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -11,16 +12,11 @@
           <Node name="Gladiator Game" selected="True" />
         </State>
       </Pad>
-      <Pad Id="MonoDevelop.UnitTesting.TestPad">
-        <State name="__root__">
-          <Node name="Unity" expanded="True" selected="True" />
-        </State>
-      </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="febb3a06-74f8-4032-b014-1658f33cc3c9" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="24ecf457-8878-40ce-ad1a-c5520abda753" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

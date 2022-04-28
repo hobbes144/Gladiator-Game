@@ -7,8 +7,14 @@ public class HealthBar : MonoBehaviour
 {
 
     public Slider slider;
+    // private Player_Equiped player;
 
-    public void SetMaxHealth(int maxHealth)
+    private void Start()
+    {
+        // player = GameObject.FindWithTag("player").GetComponent<Player_Equiped>();
+    }
+
+    public void setMaxHealth(float maxHealth)
     {
         slider.maxValue = maxHealth;
         slider.value = maxHealth;

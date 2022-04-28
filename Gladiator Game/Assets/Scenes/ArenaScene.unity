@@ -268,6 +268,14 @@ PrefabInstance:
       propertyPath: groundCheck
       value: 
       objectReference: {fileID: 1907732114}
+    - target: {fileID: 1942460881410790067, guid: 11aaea5348574644a9eb4f4504fcce3f, type: 3}
+      propertyPath: healthBar
+      value: 
+      objectReference: {fileID: 186234151}
+    - target: {fileID: 1942460881410790067, guid: 11aaea5348574644a9eb4f4504fcce3f, type: 3}
+      propertyPath: GameOverCanvas
+      value: 
+      objectReference: {fileID: 1352830062}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 11aaea5348574644a9eb4f4504fcce3f, type: 3}
 --- !u!1 &81826675
@@ -1694,7 +1702,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1352830063
 MonoBehaviour:
   m_ObjectHideFlags: 0
