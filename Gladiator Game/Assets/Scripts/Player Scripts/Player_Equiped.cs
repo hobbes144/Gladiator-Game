@@ -47,6 +47,8 @@ public class Player_Equiped : MonoBehaviour
     private bool canFire = true;
     private float dur = 0;
 
+    public bool playerDead = false;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -191,6 +193,7 @@ public class Player_Equiped : MonoBehaviour
 
         if (currHealth <= 0)
         {
+            playerDead = true;
             //player dies
             print("GAME OVER - PLAYER DEATH");
         }
