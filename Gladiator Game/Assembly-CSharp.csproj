@@ -73,6 +73,7 @@
     <Compile Include="Assets\Scripts\Player Scripts\FPS_Scripts\Components\Jump.cs" />
     <Compile Include="Assets\Scripts\Controller Scripts\enemySpawner.cs" />
     <Compile Include="Assets\Scripts\Player Scripts\Weapon Scripts\ProjectileWeapon.cs" />
+    <Compile Include="Assets\Scripts\Controller Scripts\gate.cs" />
     <Compile Include="Assets\Scripts\Enemy Scripts\enemyBase.cs" />
     <Compile Include="Assets\Scripts\Player Scripts\Weapon Scripts\Weapon Fired Scripts\triggerBox.cs" />
     <Compile Include="Assets\Scripts\Player Scripts\Weapon Scripts\Weapon Fired Scripts\enemyHealthAOE.cs" />
@@ -80,7 +81,6 @@
     <Compile Include="Assets\Scripts\Menu Scripts\PausedMenu.cs" />
     <Compile Include="Assets\mouseLook.cs" />
     <Compile Include="Assets\Scripts\Player Scripts\FPS_Scripts\Components\GroundCheck.cs" />
-    <Compile Include="Assets\Scripts\Controller Scripts\gate.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Art\MainMenuArt\TextMesh Pro\Shaders\TMPro.cginc" />
