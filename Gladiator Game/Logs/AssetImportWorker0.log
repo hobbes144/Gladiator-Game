@@ -1,0 +1,427 @@
+Using pre-set license
+Built from '2020.3/release' branch; Version is '2020.3.31f1 (6b54b7616050) revision 7034039'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19043) 64bit Core' Language: 'en' Physical Memory: 16317 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.31f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/nick_/OneDrive/Documents/GitHub/Gladitor-Game/Gladiator-Game/Gladiator Game
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+65480
+Successfully changed project path to: C:/Users/nick_/OneDrive/Documents/GitHub/Gladitor-Game/Gladiator-Game/Gladiator Game
+C:/Users/nick_/OneDrive/Documents/GitHub/Gladitor-Game/Gladiator-Game/Gladiator Game
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 91.54 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.31f1 (6b54b7616050)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.31f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/nick_/OneDrive/Documents/GitHub/Gladitor-Game/Gladiator-Game/Gladiator Game/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1080 (ID=0x1b80)
+    Vendor:   
+    VRAM:     8079 MB
+    Driver:   30.0.15.1215
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.31f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.31f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.31f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56928
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.31f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003201 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 117.87 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.231 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1232ms)
+		BeginReloadAssembly (192ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (811ms)
+			LoadAssemblies (177ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (237ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (71ms)
+			SetupLoadedEditorAssemblies (357ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (118ms)
+				BeforeProcessingInitializeOnLoad (21ms)
+				ProcessInitializeOnLoadAttributes (146ms)
+				ProcessInitializeOnLoadMethodAttributes (65ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.006314 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 116.16 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.727 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2732ms)
+		BeginReloadAssembly (197ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (20ms)
+		EndReloadAssembly (2423ms)
+			LoadAssemblies (138ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (509ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (125ms)
+			SetupLoadedEditorAssemblies (1185ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (116ms)
+				BeforeProcessingInitializeOnLoad (178ms)
+				ProcessInitializeOnLoadAttributes (809ms)
+				ProcessInitializeOnLoadMethodAttributes (54ms)
+				AfterProcessingInitializeOnLoad (22ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (16ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
+Refreshing native plugins compatible for Editor in 0.52 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3029 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 139.1 MB.
+System memory in use after: 139.3 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 3469.
+Total: 2.792400 ms (FindLiveObjects: 0.245400 ms CreateObjectMapping: 0.137300 ms MarkObjects: 2.334200 ms  DeleteObjects: 0.074400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Scripts/Controller Scripts/spawnerController.cs
+  artifactKey: Guid(6c52155bfb47cdb4eaa303724a1f3994) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Controller Scripts/spawnerController.cs using Guid(6c52155bfb47cdb4eaa303724a1f3994) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88ff028a5e0e782570c51946df48b294') in 0.036444 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.542253 seconds.
+  path: Assets/Scripts/Controller Scripts/spawnerController.cs
+  artifactKey: Guid(6c52155bfb47cdb4eaa303724a1f3994) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Controller Scripts/spawnerController.cs using Guid(6c52155bfb47cdb4eaa303724a1f3994) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '599cade8a000c5661999ccbefb443229') in 0.005853 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004069 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.988 seconds
+Domain Reload Profiling:
+	ReloadAssembly (989ms)
+		BeginReloadAssembly (113ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (30ms)
+		EndReloadAssembly (812ms)
+			LoadAssemblies (99ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (287ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (39ms)
+			SetupLoadedEditorAssemblies (297ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (84ms)
+				ProcessInitializeOnLoadAttributes (195ms)
+				ProcessInitializeOnLoadMethodAttributes (8ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.54 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2905 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 130.5 MB.
+System memory in use after: 130.8 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 3472.
+Total: 2.545600 ms (FindLiveObjects: 0.216600 ms CreateObjectMapping: 0.137800 ms MarkObjects: 2.166600 ms  DeleteObjects: 0.024000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 229.163480 seconds.
+  path: Assets/Art
+  artifactKey: Guid(b4001243c45b34878bc7aaf75656c6c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art using Guid(b4001243c45b34878bc7aaf75656c6c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67faecfd3e34289270d4137d6cd40559') in 0.013684 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 162.951392 seconds.
+  path: Assets/Art/Enemy-Player Art
+  artifactKey: Guid(822e43040f22d43dcb0c73f2d14fc53d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Enemy-Player Art using Guid(822e43040f22d43dcb0c73f2d14fc53d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e53b6128146a0fc6d163e0b1a2ced2ae') in 0.008139 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.567197 seconds.
+  path: Assets/Art/Enemy-Player Art/animations
+  artifactKey: Guid(c03a4a1f47a44554d8c2495baad8c8ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Enemy-Player Art/animations using Guid(c03a4a1f47a44554d8c2495baad8c8ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1f8c4505ce0ae5bb82c1cae82b00477') in 0.008019 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.047810 seconds.
+  path: Assets/Art/Enemy-Player Art/animations/death back.fbx
+  artifactKey: Guid(5c78f06d3f4156645895c560c95b36b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Enemy-Player Art/animations/death back.fbx using Guid(5c78f06d3f4156645895c560c95b36b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09c36a4b744d4589f33edef1531e4d09') in 0.068931 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000171 seconds.
+  path: Assets/Art/Enemy-Player Art/animations/getting hit.fbx
+  artifactKey: Guid(126284014849b6a40af2e62470296121) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Enemy-Player Art/animations/getting hit.fbx using Guid(126284014849b6a40af2e62470296121) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3fdcdf341772bbd4b5e7cbd5d3e1aa5') in 0.014499 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.553773 seconds.
+  path: Assets/Art/Enemy-Player Art/animations/controllers
+  artifactKey: Guid(71fcd5013fd1e464daec37fb3097d01d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Enemy-Player Art/animations/controllers using Guid(71fcd5013fd1e464daec37fb3097d01d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c53f8887e14589d09fbad5482a9855c') in 0.008550 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.585805 seconds.
+  path: Assets/Art/Enemy-Player Art/DungeonCharacters
+  artifactKey: Guid(7868bfc6b5e76b144bc88c562db38940) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Enemy-Player Art/DungeonCharacters using Guid(7868bfc6b5e76b144bc88c562db38940) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92c776eba7ed5d262c3ec765626c1fb2') in 0.006935 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.856646 seconds.
+  path: Assets/Art/Enemy-Player Art/DungeonCharacters/Skeletons_demo
+  artifactKey: Guid(1966d6e4a6c538e4097487301ed57a64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Enemy-Player Art/DungeonCharacters/Skeletons_demo using Guid(1966d6e4a6c538e4097487301ed57a64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd54f76f6c333566fe4f626ae0b82cc6') in 0.006758 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.026584 seconds.
+  path: Assets/Art/Enemy-Player Art/DungeonCharacters/Skeletons_demo/models
+  artifactKey: Guid(ab7e5a7d6fa592143a6100a78badb465) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Enemy-Player Art/DungeonCharacters/Skeletons_demo/models using Guid(ab7e5a7d6fa592143a6100a78badb465) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77032d63a2ba38ce84884d0991330c2d') in 0.006477 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.047872 seconds.
+  path: Assets/Art/Enemy-Player Art/DungeonCharacters/Skeletons_demo/models/archer.FBX
+  artifactKey: Guid(d66e0376e50424b468e72fe38f82e1a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Enemy-Player Art/DungeonCharacters/Skeletons_demo/models/archer.FBX using Guid(d66e0376e50424b468e72fe38f82e1a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b0e57b250e87706ca59d19c3761abad') in 0.224894 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000168 seconds.
+  path: Assets/Art/Enemy-Player Art/DungeonCharacters/Skeletons_demo/models/berserker.FBX
+  artifactKey: Guid(e6840e63b5730814d8ff242759d4cf8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Enemy-Player Art/DungeonCharacters/Skeletons_demo/models/berserker.FBX using Guid(e6840e63b5730814d8ff242759d4cf8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11b78d74de5eaffef829557fcca20ef9') in 0.034025 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/Art/Enemy-Player Art/DungeonCharacters/Skeletons_demo/models/mage.FBX
+  artifactKey: Guid(f7193f87d801eda4a87fa7a5df6cf3b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Enemy-Player Art/DungeonCharacters/Skeletons_demo/models/mage.FBX using Guid(f7193f87d801eda4a87fa7a5df6cf3b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe2ce24a15cc01e66b8ff83c7b7d8149') in 0.037261 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000160 seconds.
+  path: Assets/Art/Enemy-Player Art/DungeonCharacters/Skeletons_demo/models/warrior.FBX
+  artifactKey: Guid(01286dbf03202db4386623395c38ca0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Enemy-Player Art/DungeonCharacters/Skeletons_demo/models/warrior.FBX using Guid(01286dbf03202db4386623395c38ca0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3733c3fd1b38de0a73ff839cb0c2c31') in 0.034397 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000175 seconds.
+  path: Assets/Art/Enemy-Player Art/DungeonCharacters/Skeletons_demo/models/tank.FBX
+  artifactKey: Guid(fc86399a7cd941841815a6b768fa7f6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Enemy-Player Art/DungeonCharacters/Skeletons_demo/models/tank.FBX using Guid(fc86399a7cd941841815a6b768fa7f6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f85555873ad90ca2e7d40f3276b4e421') in 0.032531 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/Art/Enemy-Player Art/DungeonCharacters/Skeletons_demo/models/basic.FBX
+  artifactKey: Guid(88efc74427abd2a458a1eff68d6f9ea9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Enemy-Player Art/DungeonCharacters/Skeletons_demo/models/basic.FBX using Guid(88efc74427abd2a458a1eff68d6f9ea9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e17a88325720f1cabc792618742073e') in 0.030568 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.602277 seconds.
+  path: Assets/Art/Enemy-Player Art/DungeonCharacters/Skeletons_demo/animation
+  artifactKey: Guid(60a208a371bf0b640bf23e39b2027a52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Enemy-Player Art/DungeonCharacters/Skeletons_demo/animation using Guid(60a208a371bf0b640bf23e39b2027a52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b357506672b43ef8d2a72f4e78e8983') in 0.007062 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.467940 seconds.
+  path: Assets/Art/Enemy-Player Art/DungeonCharacters/Skeletons_demo/animation/Attack.FBX
+  artifactKey: Guid(68e3a50f30bb0c54e8ca5cfae6eea48d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Enemy-Player Art/DungeonCharacters/Skeletons_demo/animation/Attack.FBX using Guid(68e3a50f30bb0c54e8ca5cfae6eea48d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ea66e6ce4be2b8e2bdc6001e4014437') in 0.012101 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000160 seconds.
+  path: Assets/Art/Enemy-Player Art/DungeonCharacters/Skeletons_demo/animation/Idle.FBX
+  artifactKey: Guid(f15c07c4bb03eeb48a7d2f8bfc519969) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Enemy-Player Art/DungeonCharacters/Skeletons_demo/animation/Idle.FBX using Guid(f15c07c4bb03eeb48a7d2f8bfc519969) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfb0ce8dbba5a09d162223a8de4768c0') in 0.013675 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000169 seconds.
+  path: Assets/Art/Enemy-Player Art/DungeonCharacters/Skeletons_demo/animation/Walk.FBX
+  artifactKey: Guid(272e84c6ff8fea340b19da71308f0475) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Enemy-Player Art/DungeonCharacters/Skeletons_demo/animation/Walk.FBX using Guid(272e84c6ff8fea340b19da71308f0475) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fe5250c5517bf37eb07a1809d5ccacf') in 0.012858 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.115332 seconds.
+  path: Assets/Art/Enemy-Player Art/Low-Poly Weapons
+  artifactKey: Guid(cd204aef37e2e2446ac03c40afd971a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Enemy-Player Art/Low-Poly Weapons using Guid(cd204aef37e2e2446ac03c40afd971a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b6a3a8b7cf04a0249b2c467191531ad') in 0.007209 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.126403 seconds.
+  path: Assets/Art/Enemy-Player Art/Materials
+  artifactKey: Guid(d957ddd32484f7a45b7f78503a48b025) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Enemy-Player Art/Materials using Guid(d957ddd32484f7a45b7f78503a48b025) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c126a8084ae381c0894d03bfa4b6eb68') in 0.007084 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.041162 seconds.
+  path: Assets/Art/Enemy-Player Art/Materials/bear_alpha.png
+  artifactKey: Guid(dce000bc1f244e74281b5894e9c769ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Enemy-Player Art/Materials/bear_alpha.png using Guid(dce000bc1f244e74281b5894e9c769ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6744cf08c597a31256ec82e8db667e64') in 0.035202 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000174 seconds.
+  path: Assets/Art/Enemy-Player Art/Materials/Ch40_1001_Normal.png
+  artifactKey: Guid(d35557f3995de0043bdfecae70e4c254) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Enemy-Player Art/Materials/Ch40_1001_Normal.png using Guid(d35557f3995de0043bdfecae70e4c254) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1f93bcdcf2a8c7096822c241d73d0f0') in 0.040941 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/Art/Enemy-Player Art/Materials/Paladin_specular.png
+  artifactKey: Guid(d3b5f24528e41ec45b14f06f8abd7ab3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Enemy-Player Art/Materials/Paladin_specular.png using Guid(d3b5f24528e41ec45b14f06f8abd7ab3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0543f8fa83f31cf1572a15fcf40be7b') in 0.016561 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/Art/Enemy-Player Art/Materials/bear_normal.png
+  artifactKey: Guid(be5454564ac52484b81d161e0c628fea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Enemy-Player Art/Materials/bear_normal.png using Guid(be5454564ac52484b81d161e0c628fea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12ee2719098f2de3ca7aadb6eaa99c0b') in 0.033196 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000169 seconds.
+  path: Assets/Art/Enemy-Player Art/Materials/Ch40_1002_Glossiness.png
+  artifactKey: Guid(4ba23efdcd26b1b45a06d3cdd8a9d4d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Enemy-Player Art/Materials/Ch40_1002_Glossiness.png using Guid(4ba23efdcd26b1b45a06d3cdd8a9d4d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd676fb12b1e72ab31ebfb460ebc37b55') in 0.028550 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/Art/Enemy-Player Art/Materials/Ch40_1002_Specular.png
+  artifactKey: Guid(55abcba4e08b0ef42a76474f2ffffa26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Enemy-Player Art/Materials/Ch40_1002_Specular.png using Guid(55abcba4e08b0ef42a76474f2ffffa26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ab456abed575e3223be5967659b39b8') in 0.025758 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/Art/Enemy-Player Art/Materials/Ch40_1002_Normal.png
+  artifactKey: Guid(16aee6138ddc31a41b13ba63f73a920c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Enemy-Player Art/Materials/Ch40_1002_Normal.png using Guid(16aee6138ddc31a41b13ba63f73a920c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea59342c65c928ad3be4eb6303615fa1') in 0.036402 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000167 seconds.
+  path: Assets/Art/Enemy-Player Art/Materials/Paladin_diffuse.png
+  artifactKey: Guid(b8f5ad5ce6e4b694dbd48ce4f156ceec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Enemy-Player Art/Materials/Paladin_diffuse.png using Guid(b8f5ad5ce6e4b694dbd48ce4f156ceec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ecb5d159ad96d7e0b7e6f6f9d2643e4') in 0.029674 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000175 seconds.
+  path: Assets/Art/Enemy-Player Art/Materials/bear_specular.png
+  artifactKey: Guid(7981e138be8714a4bb9f1889b331c7f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Enemy-Player Art/Materials/bear_specular.png using Guid(7981e138be8714a4bb9f1889b331c7f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f91e30b77c153d06d0ee6d0523a34e4c') in 0.026994 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/Art/Enemy-Player Art/Materials/Ch40_1001_Glossiness.png
+  artifactKey: Guid(bdf2363ce3debfc4e858312c1f133fe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Enemy-Player Art/Materials/Ch40_1001_Glossiness.png using Guid(bdf2363ce3debfc4e858312c1f133fe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bdd6ac9e182ad3763f1f50f9baf1387') in 0.025685 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000154 seconds.
+  path: Assets/Art/Enemy-Player Art/Materials/Ch40_1001_Diffuse.png
+  artifactKey: Guid(5d2565b0b06a9974c92570496c6ec071) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Enemy-Player Art/Materials/Ch40_1001_Diffuse.png using Guid(5d2565b0b06a9974c92570496c6ec071) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60c26a7d539785d8ea3e88cfa06d1886') in 0.026205 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000164 seconds.
+  path: Assets/Art/Enemy-Player Art/Materials/bear_diffuse.png
+  artifactKey: Guid(90f184e1bf040504799f2064b76717e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Enemy-Player Art/Materials/bear_diffuse.png using Guid(90f184e1bf040504799f2064b76717e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ded639cb12d83fbc5596f17bf6b910b9') in 0.026628 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/Art/Enemy-Player Art/Materials/Ch40_1002_Diffuse.png
+  artifactKey: Guid(9c74873ed0596f240ae03f095de5e8cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Enemy-Player Art/Materials/Ch40_1002_Diffuse.png using Guid(9c74873ed0596f240ae03f095de5e8cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70470ce890b6cf636ff94bf8d2a0135e') in 0.028151 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Assets/Art/Enemy-Player Art/Materials/Paladin_normal.png
+  artifactKey: Guid(f89ecdbb815d46d4dbf793ddf2d6abac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Enemy-Player Art/Materials/Paladin_normal.png using Guid(f89ecdbb815d46d4dbf793ddf2d6abac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04653ad29f698f5542b687b508a63d16') in 0.033323 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/Art/Enemy-Player Art/Materials/Ch40_1003_Diffuse.png
+  artifactKey: Guid(b201e32e65159a34288ff27005d15140) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Enemy-Player Art/Materials/Ch40_1003_Diffuse.png using Guid(b201e32e65159a34288ff27005d15140) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '624d3247b14bdf2deae20893c45a3e16') in 0.032753 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/Art/Enemy-Player Art/Materials/Ch40_1001_Specular.png
+  artifactKey: Guid(64759ae0fdd241744a1ed1a187c51607) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Enemy-Player Art/Materials/Ch40_1001_Specular.png using Guid(64759ae0fdd241744a1ed1a187c51607) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd62303efb2c232d426a438de1050dd43') in 0.026321 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.113950 seconds.
+  path: Assets/Art/Item-Weapon Art
+  artifactKey: Guid(43cbf94a361d2491a8a41be74a510379) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Item-Weapon Art using Guid(43cbf94a361d2491a8a41be74a510379) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc18f4f898430477460045b07cb206c7') in 0.007761 seconds 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file

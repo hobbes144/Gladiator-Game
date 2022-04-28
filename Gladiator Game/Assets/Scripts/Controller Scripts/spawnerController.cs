@@ -40,10 +40,6 @@ public class spawnerController : MonoBehaviour
     {
 
 
-
-
-
-
         spawnNorth(roundPoints, round);
         spawnEast(roundPoints, round);
         spawnSouth(roundPoints, round);
