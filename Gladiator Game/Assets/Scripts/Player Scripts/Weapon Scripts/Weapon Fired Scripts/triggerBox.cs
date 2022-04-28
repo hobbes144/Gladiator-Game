@@ -10,8 +10,9 @@ public class triggerBox : MonoBehaviour
     [SerializeField] private float knockbackPower;
 
     // Start is called before the first frame update
-    void Start()
+    private void Awake()
     {
+        print("Destroy"+gameObject+"Called");
         Destroy(gameObject, duration);
     }
 

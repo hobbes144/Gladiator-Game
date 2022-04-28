@@ -168,8 +168,6 @@ public class Player_Equiped : MonoBehaviour
 
             canFire = false;
             StartCoroutine(resetCanFire());
-
-            print("Dur = " + dur);
         }
     }
 
