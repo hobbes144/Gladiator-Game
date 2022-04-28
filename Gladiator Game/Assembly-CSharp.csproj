@@ -61,12 +61,10 @@
     <Compile Include="Assets\Scripts\Player Scripts\Weapon Scripts\Weapon Fired Scripts\projectileFired.cs" />
     <Compile Include="Assets\Scripts\Player Scripts\FPS_Scripts\Components\FirstPersonAudio.cs" />
     <Compile Include="Assets\Scripts\Player Scripts\FPS_Scripts\FirstPersonLook.cs" />
-    <Compile Include="Assets\Art\Enemy-Player Art\True_Fantastic_Creatures\Centaur\Centaur_ctrl.cs" />
     <Compile Include="Assets\Scripts\Player Scripts\PickUp_Item.cs" />
     <Compile Include="Assets\Scripts\Enemy Scripts\moveTo.cs" />
     <Compile Include="Assets\Scripts\Player Scripts\Player_Equiped.cs" />
     <Compile Include="Assets\Scripts\Menu Scripts\MainMenuScript.cs" />
-    <Compile Include="Assets\Art\Enemy-Player Art\animationStateController.cs" />
     <Compile Include="Assets\Scripts\Player Scripts\Weapon Scripts\MeleeWeapon.cs" />
     <Compile Include="Assets\PlayerMovement.cs" />
     <Compile Include="Assets\NavMeshBaker.cs" />
@@ -74,6 +72,7 @@
     <Compile Include="Assets\Scripts\Controller Scripts\enemySpawner.cs" />
     <Compile Include="Assets\Scripts\Player Scripts\Weapon Scripts\ProjectileWeapon.cs" />
     <Compile Include="Assets\Scripts\Controller Scripts\gate.cs" />
+    <Compile Include="Assets\Scripts\Controller Scripts\spawnerController.cs" />
     <Compile Include="Assets\Scripts\Enemy Scripts\enemyBase.cs" />
     <Compile Include="Assets\Scripts\Player Scripts\Weapon Scripts\Weapon Fired Scripts\triggerBox.cs" />
     <Compile Include="Assets\Scripts\Player Scripts\Weapon Scripts\Weapon Fired Scripts\enemyHealthAOE.cs" />
@@ -96,10 +95,8 @@
     <None Include="Assets\Art\MainMenuArt\TextMesh Pro\Shaders\TMP_SDF-Mobile SSD.shader" />
     <None Include="Assets\Art\MainMenuArt\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
     <None Include="Assets\Art\MainMenuArt\TextMesh Pro\Shaders\TMPro_Properties.cginc" />
-    <None Include="Assets\Art\Enemy-Player Art\True_Fantastic_Creatures\FC5_readme.txt" />
     <None Include="Assets\Art\MainMenuArt\TextMesh Pro\Shaders\TMPro_Surface.cginc" />
     <None Include="Assets\Art\MainMenuArt\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
-    <None Include="Assets\Art\Enemy-Player Art\True_Fantastic_Creatures\Terrain_stuff\Standard_2s.shader" />
     <None Include="Assets\Art\MainMenuArt\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
     <None Include="Assets\Art\MainMenuArt\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />
     <None Include="Assets\Art\MainMenuArt\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader" />
