@@ -21,7 +21,7 @@ public class projectileFired : MonoBehaviour
     {
         Destroy(gameObject);
 
-        print("collided with: "+ collision.gameObject);
+        //print("collided with: "+ collision.gameObject);
 
         //Projectile has collided with a target
         if (collision.gameObject.GetComponent<enemyBase>() != null) {
