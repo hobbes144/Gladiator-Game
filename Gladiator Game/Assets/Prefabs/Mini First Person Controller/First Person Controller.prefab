@@ -636,6 +636,9 @@ MonoBehaviour:
   crossBow: {fileID: 167016, guid: 905e4b9838422b64ba6956ddf9800623, type: 3}
   bow: {fileID: 131850, guid: c60f17480d2f0ac4cacb73bb3e81d9c1, type: 3}
   greekFire: {fileID: 2830079993148037361, guid: e28ec903e7022334780e9fdf1da51f2a, type: 3}
+  GameOverCanvas: {fileID: 0}
+  healthBar: {fileID: 0}
+  playerDead: 0
 --- !u!1 &1963958859065967600
 GameObject:
   m_ObjectHideFlags: 0
@@ -1074,7 +1077,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6148907384754120695}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.345, y: -0.392, z: 0.337}
+  m_LocalPosition: {x: 0.428, y: -0.392, z: 0.337}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4490257326247362}

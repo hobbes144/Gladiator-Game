@@ -25,7 +25,7 @@ public class projectileFired : MonoBehaviour
 
         //Projectile has collided with a target
         if (collision.gameObject.GetComponent<enemyBase>() != null) {
-            collision.gameObject.GetComponent<enemyBase>().enemyHit(damage, knockbackPower);
+            collision.gameObject.GetComponent<enemyBase>().enemyHit(knockbackPower, damage);
         }
 
         if (hitEffect != null)

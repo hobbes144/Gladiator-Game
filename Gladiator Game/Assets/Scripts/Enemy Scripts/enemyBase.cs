@@ -23,22 +23,25 @@ public class enemyBase : MonoBehaviour
     [SerializeField] float attackRange = 5.0f;
     [SerializeField] float attackCooldown = 3.0f;
 
-    [Header("Emeny Attack")]
-    //bool inAttackRange = false;
+    [Header("Power-Ups")]
+    [SerializeField] private GameObject healthPU;
+    [SerializeField] private GameObject armorPU;
+    [SerializeField] private GameObject speedPU;
+    [SerializeField] private GameObject meleePU;
+    [SerializeField] private GameObject rangedPU;
+
     bool attacking = false;
-    //float attackTimer = 0.0f;
 
     private Transform moveTarget;
     private moveTo steering;
     private float distanceToTarget;
     private Rigidbody rb;
 
-    //these are to ensure that the agent hunts for at least a second and doesnt just reset if on the tangent
-    private float timer;
-
     // Start is called before the first frame update
     void Start()
     {
+        gameObject.layer = LayerMask.NameToLayer("Enemies");
+
         playerReference = GameObject.FindWithTag("Player").GetComponent<Player_Equiped>();
         playerTrans = playerReference.gameObject.transform;
         rb = gameObject.GetComponent<Rigidbody>();
@@ -72,6 +75,7 @@ public class enemyBase : MonoBehaviour
 
     }
 
+    //-----------STATE FUNCTIONS------------
     private void doHunt()
     {
         steering.setTarget(playerTrans);
@@ -92,10 +96,9 @@ public class enemyBase : MonoBehaviour
             state = AI_States.GOver_STATE;
         }//else hunt down the player
     } // end doHunt()
-
     private void doGOver()
     {
-        steering.setTarget(null);
+        steering.setTarget(selfLocation);
 
         /*
         if (playerReference.playerDead)
@@ -112,37 +115,91 @@ public class enemyBase : MonoBehaviour
         */
 
     } // end doGOver()
-
     private void doHit()
     {
-
+        if (playerReference.playerDead)
+        {
+            state = AI_States.GOver_STATE;
+        }//else hunt down the player
     }
     private void doAttack()
     {
+        steering.setTarget(selfLocation);
+
         if (!attacking)
         {
             print("Enemying is Attacking");
             StartCoroutine(enemyAttacking());
         }
 
+        if (distanceToTarget > attackRange)
+        {
+            StopAllCoroutines();
+            state = AI_States.HUNT_STATE;
+        }
+
+        if (playerReference.playerDead)
+        {
+            state = AI_States.GOver_STATE;
+        }//else hunt down the player
+
     } //end doAttack();
 
+
+    //----------HELPER FUNCTIONS-------------
     public void enemyHit(float knockback, float damage)
     {
-        StopAllCoroutines();
-        //stop animations
-        state = AI_States.HIT_STATE;
-        StartCoroutine(enemyHitCo());
+        if (enemyCurrHealth > 0) {
+            StopAllCoroutines();
+            //stop animations
+            state = AI_States.HIT_STATE;
+            StartCoroutine(enemyHitCo());
 
-        enemyCurrHealth -= damage;
+            enemyCurrHealth -= damage;
+            rb.AddForce(-1 * transform.forward * knockback, ForceMode.Impulse);
 
-        if (enemyCurrHealth <= 0)
-        {
-            //enemy dies
-            Destroy(gameObject, 1);
+            if (enemyCurrHealth <= 0)
+            {
+                //enemy dies
+                dropChance();
+                Destroy(gameObject, 1);
+            }
         }
     }
+    public void dropChance()
+    {
+        print("Drop Chance Run");
 
+        float chance = Random.Range(1, 10);
+        if (chance > 7)
+        {
+            print("Item has been dropped");
+            var position = new Vector3(transform.position.x, 0.25f, transform.position.z);
+            float chancePU = Random.Range(1, 5);
+            GameObject itemPref = null;
+            
+            switch (chancePU)
+            {
+                case 1:
+                    itemPref = healthPU;
+                    break;
+                case 2:
+                    itemPref = armorPU;
+                    break;
+                case 3:
+                    itemPref = speedPU;
+                    break;
+                case 4:
+                    itemPref = meleePU;
+                    break;
+                case 5:
+                    itemPref = rangedPU;
+                    break;
+            }
+
+            Instantiate(itemPref, position, Quaternion.identity);
+        }
+    }
 
     //---------------CoRountines------------
 
@@ -150,6 +207,8 @@ public class enemyBase : MonoBehaviour
     {
         //play hit animation
         yield return new WaitForSeconds(1); // wait for hit animation to finish
+        //Stop the Agent to prevent recoil
+
         state = AI_States.HUNT_STATE;
     }
 
@@ -158,15 +217,8 @@ public class enemyBase : MonoBehaviour
         attacking = true;
         //play attack animation
         yield return new WaitForSeconds(1);
-        rb.isKinematic = true;
-        print("rb is Kinematic");
-        rb.isKinematic = false;
-        print("rb is not Kinematic");
+        
         playerReference.playerDamaged(enemyDamage);
         attacking = false;
-        if (distanceToTarget > attackRange) 
-        {
-            state = AI_States.HUNT_STATE;
-        }
     }
 }

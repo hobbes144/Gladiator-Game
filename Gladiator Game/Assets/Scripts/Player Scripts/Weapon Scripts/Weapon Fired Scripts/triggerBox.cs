@@ -12,6 +12,7 @@ public class triggerBox : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        Destroy(gameObject.transform.parent.gameObject, duration);
         Destroy(gameObject, duration);
     }
 
@@ -25,7 +26,7 @@ public class triggerBox : MonoBehaviour
         //other has entered the trigger, do damage (KNOCKBACK MAYBE)
         if(other.gameObject.GetComponent<enemyBase>() != null)
         {
-            other.gameObject.GetComponent<enemyBase>().enemyHit(damage, knockbackPower);
+            other.gameObject.GetComponent<enemyBase>().enemyHit(knockbackPower, damage);
         }
     }
 }

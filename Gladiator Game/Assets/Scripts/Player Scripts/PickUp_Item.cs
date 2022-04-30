@@ -18,7 +18,8 @@ public class PickUp_Item : MonoBehaviour
 
     private void Start()
     {
-        //Physics.IgnoreLayerCollision(ENEMY_LAYER, ITEM_LAYER);
+        gameObject.layer = LayerMask.NameToLayer("Items");
+        Physics.IgnoreLayerCollision(7, 8);
     }
 
     private void OnTriggerEnter(Collider other)
@@ -26,7 +27,8 @@ public class PickUp_Item : MonoBehaviour
         Player_Equiped pEquiped = other.GetComponent<Player_Equiped>();
         if (pEquiped != null)
         {
-            pickedUp(pEquiped);
+            StartCoroutine(pickedUp(pEquiped));
+            Destroy(gameObject);
         }
     }
 
