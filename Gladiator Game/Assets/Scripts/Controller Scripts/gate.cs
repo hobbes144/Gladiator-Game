@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class gate : MonoBehaviour
 {
+    private spawnerController spawnController;
+    [SerializeField] private GameObject spawnControllerObject;
 
     [Header("Gate Info")]
     private Player_Equiped player;
@@ -16,6 +18,11 @@ public class gate : MonoBehaviour
 
     public bool activeGate = false;
 
+    void Start()
+    {
+        spawnController = spawnControllerObject.GetComponent<spawnerController>();
+    }
+
     private void OnTriggerEnter(Collider other)
     {
         if (activeGate)
@@ -27,6 +34,8 @@ public class gate : MonoBehaviour
                 player.changeSpeed(speedBuff);
                 player.changeMeleeDamageFactor(meleeBuff);
                 player.changeRangedDamageFactor(rangedBuff);
+
+                spawnController.roundSpawn(spawnController.roundNumber);
 
                 player.gameObject.transform.position = transport.position;
             }

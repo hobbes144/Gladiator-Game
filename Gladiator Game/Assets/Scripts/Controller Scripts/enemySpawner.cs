@@ -11,8 +11,8 @@ public class enemySpawner : MonoBehaviour
     [SerializeField] GameObject enemyRedPrefab;
     [SerializeField] private int enemyCount;
     [SerializeField] public int maxSpawns;
-    [SerializeField] private float spawnDelay;
-    [SerializeField] public int roundNumber;
+    [SerializeField] public float spawnDelay;
+    [SerializeField] public int roundIndividual;
 
     public bool enableSpawn;
 
@@ -29,7 +29,7 @@ public class enemySpawner : MonoBehaviour
     {
         if (enableSpawn)
         {
-            StartCoroutine(enemySpawn(maxSpawns, roundNumber));
+            StartCoroutine(enemySpawn(maxSpawns, roundIndividual));
             enableSpawn = false;
         }
     }
@@ -39,94 +39,138 @@ public class enemySpawner : MonoBehaviour
         if (roundNumber == 10)
         {
             Debug.Log("It is round 10");
+            for (enemyCount = 0; enemyCount < maxSpawns; enemyCount++)
+            {
+                if (!playerReference.playerDead)
+                {
+                    Instantiate(enemyBasePrefab, transform.position, Quaternion.identity);
+                }
+                //Debug.Log("Enemy is spawned");
+                yield return new WaitForSeconds(spawnDelay);
 
+            }
 
 
         }
         else if (roundNumber == 9)
         {
             Debug.Log("It is round 9");
+            for (enemyCount = 0; enemyCount < maxSpawns; enemyCount++)
+            {
+                if (!playerReference.playerDead)
+                {
+                    Instantiate(enemyBasePrefab, transform.position, Quaternion.identity);
+                }
+                //Debug.Log("Enemy is spawned");
+                yield return new WaitForSeconds(spawnDelay);
 
+            }
 
 
         }
         else if (roundNumber == 8)
         {
             Debug.Log("It is round 8");
+            for (enemyCount = 0; enemyCount < maxSpawns; enemyCount++)
+            {
+                if (!playerReference.playerDead)
+                {
+                    Instantiate(enemyBasePrefab, transform.position, Quaternion.identity);
+                }
+                //Debug.Log("Enemy is spawned");
+                yield return new WaitForSeconds(spawnDelay);
 
+            }
 
 
         }
         else if (roundNumber == 7)
         {
             Debug.Log("It is round 7");
+            for (enemyCount = 0; enemyCount < maxSpawns; enemyCount++)
+            {
+                if (!playerReference.playerDead)
+                {
+                    Instantiate(enemyBasePrefab, transform.position, Quaternion.identity);
+                }
+                //Debug.Log("Enemy is spawned");
+                yield return new WaitForSeconds(spawnDelay);
 
+            }
 
 
         }
         else if (roundNumber == 6)
         {
             Debug.Log("It is round 6");
+            for (enemyCount = 0; enemyCount < maxSpawns; enemyCount++)
+            {
+                if (!playerReference.playerDead)
+                {
+                    Instantiate(enemyBasePrefab, transform.position, Quaternion.identity);
+                }
+                //Debug.Log("Enemy is spawned");
+                yield return new WaitForSeconds(spawnDelay);
 
+            }
 
 
         }
         else if (roundNumber == 5)
         {
             Debug.Log("It is round 5");
+            for (enemyCount = 0; enemyCount < maxSpawns; enemyCount++)
+            {
+                if (!playerReference.playerDead)
+                {
+                    Instantiate(enemyBasePrefab, transform.position, Quaternion.identity);
+                }
+                //Debug.Log("Enemy is spawned");
+                yield return new WaitForSeconds(spawnDelay);
 
+            }
 
 
         }
         else if (roundNumber == 4)
         {
             Debug.Log("It is round 4");
+            for (enemyCount = 0; enemyCount < maxSpawns; enemyCount++)
+            {
+                if (!playerReference.playerDead)
+                {
+                    Instantiate(enemyBasePrefab, transform.position, Quaternion.identity);
+                }
+                //Debug.Log("Enemy is spawned");
+                yield return new WaitForSeconds(spawnDelay);
 
+            }
 
 
         }
         else if (roundNumber == 3)
         {
             Debug.Log("It is round 3");
-            for (enemyCount = 0; enemyCount < 15; enemyCount++)
+            for (enemyCount = 0; enemyCount < maxSpawns; enemyCount++)
             {
                 if (!playerReference.playerDead)
                 {
-                    int whichEnemy = Random.Range(1, 4);
-                    if (whichEnemy == 1)
-                    {
-                        Instantiate(enemyBasePrefab, transform.position, Quaternion.identity);
-                    }
-                    else if (whichEnemy == 2)
-                    {
-                        Instantiate(enemyVariantPrefab, transform.position, Quaternion.identity);
-                    }
-                    else
-                    {
-                        Instantiate(enemyRedPrefab, transform.position, Quaternion.identity);
-                    }
+                    Instantiate(enemyBasePrefab, transform.position, Quaternion.identity);
                 }
                 //Debug.Log("Enemy is spawned");
                 yield return new WaitForSeconds(spawnDelay);
+
             }
 
         }
         else if (roundNumber == 2)
         {
             Debug.Log("It is round 2");
-            for (enemyCount = 0; enemyCount < 15; enemyCount++)
+            for (enemyCount = 0; enemyCount < maxSpawns; enemyCount++)
             {
                 if (!playerReference.playerDead)
                 {
-                    int whichEnemy = Random.Range(1, 3);
-                    if (whichEnemy == 1)
-                    {
-                        Instantiate(enemyBasePrefab, transform.position, Quaternion.identity);
-                    }
-                    else
-                    {
-                        Instantiate(enemyVariantPrefab, transform.position, Quaternion.identity);
-                    }
+                    Instantiate(enemyBasePrefab, transform.position, Quaternion.identity);
                 }
                 //Debug.Log("Enemy is spawned");
                 yield return new WaitForSeconds(spawnDelay);
@@ -138,7 +182,7 @@ public class enemySpawner : MonoBehaviour
         else 
         {
             Debug.Log("It is round 1");
-            for (enemyCount = 0; enemyCount < 10; enemyCount++)
+            for (enemyCount = 0; enemyCount < maxSpawns; enemyCount++)
             {
                 if (!playerReference.playerDead)
                 {
@@ -148,6 +192,7 @@ public class enemySpawner : MonoBehaviour
                 yield return new WaitForSeconds(spawnDelay);
 
             }
+
 
         }
 

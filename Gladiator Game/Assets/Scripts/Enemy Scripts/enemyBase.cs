@@ -11,12 +11,14 @@ public class enemyBase : MonoBehaviour
 {
 
     private Player_Equiped playerReference;
+    private spawnerController spawnController;
 
+    [SerializeField] private GameObject spawnControllerObject;
     [SerializeField] private AI_States state = AI_States.HUNT_STATE;
     [SerializeField] private Transform selfLocation;
     [SerializeField] private Transform playerTrans;
 
-    [Header("Emeny")]
+    [Header("Enemy")]
     [SerializeField] float enemyHealth = 100.0f;
     [SerializeField] float enemyCurrHealth = 100.0f;
     [SerializeField] float enemyDamage = 10.0f;
@@ -44,6 +46,7 @@ public class enemyBase : MonoBehaviour
     {
         gameObject.layer = LayerMask.NameToLayer("Enemies");
 
+        spawnController = spawnControllerObject.GetComponent<spawnerController>();
         playerReference = GameObject.FindWithTag("Player").GetComponent<Player_Equiped>();
         playerTrans = playerReference.gameObject.transform;
         rb = gameObject.GetComponent<Rigidbody>();
@@ -181,6 +184,7 @@ public class enemyBase : MonoBehaviour
             if (enemyCurrHealth <= 0)
             {
                 //enemy dies
+                spawnController.enemyDeadCount += 1;
                 print("Enemy Has Died");
                 isDead = true;
                 state = AI_States.DEAD_STATE;
