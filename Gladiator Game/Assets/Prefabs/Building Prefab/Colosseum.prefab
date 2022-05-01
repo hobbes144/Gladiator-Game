@@ -10330,6 +10330,26 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2395942586669694298}
     m_Modifications:
+    - target: {fileID: 4061593431279901956, guid: ebfb493da399c4fa58c7124c8472518b, type: 3}
+      propertyPath: m_Size.x
+      value: 1.4254923
+      objectReference: {fileID: 0}
+    - target: {fileID: 4061593431279901956, guid: ebfb493da399c4fa58c7124c8472518b, type: 3}
+      propertyPath: m_Size.y
+      value: 7.3006916
+      objectReference: {fileID: 0}
+    - target: {fileID: 4061593431279901956, guid: ebfb493da399c4fa58c7124c8472518b, type: 3}
+      propertyPath: m_Center.x
+      value: 0.0016636848
+      objectReference: {fileID: 0}
+    - target: {fileID: 4061593431279901956, guid: ebfb493da399c4fa58c7124c8472518b, type: 3}
+      propertyPath: m_Center.y
+      value: 3.6503458
+      objectReference: {fileID: 0}
+    - target: {fileID: 4061593431279901956, guid: ebfb493da399c4fa58c7124c8472518b, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8184065624004458606, guid: ebfb493da399c4fa58c7124c8472518b, type: 3}
       propertyPath: m_Name
       value: Roof
@@ -24700,6 +24720,34 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2395942586669694298}
     m_Modifications:
+    - target: {fileID: 4061593431279901956, guid: ebfb493da399c4fa58c7124c8472518b, type: 3}
+      propertyPath: m_Size.x
+      value: 1.7856798
+      objectReference: {fileID: 0}
+    - target: {fileID: 4061593431279901956, guid: ebfb493da399c4fa58c7124c8472518b, type: 3}
+      propertyPath: m_Size.y
+      value: 7.3006916
+      objectReference: {fileID: 0}
+    - target: {fileID: 4061593431279901956, guid: ebfb493da399c4fa58c7124c8472518b, type: 3}
+      propertyPath: m_Size.z
+      value: 6.6215086
+      objectReference: {fileID: 0}
+    - target: {fileID: 4061593431279901956, guid: ebfb493da399c4fa58c7124c8472518b, type: 3}
+      propertyPath: m_Center.x
+      value: -0.17843013
+      objectReference: {fileID: 0}
+    - target: {fileID: 4061593431279901956, guid: ebfb493da399c4fa58c7124c8472518b, type: 3}
+      propertyPath: m_Center.y
+      value: 3.6503458
+      objectReference: {fileID: 0}
+    - target: {fileID: 4061593431279901956, guid: ebfb493da399c4fa58c7124c8472518b, type: 3}
+      propertyPath: m_Center.z
+      value: 3.310754
+      objectReference: {fileID: 0}
+    - target: {fileID: 4061593431279901956, guid: ebfb493da399c4fa58c7124c8472518b, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8184065624004458606, guid: ebfb493da399c4fa58c7124c8472518b, type: 3}
       propertyPath: m_Name
       value: Roof (1)
@@ -27185,6 +27233,30 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2395942586669694298}
     m_Modifications:
+    - target: {fileID: 4061593431279901956, guid: ebfb493da399c4fa58c7124c8472518b, type: 3}
+      propertyPath: m_Size.x
+      value: 1.8875341
+      objectReference: {fileID: 0}
+    - target: {fileID: 4061593431279901956, guid: ebfb493da399c4fa58c7124c8472518b, type: 3}
+      propertyPath: m_Size.y
+      value: 7.3006916
+      objectReference: {fileID: 0}
+    - target: {fileID: 4061593431279901956, guid: ebfb493da399c4fa58c7124c8472518b, type: 3}
+      propertyPath: m_Size.z
+      value: 6.6215096
+      objectReference: {fileID: 0}
+    - target: {fileID: 4061593431279901956, guid: ebfb493da399c4fa58c7124c8472518b, type: 3}
+      propertyPath: m_Center.x
+      value: 0.28535017
+      objectReference: {fileID: 0}
+    - target: {fileID: 4061593431279901956, guid: ebfb493da399c4fa58c7124c8472518b, type: 3}
+      propertyPath: m_Center.y
+      value: 3.6503458
+      objectReference: {fileID: 0}
+    - target: {fileID: 4061593431279901956, guid: ebfb493da399c4fa58c7124c8472518b, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8184065624004458606, guid: ebfb493da399c4fa58c7124c8472518b, type: 3}
       propertyPath: m_Name
       value: Roof (3)
@@ -28928,6 +29000,26 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2395942586669694298}
     m_Modifications:
+    - target: {fileID: 4061593431279901956, guid: ebfb493da399c4fa58c7124c8472518b, type: 3}
+      propertyPath: m_Size.x
+      value: 1.4079523
+      objectReference: {fileID: 0}
+    - target: {fileID: 4061593431279901956, guid: ebfb493da399c4fa58c7124c8472518b, type: 3}
+      propertyPath: m_Size.y
+      value: 7.3006916
+      objectReference: {fileID: 0}
+    - target: {fileID: 4061593431279901956, guid: ebfb493da399c4fa58c7124c8472518b, type: 3}
+      propertyPath: m_Center.x
+      value: 0.010433674
+      objectReference: {fileID: 0}
+    - target: {fileID: 4061593431279901956, guid: ebfb493da399c4fa58c7124c8472518b, type: 3}
+      propertyPath: m_Center.y
+      value: 3.6503458
+      objectReference: {fileID: 0}
+    - target: {fileID: 4061593431279901956, guid: ebfb493da399c4fa58c7124c8472518b, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8184065624004458606, guid: ebfb493da399c4fa58c7124c8472518b, type: 3}
       propertyPath: m_Name
       value: Roof (2)

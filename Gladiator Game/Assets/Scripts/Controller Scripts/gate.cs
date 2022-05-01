@@ -14,17 +14,22 @@ public class gate : MonoBehaviour
     [SerializeField] private float meleeBuff;
     [SerializeField] private float rangedBuff;
 
+    public bool activeGate = false;
+
     private void OnTriggerEnter(Collider other)
     {
-        player = other.GetComponent<Player_Equiped>();
-        if (player != null)
+        if (activeGate)
         {
-            player.changeMaxHealth(healthBuff);
-            player.changeSpeed(speedBuff);
-            player.changeMeleeDamageFactor(meleeBuff);
-            player.changeRangedDamageFactor(rangedBuff);
+            player = other.GetComponent<Player_Equiped>();
+            if (player != null)
+            {
+                player.changeMaxHealth(healthBuff);
+                player.changeSpeed(speedBuff);
+                player.changeMeleeDamageFactor(meleeBuff);
+                player.changeRangedDamageFactor(rangedBuff);
 
-            player.gameObject.transform.position = transport.position;
+                player.gameObject.transform.position = transport.position;
+            }
         }
     }
 }
