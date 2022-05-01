@@ -4,7 +4,7 @@ using UnityEngine;
 
 enum AI_States
 {
-    HUNT_STATE, GOver_STATE, HIT_STATE, ATTACK_STATE
+    HUNT_STATE, GOver_STATE, HIT_STATE, ATTACK_STATE, DEAD_STATE
 }
 
 public class enemyBase : MonoBehaviour
@@ -32,10 +32,12 @@ public class enemyBase : MonoBehaviour
 
     bool attacking = false;
 
-    private Transform moveTarget;
+    //private Transform moveTarget;
     private moveTo steering;
     private float distanceToTarget;
     private Rigidbody rb;
+    private Animator animator;
+    private bool isDead;
 
     // Start is called before the first frame update
     void Start()
@@ -45,6 +47,10 @@ public class enemyBase : MonoBehaviour
         playerReference = GameObject.FindWithTag("Player").GetComponent<Player_Equiped>();
         playerTrans = playerReference.gameObject.transform;
         rb = gameObject.GetComponent<Rigidbody>();
+        animator = gameObject.GetComponent<Animator>();
+        animator.SetBool("isDead", false);
+        selfLocation = gameObject.transform;
+        isDead = false;
 
         steering = GetComponent<moveTo>();
     }
@@ -52,6 +58,8 @@ public class enemyBase : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        //selfLocation = gameObject.transform;
+
         distanceToTarget = Vector3.Distance(transform.position, playerTrans.position);
 
         switch (state)
@@ -69,6 +77,9 @@ public class enemyBase : MonoBehaviour
             case AI_States.ATTACK_STATE:
                 doAttack();
                 break;
+            case AI_States.DEAD_STATE:
+                doDead();
+                break;
         }
 
         print("State: " + state);
@@ -80,6 +91,9 @@ public class enemyBase : MonoBehaviour
     {
         steering.setTarget(playerTrans);
         //print("Dist to Target: " + distanceToTarget);
+
+        animator.SetBool("isWalking", true);
+        animator.SetBool("isAttacking", false);
 
         if (distanceToTarget < attackRange)
         {
@@ -100,23 +114,18 @@ public class enemyBase : MonoBehaviour
     {
         steering.setTarget(selfLocation);
 
-        /*
-        if (playerReference.playerDead)
-        {
-            steering.setTarget(selfLocation);
-            moveTarget = selfLocation;
-        }
-        else
-        {
-            state = AI_States.HUNT_STATE;
-            moveTarget = playerTrans;
-            steering.setTarget(playerTrans);
-        }
-        */
+        //animator.SetBool("isAttacking", true);
 
     } // end doGOver()
     private void doHit()
     {
+        steering.setTarget(selfLocation);
+
+        if (isDead)
+        {
+            state = AI_States.DEAD_STATE;
+        }
+
         if (playerReference.playerDead)
         {
             state = AI_States.GOver_STATE;
@@ -126,15 +135,18 @@ public class enemyBase : MonoBehaviour
     {
         steering.setTarget(selfLocation);
 
+        animator.SetBool("isAttacking", true);
+
         if (!attacking)
         {
             print("Enemying is Attacking");
             StartCoroutine(enemyAttacking());
         }
 
-        if (distanceToTarget > attackRange)
+        if (distanceToTarget > attackRange && !isDead)
         {
-            StopAllCoroutines();
+            StopCoroutine(enemyAttacking());
+            animator.SetBool("isAttacking", false);
             state = AI_States.HUNT_STATE;
         }
 
@@ -145,13 +157,18 @@ public class enemyBase : MonoBehaviour
 
     } //end doAttack();
 
+    private void doDead()
+    {
+        steering.setTarget(selfLocation);
+    }
+
 
     //----------HELPER FUNCTIONS-------------
     public void enemyHit(float knockback, float damage)
     {
         if (enemyCurrHealth > 0) {
             StopAllCoroutines();
-            //stop animations
+            animator.SetTrigger("isHit");
             state = AI_States.HIT_STATE;
             StartCoroutine(enemyHitCo());
 
@@ -161,8 +178,11 @@ public class enemyBase : MonoBehaviour
             if (enemyCurrHealth <= 0)
             {
                 //enemy dies
-                dropChance();
-                Destroy(gameObject, 1);
+                print("Enemy Has Died");
+                isDead = true;
+                state = AI_States.DEAD_STATE;
+                animator.SetBool("isDead", true);
+                StartCoroutine(enemyDeath());
             }
         }
     }
@@ -220,5 +240,12 @@ public class enemyBase : MonoBehaviour
         
         playerReference.playerDamaged(enemyDamage);
         attacking = false;
+    }
+
+    IEnumerator enemyDeath()
+    {
+        yield return new WaitForSeconds(3);
+        dropChance();
+        Destroy(gameObject);
     }
 }
