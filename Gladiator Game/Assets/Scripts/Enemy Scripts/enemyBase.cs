@@ -89,26 +89,29 @@ public class enemyBase : MonoBehaviour
     //-----------STATE FUNCTIONS------------
     private void doHunt()
     {
-        steering.setTarget(playerTrans);
-        //print("Dist to Target: " + distanceToTarget);
-
-        animator.SetBool("isWalking", true);
-        animator.SetBool("isAttacking", false);
-
-        if (distanceToTarget < attackRange)
+        if (!isDead)
         {
-            //inAttackRange = true;
-            state = AI_States.ATTACK_STATE;
+            steering.setTarget(playerTrans);
+            //print("Dist to Target: " + distanceToTarget);
+
+            animator.SetBool("isWalking", true);
+            animator.SetBool("isAttacking", false);
+
+            if (distanceToTarget < attackRange)
+            {
+                //inAttackRange = true;
+                state = AI_States.ATTACK_STATE;
+            }
+            else
+            {
+                //inAttackRange = false;
+            }
+
+            if (playerReference.playerDead)
+            {
+                state = AI_States.GOver_STATE;
+            }//else hunt down the player
         }
-        else
-        {
-            //inAttackRange = false;
-        }
-
-        if (playerReference.playerDead)
-        {
-            state = AI_States.GOver_STATE;
-        }//else hunt down the player
     } // end doHunt()
     private void doGOver()
     {
@@ -244,7 +247,7 @@ public class enemyBase : MonoBehaviour
 
     IEnumerator enemyDeath()
     {
-        yield return new WaitForSeconds(3);
+        yield return new WaitForSeconds(4);
         dropChance();
         Destroy(gameObject);
     }
