@@ -78,8 +78,8 @@ MonoBehaviour:
   projectile: {fileID: 135746, guid: c0d3e94f286c6be4e9aaf8ab2f3b01b9, type: 3}
   launchPoint: {fileID: 4494877113934811269}
   semiauto: 0
-  rechargeTime: 1
-  power: 8
+  rechargeTime: 3
+  power: 15
 --- !u!1001 &6471126990054266688
 PrefabInstance:
   m_ObjectHideFlags: 0

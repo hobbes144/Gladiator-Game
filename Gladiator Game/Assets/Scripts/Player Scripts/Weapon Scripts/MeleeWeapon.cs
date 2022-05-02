@@ -9,6 +9,7 @@ public class MeleeWeapon : MonoBehaviour
     [SerializeField] private GameObject triggerBox;
     [SerializeField] private Transform spawnPoint;
     [SerializeField] private bool semiauto;
+    [SerializeField] private string animationTitle;
 
     [Header("Trigger Box Info")]
     [SerializeField] private float rechargeTime;
@@ -25,6 +26,8 @@ public class MeleeWeapon : MonoBehaviour
         GameObject box = Instantiate(triggerBox, spawnPoint.position, Quaternion.identity);
         box.transform.position = spawnPoint.position;
         box.GetComponentInChildren<triggerBox>().updateDamage(player.rangedDamageFactor);
+
+        gameObject.GetComponent<Animator>().Play(animationTitle);
     }
 
     public float getRechargeTime()

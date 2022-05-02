@@ -45,7 +45,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   healthDelta: 50
   knockbackPower: 1
-  radius: 7
+  radius: 4
   particleObject: {fileID: 6519082187826855582, guid: 333cb407bd051464898c89b94fff814d, type: 3}
   enemyLayer:
     serializedVersion: 2

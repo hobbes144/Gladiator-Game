@@ -6,13 +6,16 @@ public class enemySpawner : MonoBehaviour
 {
     private Player_Equiped playerReference;
 
-    [SerializeField] GameObject enemyBasePrefab;
-    [SerializeField] GameObject enemyVariantPrefab;
-    [SerializeField] GameObject enemyRedPrefab;
+    [Header("Spawner Info")]
     [SerializeField] private int enemyCount;
     [SerializeField] public int maxSpawns;
     [SerializeField] public float spawnDelay;
     [SerializeField] public int roundIndividual;
+
+    [Header("Enemy Prefabs")]
+    [SerializeField] GameObject enemyBasePrefab;
+    [SerializeField] GameObject enemyVariantPrefab;
+    [SerializeField] GameObject enemyRedPrefab;
 
     public bool enableSpawn;
 

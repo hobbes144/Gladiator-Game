@@ -701,13 +701,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spawnControllerObject: {fileID: 0}
   state: 0
-  selfLocation: {fileID: 0}
+  selfLocation: {fileID: 5612095597745610503}
   playerTrans: {fileID: 0}
   enemyHealth: 100
   enemyCurrHealth: 100
   enemyDamage: 10
   attackRange: 3
   attackCooldown: 3
+  enemySpeed: 3.5
   healthPU: {fileID: 173500, guid: 0063ddb3fc19ee241970ee0115f48068, type: 3}
   armorPU: {fileID: 197236, guid: bc3c3f42757106949a628d6ec18d7ec4, type: 3}
   speedPU: {fileID: 146310, guid: 9573e9ed369f05742b8fbb17e3db20bc, type: 3}

@@ -41,4 +41,9 @@ public class gate : MonoBehaviour
             }
         }
     }
+
+    public void setActiveGate(bool b)
+    {
+        activeGate = b;
+    }
 }

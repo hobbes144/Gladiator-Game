@@ -30,7 +30,7 @@ public class projectileFired : MonoBehaviour
 
         if (hitEffect != null)
         {
-            Instantiate(hitEffect, collision.transform.position, Quaternion.identity);
+            Instantiate(hitEffect, gameObject.transform.position, Quaternion.identity);
         }
     }
 

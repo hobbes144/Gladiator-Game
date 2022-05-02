@@ -68,7 +68,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   duration: 0.2
   damage: 20
-  knockbackPower: 2
+  knockbackPower: 5
 --- !u!1 &2165623133001048764
 GameObject:
   m_ObjectHideFlags: 0

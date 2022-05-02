@@ -31,7 +31,7 @@ public class spawnerController : MonoBehaviour
         eastReference = eastSpawn.GetComponent<enemySpawner>();
         southReference = southSpawn.GetComponent<enemySpawner>();
         westReference = westSpawn.GetComponent<enemySpawner>();
-        gate = gateObject.GetComponent<gate>();
+        
 
         roundSpawn(roundNumber);
     }
@@ -41,7 +41,11 @@ public class spawnerController : MonoBehaviour
     {
         if (enemiesToDie <= enemyDeadCount)
         {
-            gate.activeGate = true; 
+            GameObject[] gates = GameObject.FindGameObjectsWithTag("Gate");
+            foreach (GameObject gate in gates)
+            {
+                gate.GetComponent<gate>().setActiveGate(true);
+            }
         }
     }
 
@@ -57,6 +61,15 @@ public class spawnerController : MonoBehaviour
         spawnSouth(whichRound);
         spawnWest(whichRound);
         roundNumber += 1;
+
+        if (enemiesToDie <= enemyDeadCount)
+        {
+            GameObject[] gates = GameObject.FindGameObjectsWithTag("Gate");
+            foreach (GameObject gate in gates)
+            {
+                gate.GetComponent<gate>().setActiveGate(false);
+            }
+        }
     }
 
     private void spawnNorth(int round)

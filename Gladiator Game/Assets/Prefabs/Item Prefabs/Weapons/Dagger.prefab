@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 3371820}
   - component: {fileID: 2355334}
   - component: {fileID: 304785691446013531}
+  - component: {fileID: -1817065136951830062}
   m_Layer: 0
   m_Name: Dagger
   m_TagString: Untagged
@@ -26,7 +27,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 110658}
-  m_LocalRotation: {x: -0.14605269, y: -0.29549402, z: -0.84637386, w: 0.41833392}
+  m_LocalRotation: {x: -0.1460527, y: -0.29549402, z: -0.84637386, w: 0.41833392}
   m_LocalPosition: {x: 0.02519532, y: 0.161, z: 0.209}
   m_LocalScale: {x: 0.25, y: 0.25, z: 0.25}
   m_Children:
@@ -98,7 +99,27 @@ MonoBehaviour:
   triggerBox: {fileID: 2165623133001048764, guid: 91a9c601bd8b59f4daa85e70203dd103, type: 3}
   spawnPoint: {fileID: 3487296688688086206}
   semiauto: 1
+  animationTitle: stab
   rechargeTime: 0.25
+--- !u!95 &-1817065136951830062
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 110658}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 7b47c1c26c86bb44c85f6d7e55dae2bb, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &5404290103503678947
 GameObject:
   m_ObjectHideFlags: 0

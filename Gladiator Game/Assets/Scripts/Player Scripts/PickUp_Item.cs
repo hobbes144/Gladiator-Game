@@ -25,28 +25,8 @@ public class PickUp_Item : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
         Player_Equiped pEquiped = other.GetComponent<Player_Equiped>();
-        if (pEquiped != null)
-        {
-            StartCoroutine(pickedUp(pEquiped));
-            Destroy(gameObject);
-        }
+        pEquiped.pickedUp(healthBoost, speedBoost, armorBoost, meleeBoost, rangedBoost);
+        Destroy(gameObject);
     }
 
-    IEnumerator pickedUp(Player_Equiped player)
-    {
-        player.healPlayer(healthBoost);
-        player.changeSpeed(speedBoost);
-        player.changeArmor(armorBoost);
-        player.changeMeleeDamageFactor(meleeBoost);
-        player.changeRangedDamageFactor(rangedBoost);
-
-        //ITEM PICK UP CODE GOES HERE
-
-        yield return new WaitForSeconds(10);
-
-        player.changeSpeed(-1 * speedBoost);
-        player.changeArmor(-1 * armorBoost);
-        player.changeMeleeDamageFactor(-1 * meleeBoost);
-        player.changeRangedDamageFactor(-1 * rangedBoost);
-    }
 }

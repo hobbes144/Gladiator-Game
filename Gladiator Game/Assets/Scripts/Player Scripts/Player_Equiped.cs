@@ -42,15 +42,20 @@ public class Player_Equiped : MonoBehaviour
     [SerializeField] private GameObject GameOverCanvas;
     [SerializeField] private HealthBar healthBar;
 
+    //Weapon variables (for swapping)
     private Weapon_Equip weaponEquiped; //Enum representation of weapon
     private GameObject weapon; //Weapon player is using
     private GameObject wepPrefab;//Prefab of weapon to create
 
+    //for movement purposes
     private FirstPersonMovement firstPersonMovement; //used for speed management
 
+    //attacking varibales
     private bool canFire = true;
     private float dur = 0;
+    private Animator handAnimator = null;
 
+    //is the player dead
     public bool playerDead = false;
 
     // Start is called before the first frame update
@@ -223,6 +228,7 @@ public class Player_Equiped : MonoBehaviour
         {
             currHealth = maxHealth;
         }
+        healthBar.setHealth(currHealth);
     }
     //-----------Speed Functions-----------
     public void changeSpeed(float delta)
@@ -239,11 +245,35 @@ public class Player_Equiped : MonoBehaviour
         rangedDamageFactor += delta;
     }
 
+    public void pickedUp(float healthBoost, float speedBoost, float armorBoost, float meleeBoost, float rangedBoost)
+    {
+        StartCoroutine(pickedUpCo(healthBoost, speedBoost, armorBoost, meleeBoost, rangedBoost));
+    }
+
 
     //-----------Corountines-----------
     IEnumerator resetCanFire()
     {
         yield return new WaitForSeconds(dur);
         canFire = true;
+    }
+
+    IEnumerator pickedUpCo(float healthBoost, float speedBoost, float armorBoost, float meleeBoost, float rangedBoost)
+    {
+        print("Picked Up Coroutine Called");
+        healPlayer(healthBoost);
+        changeSpeed(speedBoost);
+        changeArmor(armorBoost);
+        changeMeleeDamageFactor(meleeBoost);
+        changeRangedDamageFactor(rangedBoost);
+
+        //ITEM PICK UP CODE GOES HERE
+
+        yield return new WaitForSeconds(10);
+
+        changeSpeed(-1 * speedBoost);
+        changeArmor(-1 * armorBoost);
+        changeMeleeDamageFactor(-1 * meleeBoost);
+        changeRangedDamageFactor(-1 * rangedBoost);
     }
 }

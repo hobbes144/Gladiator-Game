@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.AI;
 
 enum AI_States
 {
@@ -24,6 +25,7 @@ public class enemyBase : MonoBehaviour
     [SerializeField] float enemyDamage = 10.0f;
     [SerializeField] float attackRange = 5.0f;
     [SerializeField] float attackCooldown = 3.0f;
+    [SerializeField] float enemySpeed = 3.5f;
 
     [Header("Power-Ups")]
     [SerializeField] private GameObject healthPU;
@@ -45,13 +47,19 @@ public class enemyBase : MonoBehaviour
     void Start()
     {
         gameObject.layer = LayerMask.NameToLayer("Enemies");
+        spawnControllerObject = GameObject.FindWithTag("GameController");
+        NavMeshAgent agent = GetComponent<NavMeshAgent>();
+        agent.speed = enemySpeed;
 
         spawnController = spawnControllerObject.GetComponent<spawnerController>();
         playerReference = GameObject.FindWithTag("Player").GetComponent<Player_Equiped>();
         playerTrans = playerReference.gameObject.transform;
+
         rb = gameObject.GetComponent<Rigidbody>();
+
         animator = gameObject.GetComponent<Animator>();
         animator.SetBool("isDead", false);
+
         selfLocation = gameObject.transform;
         isDead = false;
 
@@ -85,7 +93,7 @@ public class enemyBase : MonoBehaviour
                 break;
         }
 
-        print("State: " + state);
+        //print("State: " + state);
 
     }
 
@@ -127,6 +135,12 @@ public class enemyBase : MonoBehaviour
     {
         steering.setTarget(selfLocation);
 
+        if (distanceToTarget >= attackRange)
+        {
+            state = AI_States.HUNT_STATE;
+            StopCoroutine(enemyAttacking());
+        }
+
         if (isDead)
         {
             state = AI_States.DEAD_STATE;
@@ -162,7 +176,6 @@ public class enemyBase : MonoBehaviour
         }//else hunt down the player
 
     } //end doAttack();
-
     private void doDead()
     {
         steering.setTarget(selfLocation);
@@ -173,7 +186,8 @@ public class enemyBase : MonoBehaviour
     public void enemyHit(float knockback, float damage)
     {
         if (enemyCurrHealth > 0) {
-            StopAllCoroutines();
+            StopCoroutine(enemyAttacking());
+            attacking = false;
             animator.SetTrigger("isHit");
             state = AI_States.HIT_STATE;
             StartCoroutine(enemyHitCo());
@@ -198,7 +212,7 @@ public class enemyBase : MonoBehaviour
         print("Drop Chance Run");
 
         float chance = Random.Range(1, 10);
-        if (chance > 7)
+        if (chance > 6)
         {
             print("Item has been dropped");
             var position = new Vector3(transform.position.x, 0.25f, transform.position.z);
@@ -243,7 +257,7 @@ public class enemyBase : MonoBehaviour
     {
         attacking = true;
         //play attack animation
-        yield return new WaitForSeconds(1);
+        yield return new WaitForSeconds(0.5f);
         
         playerReference.playerDamaged(enemyDamage);
         attacking = false;
