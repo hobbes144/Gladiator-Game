@@ -43,12 +43,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c4f8c22a5e82b4b6a932f635e41d5068, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  healthDelta: -50
-  radius: 3
-  particleObject: {fileID: 0}
+  healthDelta: 50
+  knockbackPower: 1
+  radius: 7
+  particleObject: {fileID: 6519082187826855582, guid: 333cb407bd051464898c89b94fff814d, type: 3}
   enemyLayer:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 128
   looping: 0
-  repetitions: 3
-  loopPause: 0
+  repetitions: 1
+  loopPause: 3

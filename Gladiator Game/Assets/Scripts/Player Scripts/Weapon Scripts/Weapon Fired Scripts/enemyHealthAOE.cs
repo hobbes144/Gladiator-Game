@@ -36,31 +36,38 @@ public class enemyHealthAOE : MonoBehaviour
 
     private void checkEnemyAOE()
     {
+        print("checkEnemy called");
+
         Collider[] colliders = Physics.OverlapSphere(transform.position, radius, enemyLayer);
         foreach (Collider c in colliders)
         {
             //c is the enemy
-            c.gameObject.GetComponent<enemyBase>().enemyHit(healthDelta, knockbackPower);
+            c.gameObject.GetComponent<enemyBase>().enemyHit(knockbackPower, healthDelta);
         }
     }
 
     IEnumerator loopAOE()
     {
-        particleObject.SetActive(true);
+        GameObject pO = Instantiate(particleObject, gameObject.transform);
+        //particleObject.SetActive(true);
         checkEnemyAOE();
         yield return new WaitForSeconds(loopPause);
-        particleObject.SetActive(false);
+        //particleObject.SetActive(false);
+        Destroy(pO);
         StartCoroutine(loopAOE());
     }
     IEnumerator repeatAOE()
     {
+        print("Repeat AOE called");
+
         for (int i = 0; i < repetitions; i++)
         {
-            particleObject.SetActive(true);
+            GameObject pO = Instantiate(particleObject, gameObject.transform);
             checkEnemyAOE();
             yield return new WaitForSeconds(loopPause);
-            particleObject.SetActive(false);
+            //Destroy (pO);
         }
+        Destroy(gameObject);
     }
 
 }
