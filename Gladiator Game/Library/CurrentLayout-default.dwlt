@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1536
     height: 772.8
   m_ShowMode: 4
-  m_Title: Hierarchy
+  m_Title: Game
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 542}
   m_MaxSize: {x: 10000, y: 10000}
@@ -122,7 +122,7 @@ MonoBehaviour:
   m_MinSize: {x: 579, y: 492}
   m_MaxSize: {x: 14002, y: 14042}
   vertical: 0
-  controlID: 98
+  controlID: 74
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -147,7 +147,7 @@ MonoBehaviour:
   m_MinSize: {x: 303, y: 492}
   m_MaxSize: {x: 10001, y: 14042}
   vertical: 1
-  controlID: 149
+  controlID: 75
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -172,7 +172,7 @@ MonoBehaviour:
   m_MinSize: {x: 303, y: 221}
   m_MaxSize: {x: 8003, y: 4021}
   vertical: 0
-  controlID: 150
+  controlID: 76
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -282,7 +282,7 @@ MonoBehaviour:
   - {fileID: 20}
   - {fileID: 21}
   m_Selected: 0
-  m_LastSelected: 0
+  m_LastSelected: 2
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -400,9 +400,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
-      m_LastClickedID: 0
-      m_ExpandedIDs: 26c0fefffa46ffff12f6ffff
+      m_SelectedIDs: 5cfbffff
+      m_LastClickedID: -1188
+      m_ExpandedIDs: 5cfbffff6cfbffff6efbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -610,7 +610,7 @@ MonoBehaviour:
   m_Position:
     m_Target: {x: -6.0641546, y: 1.4045092, z: -2.4948843}
     speed: 2
-    m_Value: {x: -6.6017346, y: 1.7565836, z: 6.343649}
+    m_Value: {x: -6.0641546, y: 1.4045092, z: -2.4948843}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -659,11 +659,11 @@ MonoBehaviour:
   m_Rotation:
     m_Target: {x: -0.118131585, y: 0.63653976, z: -0.099131845, w: -0.755836}
     speed: 2
-    m_Value: {x: -0.007639177, y: -0.98205185, z: 0.18360423, w: -0.042489175}
+    m_Value: {x: -0.118131585, y: 0.6365398, z: -0.099131845, w: -0.755836}
   m_Size:
-    m_Target: 6.291573
+    m_Target: 13.109131
     speed: 2
-    m_Value: 6.020644
+    m_Value: 13.726838
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -779,23 +779,23 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Prefabs/Enemy Prefabs
+    - Assets/endless_battle_march_free/Resources/loops
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Prefabs/Enemy Prefabs
+  - Assets/endless_battle_march_free/Resources/loops
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\jljus\OneDrive\Documents\github\Gladiator-Game\Gladiator
     Game
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 477.40002}
-    m_SelectedIDs: d8540000
-    m_LastClickedID: 21720
-    m_ExpandedIDs: 00000000a4540000a6540000a8540000aa540000ac540000ae540000b0540000b2540000b4540000b6540000ba540000bc540000be540000c0540000c2540000c4540000c6540000cc540000dc560000fa56000000ca9a3b
+    scrollPos: {x: 0, y: 229.40002}
+    m_SelectedIDs: a8920000
+    m_LastClickedID: 37544
+    m_ExpandedIDs: 00000000c6910000c8910000ca910000cc910000ce910000d0910000d2910000d4910000d6910000d8910000da910000dc910000de910000e0910000e2910000e4910000e6910000e8910000a4920000a692000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -823,7 +823,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000a4540000a6540000a8540000aa540000ac540000ae540000b0540000b2540000b4540000b6540000b8540000ba540000bc540000be540000c0540000c2540000c4540000c6540000
+    m_ExpandedIDs: 00000000c6910000c8910000ca910000cc910000ce910000d0910000d2910000d4910000d6910000d8910000da910000dc910000de910000e0910000e2910000e4910000e6910000e8910000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -961,10 +961,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1688
-    y: 73
-    width: 871
-    height: 1286
+    x: 1012.8
+    y: 73.6
+    width: 522.2
+    height: 701.8
   m_ViewDataDictionary: {fileID: 0}
 --- !u!114 &22
 MonoBehaviour:
