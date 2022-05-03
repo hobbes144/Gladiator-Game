@@ -9,13 +9,13 @@ public class enemySpawner : MonoBehaviour
     [Header("Spawner Info")]
     [SerializeField] private int enemyCount;
     [SerializeField] public int maxSpawns;
-    [SerializeField] public float spawnDelay;
+    [SerializeField] public float spawnDelay = 4f;
     [SerializeField] public int roundIndividual;
 
     [Header("Enemy Prefabs")]
     [SerializeField] GameObject enemyBasePrefab;
-    [SerializeField] GameObject enemyVariantPrefab;
-    [SerializeField] GameObject enemyRedPrefab;
+    [SerializeField] GameObject enemyTankPrefab;
+    [SerializeField] GameObject enemyBerserkerPrefab;
 
     public bool enableSpawn;
 
@@ -44,7 +44,16 @@ public class enemySpawner : MonoBehaviour
             Debug.Log("It is round 10");
             for (enemyCount = 0; enemyCount < maxSpawns; enemyCount++)
             {
-                if (!playerReference.playerDead)
+                int whatSpawn = Random.Range(0, 10);
+                if (!playerReference.playerDead && whatSpawn >= 5)
+                {
+                    Instantiate(enemyTankPrefab, transform.position, Quaternion.identity);
+                }
+                else if (whatSpawn >= 1)
+                {
+                    Instantiate(enemyBerserkerPrefab, transform.position, Quaternion.identity);
+                }
+                else
                 {
                     Instantiate(enemyBasePrefab, transform.position, Quaternion.identity);
                 }
@@ -60,7 +69,16 @@ public class enemySpawner : MonoBehaviour
             Debug.Log("It is round 9");
             for (enemyCount = 0; enemyCount < maxSpawns; enemyCount++)
             {
-                if (!playerReference.playerDead)
+                int whatSpawn = Random.Range(0, 10);
+                if (!playerReference.playerDead && whatSpawn >= 6)
+                {
+                    Instantiate(enemyTankPrefab, transform.position, Quaternion.identity);
+                }
+                else if (whatSpawn >= 2)
+                {
+                    Instantiate(enemyBerserkerPrefab, transform.position, Quaternion.identity);
+                }
+                else
                 {
                     Instantiate(enemyBasePrefab, transform.position, Quaternion.identity);
                 }
@@ -76,7 +94,16 @@ public class enemySpawner : MonoBehaviour
             Debug.Log("It is round 8");
             for (enemyCount = 0; enemyCount < maxSpawns; enemyCount++)
             {
-                if (!playerReference.playerDead)
+                int whatSpawn = Random.Range(0, 10);
+                if (!playerReference.playerDead && whatSpawn >= 7)
+                {
+                    Instantiate(enemyTankPrefab, transform.position, Quaternion.identity);
+                }
+                else if (whatSpawn >= 4)
+                {
+                    Instantiate(enemyBerserkerPrefab, transform.position, Quaternion.identity);
+                }
+                else
                 {
                     Instantiate(enemyBasePrefab, transform.position, Quaternion.identity);
                 }
@@ -92,7 +119,16 @@ public class enemySpawner : MonoBehaviour
             Debug.Log("It is round 7");
             for (enemyCount = 0; enemyCount < maxSpawns; enemyCount++)
             {
-                if (!playerReference.playerDead)
+                int whatSpawn = Random.Range(0, 10);
+                if (!playerReference.playerDead && whatSpawn >= 8)
+                {
+                    Instantiate(enemyTankPrefab, transform.position, Quaternion.identity);
+                }
+                else if (whatSpawn >= 5)
+                {
+                    Instantiate(enemyBerserkerPrefab, transform.position, Quaternion.identity);
+                }
+                else
                 {
                     Instantiate(enemyBasePrefab, transform.position, Quaternion.identity);
                 }
@@ -108,7 +144,16 @@ public class enemySpawner : MonoBehaviour
             Debug.Log("It is round 6");
             for (enemyCount = 0; enemyCount < maxSpawns; enemyCount++)
             {
-                if (!playerReference.playerDead)
+                int whatSpawn = Random.Range(0, 10);
+                if (!playerReference.playerDead && whatSpawn == 9)
+                {
+                    Instantiate(enemyTankPrefab, transform.position, Quaternion.identity);
+                }
+                else if (whatSpawn >= 6)
+                {
+                    Instantiate(enemyBerserkerPrefab, transform.position, Quaternion.identity);
+                }
+                else
                 {
                     Instantiate(enemyBasePrefab, transform.position, Quaternion.identity);
                 }
@@ -124,7 +169,12 @@ public class enemySpawner : MonoBehaviour
             Debug.Log("It is round 5");
             for (enemyCount = 0; enemyCount < maxSpawns; enemyCount++)
             {
-                if (!playerReference.playerDead)
+                int whatSpawn = Random.Range(0, 10);
+                if (whatSpawn >= 7)
+                {
+                    Instantiate(enemyBerserkerPrefab, transform.position, Quaternion.identity);
+                }
+                else
                 {
                     Instantiate(enemyBasePrefab, transform.position, Quaternion.identity);
                 }
@@ -137,12 +187,12 @@ public class enemySpawner : MonoBehaviour
         }
         else if (roundNumber == 4)
         {
-            Debug.Log("It is round 4");
+            Debug.Log("It is round 4... Tank Round");
             for (enemyCount = 0; enemyCount < maxSpawns; enemyCount++)
             {
                 if (!playerReference.playerDead)
                 {
-                    Instantiate(enemyBasePrefab, transform.position, Quaternion.identity);
+                    Instantiate(enemyTankPrefab, transform.position, Quaternion.identity);
                 }
                 //Debug.Log("Enemy is spawned");
                 yield return new WaitForSeconds(spawnDelay);
@@ -153,12 +203,12 @@ public class enemySpawner : MonoBehaviour
         }
         else if (roundNumber == 3)
         {
-            Debug.Log("It is round 3");
+            Debug.Log("It is round 3... Berserker Round");
             for (enemyCount = 0; enemyCount < maxSpawns; enemyCount++)
             {
                 if (!playerReference.playerDead)
                 {
-                    Instantiate(enemyBasePrefab, transform.position, Quaternion.identity);
+                    Instantiate(enemyBerserkerPrefab, transform.position, Quaternion.identity);
                 }
                 //Debug.Log("Enemy is spawned");
                 yield return new WaitForSeconds(spawnDelay);
@@ -182,7 +232,7 @@ public class enemySpawner : MonoBehaviour
 
 
         }
-        else 
+        else if (roundNumber == 1)
         {
             Debug.Log("It is round 1");
             for (enemyCount = 0; enemyCount < maxSpawns; enemyCount++)
@@ -197,6 +247,31 @@ public class enemySpawner : MonoBehaviour
             }
 
 
+        } else if (roundNumber == 0)
+        {
+            
+            {
+                Debug.Log("It is endless");
+                for (enemyCount = 0; enemyCount >= 0; enemyCount++)
+                {
+                    int whatSpawn = Random.Range(0, 4);
+                    if (!playerReference.playerDead && whatSpawn == 3)
+                    {
+                        Instantiate(enemyTankPrefab, transform.position, Quaternion.identity);
+                    } else if (whatSpawn == 2)
+                    {
+                        Instantiate(enemyBerserkerPrefab, transform.position, Quaternion.identity);
+                    } else
+                    {
+                        Instantiate(enemyBasePrefab, transform.position, Quaternion.identity);
+                    }
+                    //Debug.Log("Enemy is spawned");
+                    yield return new WaitForSeconds(spawnDelay);
+
+                }
+
+
+            }
         }
 
     }

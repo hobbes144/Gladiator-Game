@@ -5,8 +5,9 @@ using UnityEngine.SceneManagement;
 
 public class MainMenuScript : MonoBehaviour
 {
-
+    
     public string firstLevel;
+    public string endlessLevel;
 
     // public string optionsScene;
 
@@ -18,6 +19,9 @@ public class MainMenuScript : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        
+        
+
         GamePlayScreen.SetActive(false);
         SelectGameMode.SetActive(false);
         MainMenuButtons.SetActive(true);
@@ -50,7 +54,7 @@ public class MainMenuScript : MonoBehaviour
 
     public void StartEndless() // To select endless game mode
     {
-        SceneManager.LoadScene(firstLevel);
+        SceneManager.LoadScene(endlessLevel);
     }
 
 

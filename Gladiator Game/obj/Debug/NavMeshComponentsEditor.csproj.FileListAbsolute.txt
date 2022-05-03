@@ -1,0 +1,2 @@
+C:\Users\TrevinP\OneDrive\Documents\GitHub\Gladiator-Game\Gladiator Game\obj\Debug\NavMeshComponentsEditor.csprojAssemblyReference.cache
+C:\Users\TrevinP\OneDrive\Documents\GitHub\Gladiator-Game\Gladiator Game\obj\Debug\NavMeshComponentsEditor.csproj.CoreCompileInputs.cache

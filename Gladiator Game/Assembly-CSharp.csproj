@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <LangVersion>8.0</LangVersion>
+    <LangVersion>7.3</LangVersion>
   </PropertyGroup>
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -53,15 +53,13 @@
     <UnityVersion>2020.3.31f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Analyzer Include="C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
-  </ItemGroup>
-  <ItemGroup>
     <Compile Include="Assets\Scripts\Player Scripts\FPS_Scripts\FirstPersonMovement.cs" />
     <Compile Include="Assets\Scripts\Menu Scripts\GameOver.cs" />
     <Compile Include="Assets\Scripts\Player Scripts\FPS_Scripts\Components\Zoom.cs" />
     <Compile Include="Assets\Scripts\Player Scripts\Weapon Scripts\Weapon Fired Scripts\projectileFired.cs" />
     <Compile Include="Assets\Scripts\Player Scripts\FPS_Scripts\Components\FirstPersonAudio.cs" />
     <Compile Include="Assets\Scripts\Player Scripts\FPS_Scripts\FirstPersonLook.cs" />
+    <Compile Include="Assets\Scripts\Enemy Scripts\enemyAttackTrigger.cs" />
     <Compile Include="Assets\Scripts\Player Scripts\PickUp_Item.cs" />
     <Compile Include="Assets\Scripts\Enemy Scripts\moveTo.cs" />
     <Compile Include="Assets\Scripts\Player Scripts\Player_Equiped.cs" />
@@ -82,7 +80,8 @@
     <Compile Include="Assets\Scripts\Menu Scripts\PausedMenu.cs" />
     <Compile Include="Assets\mouseLook.cs" />
     <Compile Include="Assets\Scripts\Player Scripts\FPS_Scripts\Components\GroundCheck.cs" />
-    <Compile Include="Assets\Scripts\Enemy Scripts\enemyAttackTrigger.cs" />
+    <Compile Include="Assets\sceneReference.cs" />
+    <Compile Include="Assets\gameControlReference.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Art\MainMenuArt\TextMesh Pro\Shaders\TMPro.cginc" />

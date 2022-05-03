@@ -1716,8 +1716,8 @@ MonoBehaviour:
   spawnDelay: 2
   roundIndividual: 0
   enemyBasePrefab: {fileID: 5091877496313955773, guid: 9eab6fa0fc15b154e82c9c7656963de3, type: 3}
-  enemyVariantPrefab: {fileID: 2444091893828528555, guid: 0c2c65aa422abdf42b4ff45c9d193c59, type: 3}
-  enemyRedPrefab: {fileID: 2700127884448786647, guid: 69fe1b104f2edb141bdf6001b1094510, type: 3}
+  enemyTankPrefab: {fileID: 2444091893828528555, guid: 0c2c65aa422abdf42b4ff45c9d193c59, type: 3}
+  enemyBerserkerPrefab: {fileID: 2700127884448786647, guid: 69fe1b104f2edb141bdf6001b1094510, type: 3}
   enableSpawn: 0
 --- !u!4 &913095880
 Transform:
@@ -2133,8 +2133,8 @@ MonoBehaviour:
   spawnDelay: 2
   roundIndividual: 0
   enemyBasePrefab: {fileID: 5091877496313955773, guid: 9eab6fa0fc15b154e82c9c7656963de3, type: 3}
-  enemyVariantPrefab: {fileID: 2444091893828528555, guid: 0c2c65aa422abdf42b4ff45c9d193c59, type: 3}
-  enemyRedPrefab: {fileID: 2700127884448786647, guid: 69fe1b104f2edb141bdf6001b1094510, type: 3}
+  enemyTankPrefab: {fileID: 2444091893828528555, guid: 0c2c65aa422abdf42b4ff45c9d193c59, type: 3}
+  enemyBerserkerPrefab: {fileID: 2700127884448786647, guid: 69fe1b104f2edb141bdf6001b1094510, type: 3}
   enableSpawn: 0
 --- !u!4 &1391172149
 Transform:
@@ -2185,9 +2185,10 @@ MonoBehaviour:
   westSpawn: {fileID: 1391172147}
   gateObject: {fileID: 0}
   enemyDeadCount: 0
-  roundNumber: 0
+  roundNumber: 1
   enemyToSpawn: 0
   enemiesToDie: 0
+  endless: 0
 --- !u!4 &1525676867
 Transform:
   m_ObjectHideFlags: 0
@@ -2465,8 +2466,8 @@ MonoBehaviour:
   spawnDelay: 2
   roundIndividual: 0
   enemyBasePrefab: {fileID: 5091877496313955773, guid: 9eab6fa0fc15b154e82c9c7656963de3, type: 3}
-  enemyVariantPrefab: {fileID: 2444091893828528555, guid: 0c2c65aa422abdf42b4ff45c9d193c59, type: 3}
-  enemyRedPrefab: {fileID: 2700127884448786647, guid: 69fe1b104f2edb141bdf6001b1094510, type: 3}
+  enemyTankPrefab: {fileID: 2444091893828528555, guid: 0c2c65aa422abdf42b4ff45c9d193c59, type: 3}
+  enemyBerserkerPrefab: {fileID: 2700127884448786647, guid: 69fe1b104f2edb141bdf6001b1094510, type: 3}
   enableSpawn: 0
 --- !u!4 &1610644427
 Transform:
@@ -2806,8 +2807,8 @@ MonoBehaviour:
   spawnDelay: 2
   roundIndividual: 0
   enemyBasePrefab: {fileID: 5091877496313955773, guid: 9eab6fa0fc15b154e82c9c7656963de3, type: 3}
-  enemyVariantPrefab: {fileID: 2444091893828528555, guid: 0c2c65aa422abdf42b4ff45c9d193c59, type: 3}
-  enemyRedPrefab: {fileID: 2700127884448786647, guid: 69fe1b104f2edb141bdf6001b1094510, type: 3}
+  enemyTankPrefab: {fileID: 2444091893828528555, guid: 0c2c65aa422abdf42b4ff45c9d193c59, type: 3}
+  enemyBerserkerPrefab: {fileID: 2700127884448786647, guid: 69fe1b104f2edb141bdf6001b1094510, type: 3}
   enableSpawn: 0
 --- !u!4 &2136229304
 Transform:

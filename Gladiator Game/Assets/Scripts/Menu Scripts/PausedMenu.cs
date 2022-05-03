@@ -5,6 +5,8 @@ using UnityEngine.SceneManagement;
 
 public class PausedMenu : MonoBehaviour
 {
+    private Player_Equiped playerReference;
+
     [SerializeField] private GameObject pauseMenu;
     // public GameObject pauseMenu;
 
@@ -18,12 +20,13 @@ public class PausedMenu : MonoBehaviour
     {
         pauseMenu.SetActive(false);
         DeactivateMenu();
-        
+        playerReference = GameObject.FindWithTag("Player").GetComponent<Player_Equiped>();
+
     }
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Escape))
+        if (Input.GetKeyDown(KeyCode.Escape) && !playerReference.playerDead)
         {
             // isPaused = !isPaused;
             if (!isPaused)

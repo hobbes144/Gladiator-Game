@@ -33,15 +33,15 @@ public class spawnerController : MonoBehaviour
         westReference = westSpawn.GetComponent<enemySpawner>();
 
         if (!endless) {
-            roundSpawn(roundNumber);
+            roundSpawn(1);
         }
         else
         {
-
+            endlessMode();
         }
     }
 
-    // Update is called once per frame
+    // Update is called once per frameddd
     void Update()
     {
         if (enemiesToDie <= enemyDeadCount)
@@ -54,6 +54,15 @@ public class spawnerController : MonoBehaviour
         }
     }
 
+    public void endlessMode()
+    {
+        enemyDeadCount = 0;
+
+        spawnNorth(0, true);
+        spawnEast(0, true);
+        spawnSouth(0, true);
+        spawnWest(0, true);
+    }
 
     public void roundSpawn(int whichRound)
     {
@@ -61,10 +70,10 @@ public class spawnerController : MonoBehaviour
         assignSpawnAmount(whichRound);
         enemiesToDie = 4 * enemyToSpawn;
 
-        spawnNorth(whichRound);
-        spawnEast(whichRound);
-        spawnSouth(whichRound);
-        spawnWest(whichRound);
+        spawnNorth(whichRound, false);
+        spawnEast(whichRound, false);
+        spawnSouth(whichRound, false);
+        spawnWest(whichRound, false);
         roundNumber += 1;
 
         GameObject[] gates = GameObject.FindGameObjectsWithTag("Gate");
@@ -75,36 +84,68 @@ public class spawnerController : MonoBehaviour
 
     }
 
-    private void spawnNorth(int round)
+    private void spawnNorth(int round, bool endless)
     {
-        northReference.roundIndividual = round;
-        northReference.maxSpawns = enemyToSpawn;
+        if (endless)
+        {
+            northReference.roundIndividual = 0;
+        }
+        else
+        {
+            northReference.roundIndividual = round;
+            northReference.maxSpawns = enemyToSpawn;
+        }
         northReference.enableSpawn = true;
+
     }
 
-    private void spawnEast(int round)
+    private void spawnEast(int round, bool endless)
     {
-        eastReference.roundIndividual = round;
-        eastReference.maxSpawns = enemyToSpawn;
+        if (endless)
+        {
+            eastReference.roundIndividual = 0;
+        }
+        else
+        {
+            eastReference.roundIndividual = round;
+            eastReference.maxSpawns = enemyToSpawn;
+        }
         eastReference.enableSpawn = true;
+
     }
 
-    private void spawnSouth(int round)
+    private void spawnSouth(int round, bool endless)
     {
-        southReference.roundIndividual = round;
-        southReference.maxSpawns = enemyToSpawn;
+        if (endless)
+        {
+            southReference.roundIndividual = 0;
+        }
+        else
+        {
+            southReference.roundIndividual = round;
+            southReference.maxSpawns = enemyToSpawn;
+        }
         southReference.enableSpawn = true;
+
     }
 
-    private void spawnWest(int round)
+    private void spawnWest(int round, bool endless)
     {
-        westReference.roundIndividual = round;
-        westReference.maxSpawns = enemyToSpawn;
+        if (endless)
+        {
+            westReference.roundIndividual = 0;
+        }
+        else
+        {
+            westReference.roundIndividual = round;
+            westReference.maxSpawns = enemyToSpawn;
+        }
         westReference.enableSpawn = true;
+
     }
     private void assignSpawnAmount(int round)
     {
-        if (roundNumber >= 10)
+        if (roundNumber > 10)
         {
             Debug.Log("Beaten the Game");
             enemyToSpawn = 0;
@@ -112,52 +153,53 @@ public class spawnerController : MonoBehaviour
         else if (roundNumber == 10)
         {
             Debug.Log("It is round 10");
-            enemyToSpawn = 50;
+            //for Trey's boss just set enemyToSpawn = 0 , and call boss spawn function
+            enemyToSpawn = 30;
         }
         else if (roundNumber == 9)
         {
             Debug.Log("It is round 9");
-            enemyToSpawn = 45;
+            enemyToSpawn = 25;
         }
         else if (roundNumber == 8)
         {
             Debug.Log("It is round 8");
-            enemyToSpawn = 40;
+            enemyToSpawn = 20;
         }
         else if (roundNumber == 7)
         {
             Debug.Log("It is round 7");
-            enemyToSpawn = 35;
+            enemyToSpawn = 15;
         }
         else if (roundNumber == 6)
         {
             Debug.Log("It is round 6");
-            enemyToSpawn = 30;
+            enemyToSpawn = 10;
         }
         else if (roundNumber == 5)
         {
             Debug.Log("It is round 5");
-            enemyToSpawn = 25;
+            enemyToSpawn = 5;
         }
         else if (roundNumber == 4)
         {
             Debug.Log("It is round 4");
-            enemyToSpawn = 20;
+            enemyToSpawn = 2;
         }
         else if (roundNumber == 3)
         {
             Debug.Log("It is round 3");
-            enemyToSpawn = 15;
+            enemyToSpawn = 3;
         }
         else if (roundNumber == 2)
         {
             Debug.Log("It is round 2");
-            enemyToSpawn = 10;
+            enemyToSpawn = 5;
         }
         else
         {
             Debug.Log("It is round 1");
-            enemyToSpawn = 1;
+            enemyToSpawn = 3;
         }
     }
 
