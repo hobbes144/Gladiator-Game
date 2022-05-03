@@ -9,7 +9,7 @@ public class spawnerController : MonoBehaviour
     private enemySpawner eastReference;
     private enemySpawner southReference;
     private enemySpawner westReference;
-    private gate gate;
+    //private gate gate;
 
     [SerializeField] private GameObject northSpawn;
     [SerializeField] private GameObject eastSpawn;
@@ -22,7 +22,7 @@ public class spawnerController : MonoBehaviour
     [SerializeField] public int enemyToSpawn;
     [SerializeField] public int enemiesToDie;
 
-
+    [SerializeField] public bool endless = false;
 
     // Start is called before the first frame update
     void Start()
@@ -31,9 +31,14 @@ public class spawnerController : MonoBehaviour
         eastReference = eastSpawn.GetComponent<enemySpawner>();
         southReference = southSpawn.GetComponent<enemySpawner>();
         westReference = westSpawn.GetComponent<enemySpawner>();
-        
 
-        roundSpawn(roundNumber);
+        if (!endless) {
+            roundSpawn(roundNumber);
+        }
+        else
+        {
+
+        }
     }
 
     // Update is called once per frame
