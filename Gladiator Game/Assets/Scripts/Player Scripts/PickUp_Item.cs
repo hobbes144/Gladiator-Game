@@ -20,6 +20,8 @@ public class PickUp_Item : MonoBehaviour
     {
         gameObject.layer = LayerMask.NameToLayer("Items");
         Physics.IgnoreLayerCollision(7, 8);
+
+        gameObject.transform.rotation = Quaternion.Euler(gameObject.transform.rotation.x, Random.Range(0.0f,360.0f), gameObject.transform.rotation.z);
     }
 
     private void OnTriggerEnter(Collider other)

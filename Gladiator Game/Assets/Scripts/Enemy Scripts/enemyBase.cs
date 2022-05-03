@@ -139,7 +139,7 @@ public class enemyBase : MonoBehaviour
 
         if (distanceToTarget >= attackRange)
         {
-            state = AI_States.HUNT_STATE;
+            //state = AI_States.HUNT_STATE;
             StopCoroutine(enemyAttacking());
         }
 
