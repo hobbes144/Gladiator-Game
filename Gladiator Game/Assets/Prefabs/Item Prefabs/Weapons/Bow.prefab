@@ -98,7 +98,7 @@ MonoBehaviour:
   projectile: {fileID: 111768, guid: e90cec55677e6e84ebca7be939292013, type: 3}
   launchPoint: {fileID: 5240114938598596338}
   semiauto: 0
-  rechargeTime: 1
+  rechargeTime: 0.5
   power: 15
 --- !u!1 &8328584377856312904
 GameObject:

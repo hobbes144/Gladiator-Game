@@ -100,7 +100,7 @@ MonoBehaviour:
   spawnPoint: {fileID: 1511651082372679676}
   semiauto: 0
   animationTitle: swing
-  rechargeTime: 1.25
+  rechargeTime: 1.2
 --- !u!95 &7952564642724368791
 Animator:
   serializedVersion: 3

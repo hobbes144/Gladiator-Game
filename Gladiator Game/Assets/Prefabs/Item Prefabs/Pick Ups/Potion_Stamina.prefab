@@ -96,7 +96,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   healthBoost: 0
-  speedBoost: 20
+  speedBoost: 10
   armorBoost: 0
   meleeBoost: 0
   rangedBoost: 0

@@ -183,7 +183,6 @@ public class Player_Equiped : MonoBehaviour
             print("Dur = " + dur);
         }
     }
-
     private void playerDeath()
     {
         GameOverCanvas.SetActive(true);
@@ -197,6 +196,7 @@ public class Player_Equiped : MonoBehaviour
         maxHealth += delta;
 
         healthBar.setMaxHealth(maxHealth);
+        healthBar.setHealth(currHealth);
     }
     public void changeCurrHealth(float delta)
     {
@@ -208,9 +208,10 @@ public class Player_Equiped : MonoBehaviour
     {
         armor += delta;
     }
-    public void playerDamaged(float damage)
+    public void playerDamaged(float damage, float knockbackPower)
     {
         currHealth -= damage * ((100.0f - armor) / 100.0f);
+        gameObject.GetComponent<Rigidbody>().AddForce(-1 * knockbackPower * transform.forward, ForceMode.Impulse);
 
         healthBar.setHealth(currHealth);
 

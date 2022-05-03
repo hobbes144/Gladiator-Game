@@ -98,7 +98,7 @@ MonoBehaviour:
   healthBoost: 0
   speedBoost: 0
   armorBoost: 0
-  meleeBoost: 2
+  meleeBoost: 1
   rangedBoost: 0
   boltCount: 0
   arrowCount: 0

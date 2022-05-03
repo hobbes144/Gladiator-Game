@@ -99,7 +99,7 @@ MonoBehaviour:
   speedBoost: 0
   armorBoost: 0
   meleeBoost: 0
-  rangedBoost: 2
+  rangedBoost: 1
   boltCount: 0
   arrowCount: 0
   greekFireCount: 0

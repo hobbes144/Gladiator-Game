@@ -706,9 +706,11 @@ MonoBehaviour:
   enemyHealth: 100
   enemyCurrHealth: 100
   enemyDamage: 10
+  enemyKnockbackPower: 5
   attackRange: 3
   attackCooldown: 3
   enemySpeed: 3.5
+  enemyAttackTrigger: {fileID: 8745768813889801222, guid: 9de934470659003449934d41d56d6ef2, type: 3}
   healthPU: {fileID: 173500, guid: 0063ddb3fc19ee241970ee0115f48068, type: 3}
   armorPU: {fileID: 197236, guid: bc3c3f42757106949a628d6ec18d7ec4, type: 3}
   speedPU: {fileID: 146310, guid: 9573e9ed369f05742b8fbb17e3db20bc, type: 3}

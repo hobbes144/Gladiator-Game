@@ -23,9 +23,11 @@ public class enemyBase : MonoBehaviour
     [SerializeField] float enemyHealth = 100.0f;
     [SerializeField] float enemyCurrHealth = 100.0f;
     [SerializeField] float enemyDamage = 10.0f;
+    [SerializeField] float enemyKnockbackPower = 3;
     [SerializeField] float attackRange = 5.0f;
     [SerializeField] float attackCooldown = 3.0f;
     [SerializeField] float enemySpeed = 3.5f;
+    [SerializeField] GameObject enemyAttackTrigger;
 
     [Header("Power-Ups")]
     [SerializeField] private GameObject healthPU;
@@ -258,8 +260,13 @@ public class enemyBase : MonoBehaviour
         attacking = true;
         //play attack animation
         yield return new WaitForSeconds(0.5f);
-        
-        playerReference.playerDamaged(enemyDamage);
+
+        //playerReference.playerDamaged(enemyDamage);
+        GameObject eAT = Instantiate(enemyAttackTrigger, gameObject.transform);
+        print("Enemy Attacking With " + enemyDamage + " damage and " + enemyKnockbackPower + " Knockback");
+        eAT.GetComponent<enemyAttackTrigger>().setEffects(enemyDamage, enemyKnockbackPower);
+        eAT.transform.position = gameObject.transform.position;
+        yield return new WaitForSeconds(1);
         attacking = false;
     }
 

@@ -62,14 +62,12 @@ public class spawnerController : MonoBehaviour
         spawnWest(whichRound);
         roundNumber += 1;
 
-        if (enemiesToDie <= enemyDeadCount)
+        GameObject[] gates = GameObject.FindGameObjectsWithTag("Gate");
+        foreach (GameObject gate in gates)
         {
-            GameObject[] gates = GameObject.FindGameObjectsWithTag("Gate");
-            foreach (GameObject gate in gates)
-            {
-                gate.GetComponent<gate>().setActiveGate(false);
-            }
+            gate.GetComponent<gate>().setActiveGate(false);
         }
+
     }
 
     private void spawnNorth(int round)
