@@ -13,9 +13,15 @@ public class ProjectileWeapon : MonoBehaviour
     [Header("Fire Info")]
     [SerializeField] private float rechargeTime;
     [SerializeField] private float power;
+    [SerializeField] private AudioSource audio;
 
     public void projectileFired()
     {
+        if (audio != null)
+        {
+            audio.Play();
+        }
+
         player = GameObject.FindWithTag("Player").GetComponent<Player_Equiped>();
 
         GameObject proj = Instantiate(projectile, launchPoint.localPosition, launchPoint.rotation);

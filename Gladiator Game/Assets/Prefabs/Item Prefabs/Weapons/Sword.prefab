@@ -101,6 +101,7 @@ MonoBehaviour:
   semiauto: 0
   animationTitle: swing
   rechargeTime: 1.2
+  audio: {fileID: 8953173136582027644, guid: 6590620ec0b76174ca06f47dbe4af609, type: 3}
 --- !u!95 &7952564642724368791
 Animator:
   serializedVersion: 3

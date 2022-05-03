@@ -53,3 +53,4 @@ MonoBehaviour:
   looping: 0
   repetitions: 1
   loopPause: 3
+  audio: {fileID: 8760676815124567294, guid: 67573606215a0284989ac250a3f676ab, type: 3}

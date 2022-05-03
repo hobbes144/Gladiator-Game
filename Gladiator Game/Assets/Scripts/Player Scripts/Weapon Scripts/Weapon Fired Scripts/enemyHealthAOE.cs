@@ -16,6 +16,7 @@ public class enemyHealthAOE : MonoBehaviour
     [SerializeField] private bool looping;
     [SerializeField] private float repetitions;
     [SerializeField] private float loopPause;
+    [SerializeField] private AudioSource audio;
 
     
 
@@ -49,6 +50,7 @@ public class enemyHealthAOE : MonoBehaviour
     IEnumerator loopAOE()
     {
         GameObject pO = Instantiate(particleObject, gameObject.transform);
+        audio.Play();
         //particleObject.SetActive(true);
         checkEnemyAOE();
         yield return new WaitForSeconds(loopPause);
@@ -63,6 +65,7 @@ public class enemyHealthAOE : MonoBehaviour
         for (int i = 0; i < repetitions; i++)
         {
             GameObject pO = Instantiate(particleObject, gameObject.transform);
+            audio.Play();
             checkEnemyAOE();
             yield return new WaitForSeconds(loopPause);
             //Destroy (pO);

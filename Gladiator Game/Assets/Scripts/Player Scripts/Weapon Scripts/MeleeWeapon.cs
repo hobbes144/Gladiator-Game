@@ -4,15 +4,16 @@ using UnityEngine;
 
 public class MeleeWeapon : MonoBehaviour
 {
-    [Header("Projectile Weapon")]
+    [Header("Melee Weapon")]
     private Player_Equiped player;
     [SerializeField] private GameObject triggerBox;
     [SerializeField] private Transform spawnPoint;
     [SerializeField] private bool semiauto;
     [SerializeField] private string animationTitle;
 
-    [Header("Trigger Box Info")]
+    [Header("Weapon Info")]
     [SerializeField] private float rechargeTime;
+    [SerializeField] private AudioSource audio;
 
     private void Start()
     {
@@ -21,6 +22,10 @@ public class MeleeWeapon : MonoBehaviour
 
     public void meleeFired()
     {
+        if (audio != null)
+        {
+            audio.Play();
+        }
         player = GameObject.FindWithTag("Player").GetComponent<Player_Equiped>();
 
         GameObject box = Instantiate(triggerBox, spawnPoint.position, Quaternion.identity);

@@ -101,6 +101,7 @@ MonoBehaviour:
   semiauto: 1
   animationTitle: stab
   rechargeTime: 0.25
+  audio: {fileID: 6113276886269714649, guid: 1b3ea04888177bb479e4315cb1bf069b, type: 3}
 --- !u!95 &-1817065136951830062
 Animator:
   serializedVersion: 3
